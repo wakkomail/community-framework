@@ -51,10 +51,10 @@ $(document).ready(function () {
     // Set Members
     $(".btnSetMember").click(function (event) {
         event.preventDefault();
-        
-        jQuery.each($('.isMember'), function() {
-            alert((this).val());            
-        }               
+
+        jQuery.each($('.isMember'), function () {
+            alert((this).val());
+        });
     });
 
     // Create a new post
