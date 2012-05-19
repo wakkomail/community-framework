@@ -69,7 +69,7 @@ $(document).ready(function () {
 			   { "postcontent": sbody },
 				function (data) {
 				    // Add a little delay to help examine catch up
-				    var returnUrl = $("value", data).delay(3000).text();
+				    var returnUrl = $("value", data).text();
 				    window.location.href = returnUrl;
 				    //window.location.reload();
 				});
@@ -90,7 +90,7 @@ $(document).ready(function () {
 			   { "postcontent": sbody, "posttitle": stitle, "poststicky": sticky, "postlocked": locked },
 				function (data) {
 				    // Add a little delay to help examine catch up
-				    var returnUrl = $("value", data).delay(3000).text();
+				    var returnUrl = $("value", data).text();
 				    window.location.href = returnUrl;
 				    //window.location.reload();
 				});
