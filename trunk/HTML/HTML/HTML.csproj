@@ -51,6 +51,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\960grid.css" />
     <Content Include="CSS\cssreset-min.css" />
     <Content Include="CSS\site.css" />
     <Content Include="Images\background_agenda_date.png" />

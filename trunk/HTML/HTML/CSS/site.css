@@ -1,2 +1,111 @@
-﻿body {
+﻿.grid_12.full
+{
+	width: 960px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html
+{
+	font-family: Calibri, Sans-Serif;
+	font-size: 14px;	
+	
+	background-image: url('../Images/background_website.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#mainContainer
+{
+	min-height: 800px;
+	
+	background-image: url('../Images/background_content.png');
+	background-position: left top;
+	background-repeat: repeat;
+}
+
+#headerContainer
+{
+	height: 120px;	
+	margin-top: 15px;
+}
+
+#header
+{
+	float: left;
+	padding-right: 80px;
+	
+	background-image: url('../Images/logo_clc.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+#header h1, #header h2
+{
+	color: #0077bd;
+	font-family: Sans-Serif;
+}
+
+#header h1
+{
+	font-size: 45px;
+}
+
+#header h2
+{
+	font-size: 25px;
+}
+
+#searchContainer
+{
+	float: right;
+}
+
+#mainMenuContainer
+{
+	height: 26px;
+	
+	background-color: #242424;
+}
+
+#mainMenuContainer ul
+{
+	float: left;
+	height: 26px;
+}
+
+#mainMenuContainer ul li
+{
+	float: left;
+	height: 26px;
+}
+
+#mainMenuContainer a, #mainMenuContainer span
+{
+	color: #ffffff;
+	text-decoration: none;
+	line-height: 26px;
+	text-transform: lowercase;
+}
+
+#mainMenuContainer a:hover
+{
+	text-decoration: underline;
+}
+
+#mainMenuContainer span
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#loginContainer
+{
+	float: right;
+}
+
+#loginContainer span
+{
+	margin-left: 5px;
+	margin-right: 5px;
 }
