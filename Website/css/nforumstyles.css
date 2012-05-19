@@ -1,0 +1,264 @@
+/* ### Oi Oi! Having a look around are you? ### */
+/* Sort padding & margins out */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, p, blockquote, th, td {margin:0; padding:0;}
+/* Remove list styles from lists */
+ol, ul {list-style:none;}
+/* Normalise font style & weight */
+address, caption, cite, code, dfn, th, var {font-style:normal; font-weight:normal;}
+/* Set tables to have a default of nothing */
+table {border-collapse:collapse; border-spacing:0;}
+/* Remove border from Fieldset and images */
+fieldset, img {border:0;}
+/* Left align text etc... */
+caption, th {text-align:left;}
+/* Removes quotation marks from q */
+q:before, q:after {content:'';}
+/* Create a consistent font size through all browsers */
+body {font-size: 76%;}
+textarea {font-family:Arial, Helvetica, sans-serif;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, input, p, blockquote, th, td, blockquote, textarea {font-size:1em;}
+
+body {
+  font-family:Arial, Helvetica, sans-serif; color:#000;
+}
+
+/* ---- Lees Clearer ---- */
+.clearer {clear:both; line-height:1px; height:1px; font-size:1px;}
+
+/* ---- Generic Link Styles ---- */
+a, a:visited {color:#1A6AB3;}
+a:hover, a:focus {color:#666; text-decoration:none;}
+
+/* ---- Generic Heading Styles ---- */
+h1 {font-size:2.1em; margin-bottom:7px; color:#333; font-weight:normal; font-weight: bold;}
+h2 {font-size:1.3em; margin-bottom:4px; color:#333; font-weight:normal;}
+h3 {font-size:1.3em; margin-bottom:4px; color:#333; font-weight:normal;}
+h4 {font-size:1.2em; margin-bottom:8px; color:#000; font-weight:normal;}
+h5 {font-size:1.2em; margin-bottom:8px; color:#000; font-weight:normal;}
+
+/* ---- Paragraph Styles ---- */
+p {margin:15px 0; line-height:1.8em;}
+
+p.documentlink {margin:0; line-height:1.8em;}
+
+/* ---- Main Frame ---- */
+#frame {width:960px; margin:0 auto;}
+
+/*--- Login Header ---*/
+#loginheader {clear:both; background-color:#333;}
+#loginheaderinner {width:960px; margin:0 auto; text-align:right; font-size:0.9em; padding:3px 0; color:#FFFFFF;}
+#loginheaderinner a {color:#FFFFFF;}
+
+/*--- Header Section ---*/
+#header { clear:both; background-color:#555; color:#FFFFFF;}
+#headerinner { width:960px; margin:0 auto; height:60px; position:relative; }
+
+#forumloggedinmenu {background: none repeat scroll 0 0 #F4F4F2; border-bottom: 1px solid #DADAD9;}
+#forumloggedinmenuinner {width:960px; margin:0 auto; padding:6px 0; overflow:hidden;}
+#forumloggedinmenu p {margin:0;}
+#forumloggedinstatus {float:left; width:200px;}
+#forumloggedinadmin { float:right; width:600px; text-align:right;}
+#forumloggedinadmin ul {padding:0; margin:0;}
+#forumloggedinadmin ul li {display:inline; padding:0 5px;}
+#forumloggedinadmin ul li a, #forumloggedinadmin ul li a:visited {}
+#forumloggedinadmin ul li a:hover {}
+
+.logo {position:absolute; left:0; top:7px; width:113px; height:23px;}
+#forumsearch {width:250px; position:absolute; top:15px; right:0; text-align:right;}
+
+/*--- Main Nav ---*/
+#mainnav {line-height:25px; display:block; clear:both; width:960px; overflow:hidden; position:absolute; bottom:0; left:0; background-color:#333333;}
+#mainnav li {float:left;}
+#mainnav li a, mainnav li a:visited {display:block; padding:10px; line-height:25px; font-size:1.2em; text-decoration:none; color:#FFFFFF;}
+#mainnav li a:hover { background-color:#666666;}
+* html #mainnav li a {width: 1%;}
+
+/*--- Main Content ---*/
+#maincontent { padding:0 0 15px; margin:15px 0 0 0; clear:both;}
+#maincontent ul, #maincontent ol { padding:10px 0 10px 25px;}
+#maincontent ul li { list-style:circle;}
+#maincontent ol li { list-style:decimal;}
+blockquote {padding:11px; background-color:#efefef; margin:10px 0 10px 25px; font-style:italic;}
+/*#maincontent table { width:80%;}
+#maincontent th { padding:5px; background-color:#666666; color:#FFFFFF;}
+#maincontent td { padding:5px; border-bottom:1px #ccc dotted;}*/
+dl { margin:12px 0;}
+dt { padding:4px 0; font-weight:bold;}
+dd { font-style:italic; padding:4px 0;}
+
+code, pre { background-color: #F2F2F2; border: 1px solid #E3E3E3; border-left: 4px solid #E3E3E3; display: block !Important; font-family: monospace; font-size: 12px; line-height: 1.4em; margin: 0 6em 1em 1em; padding: 0.5em; max-width: 650px; overflow: auto;}
+
+#txtPost {width:98% !Important; height:300px;}
+
+/*--- Main Forum List On Home Page ---*/
+.mainforumlist {}
+.forumcategories { overflow:hidden; border-bottom:1px #EFEFEF solid;}
+.forumcategorieslink { float:left; width:540px; padding:10px 0 10px 60px; background-image:url(/nForum/img/forum.gif); background-position:left center; background-repeat:no-repeat;}
+.forumcategorieslink a {color:#000000;}
+.forumcategorieslink p {margin:0;}
+.forumcategoriesdetails {float:left; width:180px; padding:20px 0 0 0; font-weight:bold; text-align:center;}
+.forumcategorieslatestpost {float:left; width:180px; padding:20px 0 0 0; clear:right; font-size:0.9em; text-align:right;}
+.forumcategorieslatestpost span {display:block; color:#CCCCCC; font-weight:bold;}
+
+/*-- sub cats --*/
+.forumcategories ul.subforumlist {padding:0 !Important; margin:0;}
+.forumcategories ul.subforumlist li {padding:3px 5px 3px 0; font-size:0.8em; list-style:none; display:inline;}
+
+/*--- Topic List ---*/
+.topiclist {}
+.forumtopic {overflow:hidden; border-bottom:1px #EFEFEF solid;}
+.topicsubtext {font-size:0.9em; color:#5B5B5B; margin:0;}
+.forumtopiclink {float:left; width:510px; padding:10px 0 10px 60px; background-image:url(/nForum/img/forum.gif); background-position:left center; background-repeat:no-repeat;}
+.forumtopiclink a {color:#000;}
+.linkTrue {background-image:url(/nForum/img/solved.gif) !Important;}
+.forumtopiclink p {margin:0;}
+.forumtopiclatestpost {float:left; width:250px; padding:20px 0 0 0; clear:right; font-size:0.9em; text-align:right;}
+.forumtopiclatestpost span {display:block; color:#CCCCCC; font-weight:bold;}
+.forumtopiclatestpost a, .forumtopiclatestpost a:visited {color:#CCCCCC; text-decoration:none;}
+.forumtopiclatestpost a:hover { text-decoration:underline;}
+#topicpostlistnewpost {padding:15px 0 15px 70px;}
+#topicpostlistnewpost h6 {border-bottom:2px #CCCCCC solid; padding:0 0 4px 0; margin:0 0 15px 0; font-weight:normal; clear:both;}
+.forumtopicstats { float: right; width: 183px;}
+.forumtopicreplies, .forumtopicvotes, .forumtopicviews {float:left; width:60px; border-left:1px #FFFFFF solid; background-color:#F3F3F3; text-align:center; padding:10px 0 0 0; min-height:70px; height:auto !important; height:70px;}
+.forumtopicreplies span, .forumtopicvotes span, .forumtopicviews span {font-size:2.1em; color:#999999; display:block;}
+
+#topiclisthead { overflow:hidden;}
+#topiclistheadtitle { float:left; width:68%;}
+#topiclistheadtitle p {color:#5B5B5B; font-size:0.9em; margin:0;}
+#topiclistheadbuttons { float:right; width:28%; text-align:right;}
+
+/*--Sticky Topics--*/
+.stickytopiclist {clear:both; padding:5px 0 25px 0; margin:0 0 7px 0; border-top:2px #CCC solid; border-bottom:2px #CCC dotted;}
+.stickytopiclist .forumtopicvotes, .stickytopiclist .forumtopicreplies { background-color:#f1f1f1 !Important;}
+
+.subscribedtotopic, .notsubscribedtotopic {padding:5px 0 5px 20px; background-image:url(/nForum/img/mail-add.png); background-position:left center; background-repeat:no-repeat; font-size:0.9em; color:#000000; text-decoration:none;}
+.subscribedtotopic {background-image:url(/nForum/img/mail-delete.png) !Important;}
+
+/*--- Footer ---*/
+#footer {clear:both; padding:15px; overflow:hidden; background-color:#333; color:#FFFFFF;}
+#footer a, #footer a:visited {color:#FFFFFF;}
+#footer a:hover {}
+#footerleft {float:left; width:49%;}
+#footerright {float:right; width:49%; text-align:right;}
+#footernav {}
+#footernav li {display:inline; padding:0 10px 0 0;}
+
+/*--- Message Boxes ---*/
+div.info, div.success, div.warning, div.error, div.validation { border: 1px solid; margin: 10px 0px; background-repeat: no-repeat; background-position: 10px center; overflow:hidden; margin:0 0 10px 0;}
+div.info { color: #00529B; background-color: #BDE5F8; background-image: url('/nforum/img/msg/info.png');}
+div.success { color: #4F8A10; background-color: #DFF2BF; background-image:url('/nforum/img/msg/success.png');}
+div.warning { color: #9F6000; background-color: #FEEFB3; background-image: url('/nforum/img/msg/warning.png');}
+div.error { color: #D8000C; background-color: #FFBABA; background-image: url('/nforum/img/msg/error.png');}
+.info p, .success p, .warning p, .error p, .info label, .success label, .warning label, .error label { display:block; padding: 0px 50px; margin:10px 0;}
+.info a, .success a, .warning a, .error a { float: right; padding: 10px; cursor:pointer;}
+.container img {border: none;}
+input[type=text].error {border:1px #D8000C solid !Important;}
+
+/*--- Form Holders ---*/
+dl.form { overflow:hidden; width:500px;}
+dl.form dt {float:left; line-height:40px; height:40px; width:170px; clear:left; padding:0 0 2px 0; padding:0;}
+dl.form dd {float:right; width:300px; text-align:left; clear:right; padding:0; line-height:40px;}
+dl.form input[type=text], dl.form input[type=password] {border:1px #666 solid; width:286px; font-size: 16px; padding: 6px; color:#333;}
+dl.form input[type=checkbox]  {margin:10px 0 0 0;}
+dl.form select {font-size:16px; border:1px #666 solid; padding:6px; width:100%; color:#333;}
+dl.form input[type=submit] {padding:5px 10px; font-size:1.3em; cursor:pointer;}
+dl.form textarea {border:1px #666 solid; width:286px; padding: 6px; color:#333;}
+dl.form .fullwidthdd textarea {width:451px;}
+dl.form .fullwidthdd {width:465px; clear:both;}
+dl.form select.shortselect {width:45%;}
+p.fullwidth input[type=text]{border:1px #666 solid; width:451px; font-size:22px; clear:both; padding: 6px; color:#333;}
+dl.dataform {}
+dl.dataform dt {font-weight:bold; line-height:20px; border-top:1px #CCCCCC dotted; width:100px;}
+dl.dataform dd {line-height:20px; border-top:1px #CCCCCC dotted; width:350px;}
+
+
+/*--- Breadcrumb ---*/
+ul#breadcrumb {padding:5px 0; font-size:0.85em; color:#999; overflow:hidden;}
+ul#breadcrumb li {display:inline; padding:0 3px 0 0; list-style:none;}
+ul#breadcrumb a, ul#breadcrumb li a:visited {color:#999;}
+ul#breadcrumb li a:hover {}
+
+
+/*--- Topic Post List ---*/
+.topicpostlist { clear:both;}
+.forumpost { overflow:hidden; padding:0 0 35px 0;}
+.forumpostmemberdetails {float:left; width:60px; clear:left; margin:0 10px 0 0; }
+.forumpostmemberdetails span {display:block; color:#000000; padding:3px 0 0 0;}
+.forumpostmemberdetailsinner {-moz-border-radius:10px; -webkit-border-radius:10px; -khtml-border-radius:10px; border-radius:10px; background-color:#F0F0F0; text-align:center; padding:5px 0; color:#999999; font-size:0.9em;}
+span.isadmin {display:block; margin:5px 0; clear:both; background-color:#82B84F; text-align:center; padding:3px; font-size:0.8em; font-weight:bold; color:#FFFFFF; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px;}
+.forumpostbody {float:left; width:800px;}
+.forumpostbodytop {clear:both; padding:5px 0; border-bottom:2px #CCC solid; font-size:0.9em; margin:0 0 10px 0; color:#333333;}
+.forumpostkarmaouter {float:right; width:60px; clear:right;}
+.forumpostkarmaouter .postadminui {display:block; padding:8px 0; clear:both;}
+.forumpostkarmaouter .postadminui a, .forumpostkarmaouter .postadminui a:visited {display:block; margin:5px 0; clear:both; background-color:#ccc; text-align:center; padding:3px; font-size:0.8em; font-weight:bold; color:#FFFFFF; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; text-decoration:none;}
+.forumpostkarmaouter .postadminui a:hover { background-color:#666666;}
+.forumpostkarma {-moz-border-radius:10px; -webkit-border-radius:10px; -khtml-border-radius:10px; border-radius:10px; background: none repeat scroll 0 0 #FFF6BF; border: 2px solid #FFD324; padding: 10px 0; text-align: center;}
+
+.karmascore {display:block; font-size:2em; padding:0 0 5px 0;}
+.forumpostkarmathumbs {overflow:hidden;}
+.forumpostkarmathumbup {float:left; width:18px; height:18px; padding:0 0 0 6px;}
+.forumpostkarmathumbdown {float:right; width:18px; height:18px; padding:0 6px 0 0;}
+#topicheading {margin:0 0 10px 0;}
+a.forumbutton, a.forumbutton:visited {background: #8ECA56 url(http://our.umbraco.org/css/img/ico/plus-button.png) no-repeat 2px 2px; border: 1px solid #618A3B; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; color:#FFFFFF; margin-top: 2px; padding: 3px 3px 3px 25px; text-decoration: none; line-height:20px;}
+a.forumbutton:hover { background-color:#618A3B; color:#FFFFFF;}
+p.lastedited { font-size:0.9em; font-style:italic; color:#595959;}
+.postsuccess {background: none repeat scroll 0 0 #E6EFC2; border:2px #C6D880 solid;color: #264409; margin-bottom: 1em; padding: 0.2em;}
+.postsuccess h4 { line-height:60px; color:#8DA433; font-weight:bold; margin:0; padding:0;}
+
+/*--- Style as solution ---*/
+.solutionTrue {}
+.solutionTrue .forumpostmemberdetailsinner { background-color:#8ECA56; color:#FFFFFF !Important;}
+.markItUpHeader ul {padding:0 !Important;}
+.markItUpHeader ul li { list-style:none !Important;}
+.forumpostisolution {clear:both; margin:5px 0; font-size:0.85em;}
+.forumpostisolution a, .forumpostisolution a:visited {background:#8ECA56; border: 1px solid #618A3B; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; color: white; margin-top: 2px; padding: 3px; text-decoration: none; line-height:20px;}
+.forumpostisolution a:hover { background-color:#618A3B;}
+
+/*--- Emoticons --*/
+#emoticonholder {padding:5px; margin:6px 0; clear:both; overflow:hidden;}
+#emoticonholder span {display:block; width:20px; height:20px; text-align:center; line-height:20px; float:left;}
+
+/*--- General Pager ---*/
+#maincontent ul.pager {list-style: none outside none; margin: 0; padding: 10px 0 0; overflow:hidden;}
+#maincontent ul.pager li {display: block; float: left; margin: 0 0 9px; padding-right: 2px; list-style:none;}
+#maincontent ul.pager li a, ul.pager li a:visited {border: 1px solid #CCCCCC; font-size: 11px; padding: 3px 6px; text-decoration: none;}
+#maincontent ul.pager li a:hover {background: none repeat scroll 0 0 #2244BB; color:#FFFFFF;}
+#maincontent ul.pager li.current a { border:none;}
+
+/*--- Create New Topic ---*/
+.topictitletextbox, .privatemessagesubject {font-size:1.7em; width:600px; padding:4px;}
+.submitbutton input {font-size:1.4em; cursor:pointer; padding:6px 10px;}
+
+/*--- Forum Sub Categories ---*/
+.subcategories {clear:both; margin:0 0 20px 0;}
+#subcategoriesinner {padding:6px 0;}
+#subcategoriesinner h6 {color:#444; padding:0; font-weight:normal; font-size:19px; margin:0 0 -6px 0; font-weight:bold;}
+#subcategoriesinner ul.subcategorylist {margin:0; padding:9px 0; background-color:#444;}
+#subcategoriesinner ul.subcategorylist li { display:inline; padding:0 7px;}
+#subcategoriesinner ul.subcategorylist li a, ul.subcategorylist li a:visited { color:#FFF; text-decoration:none; padding:3px; font-size:1.2em;}
+#subcategoriesinner ul.subcategorylist li a:hover {background-color:#666; color:#FFFFFF;}
+
+/*--- Report Spam Text Box ---*/
+.reportspamtextbox {width:75%;}
+
+/*--- Member Profile ---*/
+.memberprofile { overflow:hidden;}
+#memberprofileleft {width:47%; float:left;}
+#memberprofileleft p {margin:7px 0; font-size:1.3em;}
+
+#memberprofileright {width:47%; float:right;}
+#memberprofileright h4 {background: none repeat scroll 0 0 #F0F2F2; color: #444444; font-size: 12px; font-weight: bold; line-height: 12px; margin:0; padding: 10px;}
+.memberprofiletopics {background: none repeat scroll 0 0 #F6F7F7; border: 1px solid #F2F2F2; }
+.memberprofilelatestpost {padding:6px 12px;}
+.profileavatar { border:2px #333333 solid;}
+
+/*--- AJAX Post Tooltip ---*/
+#ajaxpostcontainer{ position:absolute; left:0; top:0; display:none; z-index: 20000;}
+#ajaxpostcontent{ background-color: #FFF; width: 300px; min-height: 70px; overflow:auto; display:block; -moz-border-radius:7px; -webkit-border-radius:7px; -khtml-border-radius:7px; border-radius:7px;  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5); border:1px #CCC solid; padding:10px;}
+#ajaxpostcontent h5 { margin:0 0 4px 0; font-size:12px; font-weight:bold; color:#999999;} 
+#ajaxpostcontent p { margin:0;}
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<%@ Register src="~/usercontrols/nForum/includes/MainMessage.ascx" tagname="MessageBox" tagprefix="msg" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><umbraco:Macro Alias="PageTitle" runat="server"></umbraco:Macro></title>
+    <link href="/css/nforumstyles.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen" href="/css/nforumie6.css">
+    <![endif]-->
+    <!--[if lt IE 7]>
+      <script defer type="text/javascript" src="/scripts/nforumie6.js"></script>
+    <![endif]-->
+    <!--[if gt IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen" href="/css/nforumie7.css">
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.microsoft.com/ajax/jQuery.Validate/1.6/jQuery.Validate.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="forumhead" runat="server" />
+    <script src="/scripts/nforumgeneral.js" type="text/javascript"></script>
+  </head>
+  <body>
+      <div id="loginheader">
+        <div id="loginheaderinner">
+        <asp:LoginView ID="lvLoginTopMenu" runat="server">
+      <AnonymousTemplate>
+        <%
+            //#### DEVEOPERS - READ ME & THEN DELETE ME ####
+            //If you are going to move the forum into your own Master page, 
+            //You need to update the links below to point the the correct pages within the forum
+            //##############################################
+        %>
+        <a href="/forum-login.aspx">Login</a> / <a href="/forum-register.aspx">Register</a>            
+            </AnonymousTemplate>            
+        </asp:LoginView>
+
+        </div>
+      </div>
+      
+      <div id="header"> 
+        <div id="headerinner">
+            <a class="logo" href="/"><img src="/nForum/img/logo.png" alt="nForum" /></a>
+            <div id="forumsearch">
+                <%
+                    //#### DEVEOPERS - READ ME & THEN DELETE ME ####
+                    //If you are going to move the forum into your own Master page, 
+                    //You need to update the link below to point the the correct search page
+                    //##############################################
+                %>
+              <form action="/forum-search.aspx" method="get">
+              <input name="s" id="s" type="text" class="input" value="" /> 
+              <input type="submit" value="Search" class="submit" />
+            </form>
+            </div>    
+        </div>
+      </div>
+    
+        <form id="mainform" runat="server">
+      
+            <asp:LoginView ID="lvLoggedInMenu" runat="server">
+            <LoggedInTemplate>
+                        <div id="forumloggedinmenu">
+                          <div id="forumloggedinmenuinner">
+                              <umbraco:Macro Alias="nForumLoggedInUserMenu" runat="server"></umbraco:Macro>
+                          </div>
+                        </div>    
+            </LoggedInTemplate>
+        </asp:LoginView>
+        
+    <div id="frame">
+        
+        <div id="maincontent">
+            
+        
+        <%
+            //#### DEVEOPERS - READ ME & THEN DELETE ME ####
+            //If you are going to move the forum into your own Master page, 
+            //You need to make sure the [msg:MessageBox ID="MainMessageBox" runat="server"] below is placed on your main master
+            //##############################################
+        %>
+        <msg:MessageBox ID="MainMessageBox" runat="server" />
+        
+
+          
+        <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+          
+          <asp:ContentPlaceHolder Id="ForumBody" runat="server">
+            <umbraco:Macro Alias="nForumMainForumList" runat="server"></umbraco:Macro>
+          </asp:ContentPlaceHolder>
+        </div>
+        
+        <div id="footer">
+          <div id="footerleft">
+            nForum v1.5 powered by <a href="http://umbraco.org/">Umbraco</a>, built by <a href="http://www.webdesigncompany.co.uk/what-we-do/umbraco-development/">n3o</a>
+            </div>
+            <div id="footerright">
+              &copy; <umbraco:Item field="forumName" recursive="true" runat="server"></umbraco:Item> <%=DateTime.Now.Year%>
+            </div>
+        </div>
+        
+    </div>
+    
+    </form>
+    
+  </body>
+  </html>
+  
+</asp:Content>

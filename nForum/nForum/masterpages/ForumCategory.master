@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/ForumMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderId="forumhead" runat="server">
+	<script src="/scripts/nforumhoverintent.js" type="text/javascript"></script>
+    <script src="/scripts/nforumajaxpostsnippet.js" type="text/javascript"></script>
+</asp:Content> 
+
+<asp:Content ID="Content2" ContentPlaceHolderId="ForumBody" runat="server">
+
+  <umbraco:Macro Alias="nForumShowSubCategories" runat="server"></umbraco:Macro>
+  <umbraco:Macro Alias="nForumListTopics" runat="server"></umbraco:Macro>
+  
+</asp:Content>

@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<map>
+  <item key="L3VtYnJhY29fY2xpZW50L1RyZWUvdHJlZUljb25zLmNzczsvdW1icmFjb19jbGllbnQvVHJlZS9tZW51SWNvbnMuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL1RoZW1lcy91bWJyYWNvL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvcGFuZWwvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbW9kYWwvc3R5bGUuY3NzOy91bWJyYWNvL2Nzcy91bWJyYWNvR3VpLmNzczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_6fdfa7b6ff094131b6c5e8ebd91dbfe6.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\treeIcons.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\menuIcons.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\Themes\umbraco\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\css\umbracoGui.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuYmEtYmJxLm1pbi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vSGlzdG9yeU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9qcXVlcnkuc2ltcGxlbW9kYWwuMS40LjEuY3VzdG9tLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9KUXVlcnkvanF1ZXJ5Lm1ldGFkYXRhLm1pbi5qczsvdW1icmFjb19jbGllbnQvbW9kYWwvbW9kYWwuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvTm9kZURlZmluaXRpb24uanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY2hlY2tib3guanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY29udGV4dG1lbnUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb0NvbnRleHQuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb1RyZWUuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczsvdW1icmFjby9TZWFyY2gvcXVpY2tTZWFyY2guanM7L3VtYnJhY28vanMvZ3VpRnVuY3Rpb25zLmpzOy91bWJyYWNvL2pzL1VtYnJhY29TcGVlY2hCdWJibGVCYWNrZW5kLmpzOy91bWJyYWNvL2pzL2xhbmd1YWdlLmFzcHg7L3VtYnJhY29fY2xpZW50L3VpL2pRdWVyeVdyZXNpemUuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL0pRdWVyeS9qcXVlcnkuYXV0b2NvbXBsZXRlLmpzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_6f1ffd0c3de94b588cca44ce0b813259.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.ba-bbq.min.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\HistoryManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\jquery.simplemodal.1.4.1.custom.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\JQuery\jquery.metadata.min.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\jquery.tree.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\NodeDefinition.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\jquery.tree.checkbox.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\jquery.tree.contextmenu.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\UmbracoContext.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\UmbracoTree.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\Search\quickSearch.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\js\guiFunctions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\js\UmbracoSpeechBubbleBackend.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jQueryWresize.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\JQuery\jquery.autocomplete.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9wYXNzd29yZFN0cmVuZ3RoL3Bhc3N3b3Jkc3RyZW5ndGguanM7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_383ae8f8a570463d81365e69aa37618d.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\passwordStrength\passwordstrength.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdGFidmlldy9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_0ae62e047b1c4acb923711a15f0143a0.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3BhbmVsL2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_4e92d41972664a6da3dc7f012b1e26ed.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9HZW5lcmljUHJvcGVydHkvZ2VuZXJpY3Byb3BlcnR5LmNzczsvdW1icmFjb19jbGllbnQvdWkvZGQuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL3RyZWVJY29ucy5jc3M7L3VtYnJhY29fY2xpZW50L1RyZWUvVGhlbWVzL3VtYnJhY28vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9wcm9wZXJ0eXBhbmUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_cac5379618c64914bb1b1a0ea16a6b89.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\GenericProperty\genericproperty.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\dd.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\treeIcons.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\Themes\umbraco\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5kZC5qczsvdW1icmFjby9qcy9VbWJyYWNvQ2FzaW5nUnVsZXMuYXNweDsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9HZW5lcmljUHJvcGVydHkvZ2VuZXJpY3Byb3BlcnR5LmpzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_493a3cff09d842dca5df4373fd7eddad.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.dd.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\GenericProperty\genericproperty.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvcGFuZWwvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc3BsaXRidXR0b24vc3BsaXRidXR0b24uY3NzOy91bWJyYWNvX2NsaWVudC9Db2RlQXJlYS9zdHlsZXMuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_7f96bbaaad6f4db193849acaaf84169c.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\splitbutton\splitbutton.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeArea\styles.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC9zcGxpdGJ1dHRvbi9qcXVlcnkuc3BsaXRidXR0b24uanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29VdGlscy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0NsaWVudE1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuaG90a2V5cy5qczsvdW1icmFjb19jbGllbnQvbW9kYWwvbW9kYWwuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnktZmllbGRzZWxlY3Rpb24uanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvQ29kZU1pcnJvci9qcy9jb2RlbWlycm9yLmpzOy91bWJyYWNvX2NsaWVudC9Db2RlQXJlYS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9Db2RlQXJlYS9VbWJyYWNvRWRpdG9yLmpzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_845ebb2e1aeb420d9f21bc76324d0be2.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\splitbutton\jquery.splitbutton.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery-fieldselection.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeMirror\js\codemirror.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeArea\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeArea\UmbracoEditor.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci9kYXRldGltZXBpY2tlci5jc3M7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9tZW51aWNvbi9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_38168085c27d4b8dbacb8f3cca295fdb.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\datetimepicker.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci91bWJEYXRlVGltZVBpY2tlci5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOy91bWJyYWNvL2pzL3VtYnJhY29DaGVja0tleXMuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvRGF0ZVRpbWVQaWNrZXIvdGltZXBpY2tlci5qczsvdW1icmFjb19jbGllbnQvTWFza2VkSW5wdXQvanF1ZXJ5Lm1hc2tlZGlucHV0LTEuMy5taW4uanM7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_2e27be3674d7404da73e6b96b23cb661.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\umbDateTimePicker.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\js\umbracoCheckKeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\timepicker.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\MaskedInput\jquery.maskedinput-1.3.min.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQXBwbGljYXRpb25BY3Rpb25zLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci91bWJEYXRlVGltZVBpY2tlci5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOy91bWJyYWNvL2pzL3VtYnJhY29DaGVja0tleXMuanM7L3VtYnJhY29fY2xpZW50L01hc2tlZElucHV0L2pxdWVyeS5tYXNrZWRpbnB1dC0xLjMubWluLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9KUXVlcnkvanF1ZXJ5LmF1dG9jb21wbGV0ZS5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci90aW1lcGlja2VyLmpzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_27aaf40e75b54e1ea917661f64e035d6.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\umbDateTimePicker.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\js\umbracoCheckKeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\MaskedInput\jquery.maskedinput-1.3.min.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\JQuery\jquery.autocomplete.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\timepicker.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9tZW51aWNvbi9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci9kYXRldGltZXBpY2tlci5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvL2Nzcy91bWJyYWNvR3VpLmNzczsvdW1icmFjb19jbGllbnQvcHJvcGVydHlwYW5lL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbW9kYWwvc3R5bGUuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_9614d004fd1a475193173e4f3be816ef.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\datetimepicker.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\css\umbracoGui.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_27c6c8d307544350a780ba887cc93b6b.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_fb476022c589458981ec3409498fdbcb.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_fe4e5441901e4ba2a5405cbf5b3a2ce0.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_ecfa4b0efd454961b98fe5f66f6d0dec.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0NsaWVudE1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_f3315e481f8647749c7c769da9edfd40.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmNzczsvdW1icmFjb19jbGllbnQvbW9kYWwvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci9kYXRldGltZXBpY2tlci5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_752a46684bc24114b991579576aba2a5.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\datetimepicker.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvamF2YXNjcmlwdC5qczsvdW1icmFjby9qcy91bWJyYWNvQ2hlY2tLZXlzLmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci90aW1lcGlja2VyLmpzOy91bWJyYWNvX2NsaWVudC9NYXNrZWRJbnB1dC9qcXVlcnkubWFza2VkaW5wdXQtMS4zLm1pbi5qczsvdW1icmFjb19jbGllbnQvRGF0ZVRpbWVQaWNrZXIvdW1iRGF0ZVRpbWVQaWNrZXIuanM7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_c6c82f56d9b64918ba56bf4ae1ecc4ba.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\js\umbracoCheckKeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\timepicker.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\MaskedInput\jquery.maskedinput-1.3.min.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\umbDateTimePicker.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci9kYXRldGltZXBpY2tlci5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_f66a1d085afe4e8b8b84a8f04cb2323f.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\datetimepicker.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7L3VtYnJhY28vanMvZHVhbFNlbGVjdEJveC5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci90aW1lcGlja2VyLmpzOy91bWJyYWNvX2NsaWVudC9NYXNrZWRJbnB1dC9qcXVlcnkubWFza2VkaW5wdXQtMS4zLm1pbi5qczsvdW1icmFjb19jbGllbnQvRGF0ZVRpbWVQaWNrZXIvdW1iRGF0ZVRpbWVQaWNrZXIuanM7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_51854226c3c6402f8b05a194b95a4618.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\js\dualSelectBox.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\timepicker.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\MaskedInput\jquery.maskedinput-1.3.min.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\DateTimePicker\umbDateTimePicker.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L1RyZWUvdHJlZUljb25zLmNzczsvdW1icmFjb19jbGllbnQvVHJlZS9tZW51SWNvbnMuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL1RoZW1lcy91bWJyYWNvL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_091b1a6e71df4fb1b3272fe80e010106.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\treeIcons.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\menuIcons.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\Themes\umbraco\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0NsaWVudE1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL0pRdWVyeS9qcXVlcnkubWV0YWRhdGEubWluLmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL2pxdWVyeS50cmVlLmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL2pxdWVyeS50cmVlLmNoZWNrYm94LmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL2pxdWVyeS50cmVlLmNvbnRleHRtZW51LmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL05vZGVEZWZpbml0aW9uLmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL1VtYnJhY29Db250ZXh0LmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL1VtYnJhY29UcmVlLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_2be41da21e484fc1a70c8154efba5468.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\JQuery\jquery.metadata.min.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\jquery.tree.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\jquery.tree.checkbox.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\jquery.tree.contextmenu.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\NodeDefinition.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\UmbracoContext.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Tree\UmbracoTree.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_e0d382db5c814dcd8fc20c3e0c166a75.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L21vZGFsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvcHJvcGVydHlwYW5lL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_98d6d2ba70dc4cdc979e8ae7c6960f77.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0NsaWVudE1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY28vanMvZHVhbFNlbGVjdEJveC5qczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_38f6deb6cd624acbadaa2c5939fb38ee.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco\js\dualSelectBox.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_6f62033b8145477db9a9137e03ec9f32.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7L3VtYnJhY29fY2xpZW50L21vZGFsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_7c4482b72f28413f805ed0e704388e88.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_5efc9e68c6a94e229eebd6bc9eda001c.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvQ29kZUFyZWEvc3R5bGVzLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7L3VtYnJhY29fY2xpZW50L21vZGFsL3N0eWxlLmNzczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_945b1dca84c245a9a7dd40305f9032a6.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeArea\styles.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQXBwbGljYXRpb25BY3Rpb25zLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9tb2RhbC5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5ob3RrZXlzLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9Db2RlQXJlYS9VbWJyYWNvRWRpdG9yLmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3BhbmVsL2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnktZmllbGRzZWxlY3Rpb24uanM7L3VtYnJhY29fY2xpZW50L0NvZGVNaXJyb3IvanMvY29kZW1pcnJvci5qczsvdW1icmFjb19jbGllbnQvQ29kZUFyZWEvamF2YXNjcmlwdC5qczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_7ecf0918638d4c208a5fb3aff1e5a716.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeArea\UmbracoEditor.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery-fieldselection.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeMirror\js\codemirror.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\CodeArea\javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdGFidmlldy9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmNzczsvdW1icmFjb19jbGllbnQvbW9kYWwvc3R5bGUuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_d4c9e03a37bf4d4a8e2670d47e6a1c05.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_cbefddd0d3314a239ee64f74fab0114d.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC91aS9qcXVlcnl1aS5qczs=" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_2c594873f9854142a9e93e1a187b4e43.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\panel\javascript.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L21vZGFsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_71e61a26ec924430a5f1fb350ea6664e.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_32f3d4d156e44616a93b5a85499b6e90.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jquery.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.js" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\modal.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmNzczsvdW1icmFjb19jbGllbnQvbW9kYWwvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wcm9wZXJ0eXBhbmUvc3R5bGUuY3NzOw==" file="C:\Projecten\Creative Learning Community\Website\App_Data\TEMP\ClientDependency\1_bcbb2bfc446b4651be18dd1b9b2241fe.cdC" compression="gzip" version="1">
+    <files>
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\menuicon\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\tabview\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\ui\default.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\modal\style.css" />
+      <file name="C:\Projecten\Creative Learning Community\Website\umbraco_client\propertypane\style.css" />
+    </files>
+  </item>
+</map>

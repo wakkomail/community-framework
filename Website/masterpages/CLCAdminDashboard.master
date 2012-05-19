@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:content ID="Content1" ContentPlaceHolderId="ForumBody" runat="server">
+  <h2>BEHEERDERS DASHBOARD </h2>
+   <umbraco:DisableRequestValidation runat="server"/>
+    <umbraco:Macro Alias="CLC-CreateMembergroup" runat="server"></umbraco:Macro>  
+</asp:content>

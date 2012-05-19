@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nForum", "nForum\nForum.csproj", "{72D0062A-2F73-4E5C-ACF6-9FC459B62966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nForum.BusinessLogic", "nForum.BusinessLogic\nForum.BusinessLogic.csproj", "{62DDE88F-D11C-4D7F-A227-CAAE6452AE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc Externals", "Misc Externals", "{6A0E314F-05C2-4550-89F6-4487FDE2AA64}"
+	ProjectSection(SolutionItems) = preProject
+		Misc Externals\AntiXSSLibrary.dll = Misc Externals\AntiXSSLibrary.dll
+		Misc Externals\AntiXSSLibrary.xml = Misc Externals\AntiXSSLibrary.xml
+		Misc Externals\App_Browsers.dll = Misc Externals\App_Browsers.dll
+		Misc Externals\App_global.asax.dll = Misc Externals\App_global.asax.dll
+		Misc Externals\businesslogic.dll = Misc Externals\businesslogic.dll
+		Misc Externals\ClientDependency.Core.dll = Misc Externals\ClientDependency.Core.dll
+		Misc Externals\cms.dll = Misc Externals\cms.dll
+		Misc Externals\controls.dll = Misc Externals\controls.dll
+		Misc Externals\CookComputing.XmlRpcV2.dll = Misc Externals\CookComputing.XmlRpcV2.dll
+		Misc Externals\Examine.dll = Misc Externals\Examine.dll
+		Misc Externals\HtmlAgilityPack.dll = Misc Externals\HtmlAgilityPack.dll
+		Misc Externals\HtmlSanitizationLibrary.dll = Misc Externals\HtmlSanitizationLibrary.dll
+		Misc Externals\HtmlSanitizationLibrary.xml = Misc Externals\HtmlSanitizationLibrary.xml
+		Misc Externals\ICSharpCode.SharpZipLib.dll = Misc Externals\ICSharpCode.SharpZipLib.dll
+		Misc Externals\interfaces.dll = Misc Externals\interfaces.dll
+		Misc Externals\Lucene.Net.dll = Misc Externals\Lucene.Net.dll
+		Misc Externals\Microsoft.ApplicationBlocks.Data.dll = Misc Externals\Microsoft.ApplicationBlocks.Data.dll
+		Misc Externals\Microsoft.Web.Helpers.dll = Misc Externals\Microsoft.Web.Helpers.dll
+		Misc Externals\Microsoft.Web.Infrastructure.dll = Misc Externals\Microsoft.Web.Infrastructure.dll
+		Misc Externals\MySql.Data.dll = Misc Externals\MySql.Data.dll
+		Misc Externals\System.Web.Helpers.dll = Misc Externals\System.Web.Helpers.dll
+		Misc Externals\System.Web.Razor.dll = Misc Externals\System.Web.Razor.dll
+		Misc Externals\System.Web.WebPages.Deployment.dll = Misc Externals\System.Web.WebPages.Deployment.dll
+		Misc Externals\System.Web.WebPages.dll = Misc Externals\System.Web.WebPages.dll
+		Misc Externals\System.Web.WebPages.Razor.dll = Misc Externals\System.Web.WebPages.Razor.dll
+		Misc Externals\TidyNet.dll = Misc Externals\TidyNet.dll
+		Misc Externals\umbraco.DataLayer.dll = Misc Externals\umbraco.DataLayer.dll
+		Misc Externals\umbraco.dll = Misc Externals\umbraco.dll
+		Misc Externals\umbraco.editorControls.dll = Misc Externals\umbraco.editorControls.dll
+		Misc Externals\umbraco.Linq.Core.dll = Misc Externals\umbraco.Linq.Core.dll
+		Misc Externals\umbraco.MacroEngines.dll = Misc Externals\umbraco.MacroEngines.dll
+		Misc Externals\umbraco.macroRenderings.dll = Misc Externals\umbraco.macroRenderings.dll
+		Misc Externals\umbraco.providers.dll = Misc Externals\umbraco.providers.dll
+		Misc Externals\umbraco.XmlSerializers.dll = Misc Externals\umbraco.XmlSerializers.dll
+		Misc Externals\UmbracoExamine.dll = Misc Externals\UmbracoExamine.dll
+		Misc Externals\UrlRewritingNet.UrlRewriter.dll = Misc Externals\UrlRewritingNet.UrlRewriter.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Site", "Site", "{ECB7176C-C793-4F52-A9D1-9373C901F159}"
+	ProjectSection(SolutionItems) = preProject
+		BuildSite\BuildSite.zip = BuildSite\BuildSite.zip
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D0062A-2F73-4E5C-ACF6-9FC459B62966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D0062A-2F73-4E5C-ACF6-9FC459B62966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D0062A-2F73-4E5C-ACF6-9FC459B62966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D0062A-2F73-4E5C-ACF6-9FC459B62966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DDE88F-D11C-4D7F-A227-CAAE6452AE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DDE88F-D11C-4D7F-A227-CAAE6452AE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DDE88F-D11C-4D7F-A227-CAAE6452AE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DDE88F-D11C-4D7F-A227-CAAE6452AE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

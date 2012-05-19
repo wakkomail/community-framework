@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<map>
+  <item key="L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOw==" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_3da10fc4bcf6435284dabb913ae46d1d.cdC" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\panel\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC91aS9qcXVlcnl1aS5qczs=" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_e84683cc879646cc929c2c351f80610d.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jquery.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\panel\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jqueryui.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L1RyZWUvdHJlZUljb25zLmNzczsvdW1icmFjb19jbGllbnQvVHJlZS9tZW51SWNvbnMuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL1RoZW1lcy91bWJyYWNvL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvcGFuZWwvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbW9kYWwvc3R5bGUuY3NzOy91bWJyYWNvL2Nzcy91bWJyYWNvR3VpLmNzczs=" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_5fde8911db494885960b65ddda6184e1.cdC" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\treeIcons.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\menuIcons.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\Themes\umbraco\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\panel\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco\css\umbracoGui.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuYmEtYmJxLm1pbi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vSGlzdG9yeU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9qcXVlcnkuc2ltcGxlbW9kYWwuMS40LjEuY3VzdG9tLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9KUXVlcnkvanF1ZXJ5Lm1ldGFkYXRhLm1pbi5qczsvdW1icmFjb19jbGllbnQvbW9kYWwvbW9kYWwuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvTm9kZURlZmluaXRpb24uanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY2hlY2tib3guanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY29udGV4dG1lbnUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb0NvbnRleHQuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb1RyZWUuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczsvdW1icmFjby9TZWFyY2gvcXVpY2tTZWFyY2guanM7L3VtYnJhY28vanMvZ3VpRnVuY3Rpb25zLmpzOy91bWJyYWNvL2pzL1VtYnJhY29TcGVlY2hCdWJibGVCYWNrZW5kLmpzOy91bWJyYWNvL2pzL2xhbmd1YWdlLmFzcHg7L3VtYnJhY29fY2xpZW50L3VpL2pRdWVyeVdyZXNpemUuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL0pRdWVyeS9qcXVlcnkuYXV0b2NvbXBsZXRlLmpzOw==" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_bd4343ace0b74852930ebc1b8a7dfefc.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jquery.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.ba-bbq.min.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\HistoryManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\jquery.simplemodal.1.4.1.custom.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\JQuery\jquery.metadata.min.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\modal.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\jquery.tree.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\NodeDefinition.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\jquery.tree.checkbox.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\jquery.tree.contextmenu.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\UmbracoContext.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Tree\UmbracoTree.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\panel\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco\Search\quickSearch.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco\js\guiFunctions.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco\js\UmbracoSpeechBubbleBackend.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jQueryWresize.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\JQuery\jquery.autocomplete.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdGFidmlldy9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOw==" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_d7b0f010db2949fca09199eb5267f7ad.cdC" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\propertypane\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\panel\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\tabview\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9wYXNzd29yZFN0cmVuZ3RoL3Bhc3N3b3Jkc3RyZW5ndGguanM7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOw==" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_e8f453118a80465b967abc637958d1f9.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jquery.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\modal.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\passwordStrength\passwordstrength.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\tabview\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\panel\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci9kYXRldGltZXBpY2tlci5jc3M7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9tZW51aWNvbi9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_ffac4ade35d04bc5893195aeacb04a85.cdC" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\DateTimePicker\datetimepicker.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\tabview\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\menuicon\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\style.css" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\propertypane\style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci91bWJEYXRlVGltZVBpY2tlci5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOy91bWJyYWNvL2pzL3VtYnJhY29DaGVja0tleXMuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvRGF0ZVRpbWVQaWNrZXIvdGltZXBpY2tlci5qczsvdW1icmFjb19jbGllbnQvTWFza2VkSW5wdXQvanF1ZXJ5Lm1hc2tlZGlucHV0LTEuMy5taW4uanM7" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_b5c46ffd84cf407d96d390234cb602d6.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jquery.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\modal.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\DateTimePicker\umbDateTimePicker.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\tabview\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco\js\umbracoCheckKeys.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\DateTimePicker\timepicker.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\MaskedInput\jquery.maskedinput-1.3.min.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vTmFtZXNwYWNlTWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5jb29raWUuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3BhbmVsL2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczs=" file="E:\Projecten\CLC Framework\Website\App_Data\TEMP\ClientDependency\1_de66e7221cab4b47ad2bfc273b946323.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jquery.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\NamespaceManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.cookie.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\jqueryui.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoUtils.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoApplicationActions.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\UmbracoClientManager.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\Application\jQuery\jquery.hotkeys.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\ui\default.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\modal\modal.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\tabview\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\panel\javascript.js" />
+      <file name="E:\Projecten\CLC Framework\Website\umbraco_client\scrollingmenu\javascript.js" />
+    </files>
+  </item>
+</map>

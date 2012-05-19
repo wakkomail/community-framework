@@ -1,0 +1,6 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/ForumMaster.master" AutoEventWireup="true" %>
+  
+
+<asp:Content ID="Content1" ContentPlaceHolderId="ForumBody" runat="server">
+  <umbraco:Macro Alias="nForumSearchResults" runat="server"></umbraco:Macro>
+</asp:Content>

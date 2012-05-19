@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderId="ContentPlaceHolderDefault" runat="server">
+  
+  <umbraco:Macro Alias="nForumPostAjaxView" runat="server"></umbraco:Macro>
+  
+</asp:Content>

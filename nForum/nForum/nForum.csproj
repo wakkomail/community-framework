@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72D0062A-2F73-4E5C-ACF6-9FC459B62966}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nForum</RootNamespace>
+    <AssemblyName>nForum</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="businesslogic, Version=1.0.4029.25828, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Misc Externals\businesslogic.dll</HintPath>
+    </Reference>
+    <Reference Include="cms, Version=1.0.4029.25830, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Misc Externals\cms.dll</HintPath>
+    </Reference>
+    <Reference Include="controls, Version=1.0.4029.25832, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Misc Externals\controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Examine">
+      <HintPath>..\Misc Externals\Examine.dll</HintPath>
+    </Reference>
+    <Reference Include="interfaces, Version=1.0.4029.25827, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Misc Externals\interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="umbraco, Version=1.0.4029.25836, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Misc Externals\umbraco.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.DataLayer, Version=1.0.4029.25827, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Misc Externals\umbraco.DataLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.editorControls, Version=1.0.4029.29222, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Misc Externals\umbraco.editorControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="helpers\MediaAdapter.cs" />
+    <Compile Include="masterpages\ActiveTopics.master.cs">
+      <DependentUpon>ActiveTopics.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ActiveTopics.master.designer.cs">
+      <DependentUpon>ActiveTopics.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\CreateTopic.master.cs">
+      <DependentUpon>CreateTopic.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\CreateTopic.master.designer.cs">
+      <DependentUpon>CreateTopic.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\DeletePost.master.cs">
+      <DependentUpon>DeletePost.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\DeletePost.master.designer.cs">
+      <DependentUpon>DeletePost.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\EditProfile.master.cs">
+      <DependentUpon>EditProfile.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\EditProfile.master.designer.cs">
+      <DependentUpon>EditProfile.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForgotPassword.master.cs">
+      <DependentUpon>ForgotPassword.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForgotPassword.master.designer.cs">
+      <DependentUpon>ForgotPassword.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumCategory.master.cs">
+      <DependentUpon>ForumCategory.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumCategory.master.designer.cs">
+      <DependentUpon>ForumCategory.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumLogin.master.cs">
+      <DependentUpon>ForumLogin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumLogin.master.designer.cs">
+      <DependentUpon>ForumLogin.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumMaster.master.cs">
+      <DependentUpon>ForumMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumMaster.master.designer.cs">
+      <DependentUpon>ForumMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumMoveTopic.master.cs">
+      <DependentUpon>ForumMoveTopic.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumMoveTopic.master.designer.cs">
+      <DependentUpon>ForumMoveTopic.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumPost.master.cs">
+      <DependentUpon>ForumPost.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumPost.master.designer.cs">
+      <DependentUpon>ForumPost.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumPostAjaxView.master.cs">
+      <DependentUpon>ForumPostAjaxView.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumPostAjaxView.master.designer.cs">
+      <DependentUpon>ForumPostAjaxView.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumRegister.master.cs">
+      <DependentUpon>ForumRegister.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumRegister.master.designer.cs">
+      <DependentUpon>ForumRegister.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumTextPage.master.cs">
+      <DependentUpon>ForumTextPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumTextPage.master.designer.cs">
+      <DependentUpon>ForumTextPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ForumTopic.master.cs">
+      <DependentUpon>ForumTopic.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ForumTopic.master.designer.cs">
+      <DependentUpon>ForumTopic.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\GetLatestPost.master.cs">
+      <DependentUpon>GetLatestPost.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\GetLatestPost.master.designer.cs">
+      <DependentUpon>GetLatestPost.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\MemberProfile.master.cs">
+      <DependentUpon>MemberProfile.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\MemberProfile.master.designer.cs">
+      <DependentUpon>MemberProfile.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\PrivateMessage.master.cs">
+      <DependentUpon>PrivateMessage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\PrivateMessage.master.designer.cs">
+      <DependentUpon>PrivateMessage.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\ReportMember.master.cs">
+      <DependentUpon>ReportMember.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\ReportMember.master.designer.cs">
+      <DependentUpon>ReportMember.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\SearchResults.master.cs">
+      <DependentUpon>SearchResults.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\SearchResults.master.designer.cs">
+      <DependentUpon>SearchResults.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\SpamReport.master.cs">
+      <DependentUpon>SpamReport.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\SpamReport.master.designer.cs">
+      <DependentUpon>SpamReport.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\TopicRss.master.cs">
+      <DependentUpon>TopicRss.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\TopicRss.master.designer.cs">
+      <DependentUpon>TopicRss.master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpages\YourTopics.master.cs">
+      <DependentUpon>YourTopics.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\YourTopics.master.designer.cs">
+      <DependentUpon>YourTopics.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usercontrols\nForum\CreateMembergroup.ascx.cs">
+      <DependentUpon>CreateMembergroup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\CreateMembergroup.ascx.designer.cs">
+      <DependentUpon>CreateMembergroup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx.cs">
+      <DependentUpon>ForumLatestMembers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx.designer.cs">
+      <DependentUpon>ForumLatestMembers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\dashboard\ForumMainDashboard.ascx.cs">
+      <DependentUpon>ForumMainDashboard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\dashboard\ForumMainDashboard.ascx.designer.cs">
+      <DependentUpon>ForumMainDashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumActiveTopics.ascx.cs">
+      <DependentUpon>ForumActiveTopics.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumActiveTopics.ascx.designer.cs">
+      <DependentUpon>ForumActiveTopics.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumAjaxPostSnippet.ascx.cs">
+      <DependentUpon>ForumAjaxPostSnippet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumAjaxPostSnippet.ascx.designer.cs">
+      <DependentUpon>ForumAjaxPostSnippet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumDeletePost.ascx.cs">
+      <DependentUpon>ForumDeletePost.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumDeletePost.ascx.designer.cs">
+      <DependentUpon>ForumDeletePost.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumGetLatestPostInTopic.ascx.cs">
+      <DependentUpon>ForumGetLatestPostInTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumGetLatestPostInTopic.ascx.designer.cs">
+      <DependentUpon>ForumGetLatestPostInTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumTopicsSticky.ascx.cs">
+      <DependentUpon>ForumTopicsSticky.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumTopicsSticky.ascx.designer.cs">
+      <DependentUpon>ForumTopicsSticky.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\ForumEditorIncludes.ascx.cs">
+      <DependentUpon>ForumEditorIncludes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\ForumEditorIncludes.ascx.designer.cs">
+      <DependentUpon>ForumEditorIncludes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumEditPost.ascx.cs">
+      <DependentUpon>ForumEditPost.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumEditPost.ascx.designer.cs">
+      <DependentUpon>ForumEditPost.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumListSubForums.ascx.cs">
+      <DependentUpon>ForumListSubForums.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumListSubForums.ascx.designer.cs">
+      <DependentUpon>ForumListSubForums.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumMoveTopic.ascx.cs">
+      <DependentUpon>ForumMoveTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumMoveTopic.ascx.designer.cs">
+      <DependentUpon>ForumMoveTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumParticipatedTopics.ascx.cs">
+      <DependentUpon>ForumParticipatedTopics.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumParticipatedTopics.ascx.designer.cs">
+      <DependentUpon>ForumParticipatedTopics.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumSearchResults.ascx.cs">
+      <DependentUpon>ForumSearchResults.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumSearchResults.ascx.designer.cs">
+      <DependentUpon>ForumSearchResults.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumSpamReport.ascx.cs">
+      <DependentUpon>ForumSpamReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumSpamReport.ascx.designer.cs">
+      <DependentUpon>ForumSpamReport.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumSubCategories.ascx.cs">
+      <DependentUpon>ForumSubCategories.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumSubCategories.ascx.designer.cs">
+      <DependentUpon>ForumSubCategories.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumCreateNewTopic.ascx.cs">
+      <DependentUpon>ForumCreateNewTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumCreateNewTopic.ascx.designer.cs">
+      <DependentUpon>ForumCreateNewTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumListPostsInTopic.ascx.cs">
+      <DependentUpon>ForumListPostsInTopic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumListPostsInTopic.ascx.designer.cs">
+      <DependentUpon>ForumListPostsInTopic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumMainList.ascx.cs">
+      <DependentUpon>ForumMainList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumMainList.ascx.designer.cs">
+      <DependentUpon>ForumMainList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumTopics.ascx.cs">
+      <DependentUpon>ForumTopics.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumTopics.ascx.designer.cs">
+      <DependentUpon>ForumTopics.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\Emoticons.ascx.cs">
+      <DependentUpon>Emoticons.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\Emoticons.ascx.designer.cs">
+      <DependentUpon>Emoticons.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\MessageBox.ascx.cs">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\MessageBox.ascx.designer.cs">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\Install.ascx.cs">
+      <DependentUpon>Install.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\Install.ascx.designer.cs">
+      <DependentUpon>Install.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumTopicRss.ascx.cs">
+      <DependentUpon>ForumTopicRss.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ForumTopicRss.ascx.designer.cs">
+      <DependentUpon>ForumTopicRss.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\MainMessage.ascx.cs">
+      <DependentUpon>MainMessage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\includes\MainMessage.ascx.designer.cs">
+      <DependentUpon>MainMessage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\MediaList.ascx.cs">
+      <DependentUpon>MediaList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\MediaList.ascx.designer.cs">
+      <DependentUpon>MediaList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumForgotPassword.ascx.cs">
+      <DependentUpon>ForumForgotPassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumForgotPassword.ascx.designer.cs">
+      <DependentUpon>ForumForgotPassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumMemberProfile.ascx.cs">
+      <DependentUpon>ForumMemberProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumMemberProfile.ascx.designer.cs">
+      <DependentUpon>ForumMemberProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumMemberProfileEdit.ascx.cs">
+      <DependentUpon>ForumMemberProfileEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumMemberProfileEdit.ascx.designer.cs">
+      <DependentUpon>ForumMemberProfileEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumMessageUser.ascx.cs">
+      <DependentUpon>ForumMessageUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumMessageUser.ascx.designer.cs">
+      <DependentUpon>ForumMessageUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumReportMemberToAdmin.ascx.cs">
+      <DependentUpon>ForumReportMemberToAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\ForumReportMemberToAdmin.ascx.designer.cs">
+      <DependentUpon>ForumReportMemberToAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\Register.ascx.cs">
+      <DependentUpon>Register.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\Register.ascx.designer.cs">
+      <DependentUpon>Register.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\UserAdmin.ascx.cs">
+      <DependentUpon>UserAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\membership\UserAdmin.ascx.designer.cs">
+      <DependentUpon>UserAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\SetMembers.ascx.cs">
+      <DependentUpon>SetMembers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\SetMembers.ascx.designer.cs">
+      <DependentUpon>SetMembers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\templates\RepeaterItemTopics.ascx.cs">
+      <DependentUpon>RepeaterItemTopics.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\templates\RepeaterItemTopics.ascx.designer.cs">
+      <DependentUpon>RepeaterItemTopics.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\nForum\UploadMedia.ascx.cs">
+      <DependentUpon>UploadMedia.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\UploadMedia.ascx.designer.cs">
+      <DependentUpon>UploadMedia.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\nforumadmin.css" />
+    <Content Include="css\nforumeditor.css" />
+    <Content Include="css\nforumie6.css" />
+    <Content Include="css\nforumie7.css" />
+    <Content Include="css\nforumstyles.css" />
+    <Content Include="nForum\emailtemplates\main.txt" />
+    <Content Include="nForum\emoticons\smiley-confuse.png" />
+    <Content Include="nForum\emoticons\smiley-cool.png" />
+    <Content Include="nForum\emoticons\smiley-cry.png" />
+    <Content Include="nForum\emoticons\smiley-draw.png" />
+    <Content Include="nForum\emoticons\smiley-eek-blue.png" />
+    <Content Include="nForum\emoticons\smiley-eek.png" />
+    <Content Include="nForum\emoticons\smiley-evil.png" />
+    <Content Include="nForum\emoticons\smiley-fat.png" />
+    <Content Include="nForum\emoticons\smiley-grin.png" />
+    <Content Include="nForum\emoticons\smiley-kiss.png" />
+    <Content Include="nForum\emoticons\smiley-kitty.png" />
+    <Content Include="nForum\emoticons\smiley-lol.png" />
+    <Content Include="nForum\emoticons\smiley-mad.png" />
+    <Content Include="nForum\emoticons\smiley-money.png" />
+    <Content Include="nForum\emoticons\smiley-mr-green.png" />
+    <Content Include="nForum\emoticons\smiley-neutral.png" />
+    <Content Include="nForum\emoticons\smiley-razz.png" />
+    <Content Include="nForum\emoticons\smiley-red.png" />
+    <Content Include="nForum\emoticons\smiley-roll-blue.png" />
+    <Content Include="nForum\emoticons\smiley-roll-sweat.png" />
+    <Content Include="nForum\emoticons\smiley-roll.png" />
+    <Content Include="nForum\emoticons\smiley-sad-blue.png" />
+    <Content Include="nForum\emoticons\smiley-sad.png" />
+    <Content Include="nForum\emoticons\smiley-sleep.png" />
+    <Content Include="nForum\emoticons\smiley-slim.png" />
+    <Content Include="nForum\emoticons\smiley-small.png" />
+    <Content Include="nForum\emoticons\smiley-surprise.png" />
+    <Content Include="nForum\emoticons\smiley-sweat.png" />
+    <Content Include="nForum\emoticons\smiley-twist.png" />
+    <Content Include="nForum\emoticons\smiley-wink.png" />
+    <Content Include="nForum\emoticons\smiley-yell.png" />
+    <Content Include="nForum\emoticons\smiley-zipper.png" />
+    <Content Include="nForum\emoticons\smiley.png" />
+    <Content Include="nForum\emoticons\snowman-hat.png" />
+    <Content Include="nForum\emoticons\snowman.png" />
+    <Content Include="nForum\img\ajax-loader.gif" />
+    <Content Include="nForum\img\alert-overlay.png" />
+    <Content Include="nForum\img\forum.gif" />
+    <Content Include="nForum\img\forumcategoryicon.png" />
+    <Content Include="nForum\img\logo.png" />
+    <Content Include="nForum\img\mail-add.png" />
+    <Content Include="nForum\img\mail-delete.png" />
+    <Content Include="nForum\img\msg\close.png" />
+    <Content Include="nForum\img\msg\error.png" />
+    <Content Include="nForum\img\msg\info.png" />
+    <Content Include="nForum\img\msg\success.png" />
+    <Content Include="nForum\img\msg\warning.png" />
+    <Content Include="nForum\img\rss.png" />
+    <Content Include="nForum\img\solved.gif" />
+    <Content Include="nForum\img\thumbdown.jpg" />
+    <Content Include="nForum\img\thumbup.jpg" />
+    <Content Include="scripts\nforumajaxpostsnippet.js" />
+    <Content Include="scripts\nforumgeneral.js" />
+    <Content Include="scripts\nforumie6.js" />
+    <Content Include="usercontrols\nForum\CreateMembergroup.ascx" />
+    <Content Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx" />
+    <Content Include="usercontrols\nForum\dashboard\ForumMainDashboard.ascx" />
+    <Content Include="usercontrols\nForum\ForumActiveTopics.ascx" />
+    <Content Include="usercontrols\nForum\ForumAjaxPostSnippet.ascx" />
+    <Content Include="usercontrols\nForum\ForumDeletePost.ascx" />
+    <Content Include="usercontrols\nForum\ForumGetLatestPostInTopic.ascx" />
+    <Content Include="usercontrols\nForum\ForumTopicsSticky.ascx" />
+    <Content Include="usercontrols\nForum\includes\ForumEditorIncludes.ascx" />
+    <Content Include="usercontrols\nForum\ForumEditPost.ascx" />
+    <Content Include="usercontrols\nForum\ForumListSubForums.ascx" />
+    <Content Include="usercontrols\nForum\ForumMoveTopic.ascx" />
+    <Content Include="usercontrols\nForum\ForumParticipatedTopics.ascx" />
+    <Content Include="usercontrols\nForum\ForumSearchResults.ascx" />
+    <Content Include="usercontrols\nForum\ForumSpamReport.ascx" />
+    <Content Include="usercontrols\nForum\ForumSubCategories.ascx" />
+    <Content Include="usercontrols\nForum\ForumCreateNewTopic.ascx" />
+    <Content Include="usercontrols\nForum\ForumListPostsInTopic.ascx" />
+    <Content Include="usercontrols\nForum\ForumMainList.ascx" />
+    <Content Include="usercontrols\nForum\ForumTopics.ascx" />
+    <Content Include="usercontrols\nForum\includes\Emoticons.ascx" />
+    <Content Include="usercontrols\nForum\includes\MessageBox.ascx" />
+    <Content Include="usercontrols\nForum\Install.ascx" />
+    <Content Include="usercontrols\nForum\ForumTopicRss.ascx" />
+    <Content Include="usercontrols\nForum\includes\MainMessage.ascx" />
+    <Content Include="usercontrols\nForum\MediaList.ascx" />
+    <Content Include="usercontrols\nForum\membership\ForumForgotPassword.ascx" />
+    <Content Include="usercontrols\nForum\membership\ForumMemberProfile.ascx" />
+    <Content Include="usercontrols\nForum\membership\ForumMemberProfileEdit.ascx" />
+    <Content Include="usercontrols\nForum\membership\ForumMessageUser.ascx" />
+    <Content Include="usercontrols\nForum\membership\ForumReportMemberToAdmin.ascx" />
+    <Content Include="usercontrols\nForum\membership\Login.ascx" />
+    <Content Include="usercontrols\nForum\membership\Register.ascx" />
+    <Content Include="usercontrols\nForum\membership\UserAdmin.ascx" />
+    <Content Include="usercontrols\nForum\SetMembers.ascx" />
+    <Content Include="usercontrols\nForum\templates\RepeaterItemTopics.ascx" />
+    <Content Include="usercontrols\nForum\UploadMedia.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nForum.BusinessLogic\nForum.BusinessLogic.csproj">
+      <Project>{62DDE88F-D11C-4D7F-A227-CAAE6452AE1A}</Project>
+      <Name>nForum.BusinessLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\UrlRewriting.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ActiveTopics.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\CreateTopic.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\DeletePost.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\EditProfile.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForgotPassword.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumCategory.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumLogin.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumMaster.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumMoveTopic.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumPost.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumPostAjaxView.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumRegister.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumTextPage.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ForumTopic.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\GetLatestPost.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\MemberProfile.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\PrivateMessage.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\ReportMember.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\SearchResults.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\SpamReport.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\TopicRss.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\YourTopics.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\ExamineIndex.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="config\ExamineSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50561</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY "$(ProjectDir)bin\$(ProjectName)*.*" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\bin\" /y
+XCOPY "$(ProjectDir)usercontrols\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\" /y
+XCOPY "$(ProjectDir)usercontrols\nForum\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\" /y
+XCOPY "$(ProjectDir)usercontrols\nForum\includes\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\includes\" /y
+XCOPY "$(ProjectDir)usercontrols\nForum\datatypes\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\datatypes\" /y
+XCOPY "$(ProjectDir)usercontrols\nForum\dashboard\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\dashboard\" /y
+XCOPY "$(ProjectDir)usercontrols\nForum\membership\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\membership\" /y
+XCOPY "$(ProjectDir)xslt\*.xslt" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\xslt\" /y
+XCOPY "$(ProjectDir)config\*.config" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\config\" /y
+XCOPY "$(ProjectDir)scripts" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\scripts" /E /Y
+XCOPY "$(ProjectDir)nforum" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\nForum" /E /Y
+XCOPY "$(ProjectDir)css" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\css" /E /Y
+XCOPY "$(ProjectDir)usercontrols\nForum\templates\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\templates\" /y
+XCOPY "$(ProjectDir)masterpages\*.master" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\masterpages\" /y</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

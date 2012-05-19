@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/ForumMaster.master" AutoEventWireup="true" %>
+
+<asp:content ID="Content1" ContentPlaceHolderId="forumhead" runat="server">
+  
+</asp:content>
+
+<asp:content ID="Content2" ContentPlaceHolderId="ForumBody" runat="server">
+  <umbraco:Macro Alias="nForumMoveTopic" runat="server"></umbraco:Macro>
+</asp:content>

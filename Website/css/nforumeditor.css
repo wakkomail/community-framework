@@ -1,0 +1,50 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, p, blockquote, th, td {margin:0; padding:0;}
+/* Remove list styles from lists */
+ol, ul {list-style:none;}
+/* Normalise font style & weight */
+address, caption, cite, code, dfn, th, var {font-style:normal; font-weight:normal;}
+/* Set tables to have a default of nothing */
+table {border-collapse:collapse; border-spacing:0;}
+/* Remove border from Fieldset and images */
+fieldset, img {border:0;}
+/* Left align text etc... */
+caption, th {text-align:left;}
+/* Removes quotation marks from q */
+q:before, q:after {content:'';}
+/* Create a consistent font size through all browsers */
+body {font-size: 76%;}
+textarea {font-family:"Helvetica", "Tahoma", Arial, Helvetica, sans-serif;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, input, p, blockquote, th, td, blockquote, textarea {font-size:1em;}
+
+body {
+  font-size: 76%; font-family:Arial, Helvetica, sans-serif; color:#000;
+}
+
+body.mceContentBody { margin:15px 10px;}
+
+/* ---- Lees Clearer ---- */
+.clearer {clear:both; line-height:1px; height:1px; font-size:1px;}
+
+/* ---- Generic Link Styles ---- */
+a, a:visited {color:#1A6AB3;}
+a:hover, a:focus {color:#666; text-decoration:none;}
+
+/* ---- Generic Heading Styles ---- */
+h1 {font-size:2.1em; margin-bottom:7px; color:#333; font-weight:normal; font-weight: bold;}
+h2 {font-size:1.3em; margin-bottom:4px; color:#333; font-weight:normal;}
+h3 {font-size:1.3em; margin-bottom:4px; color:#333; font-weight:normal;}
+h4 {font-size:1.2em; margin-bottom:8px; color:#000; font-weight:normal;}
+h5 {font-size:1.2em; margin-bottom:8px; color:#000; font-weight:normal;}
+
+/* ---- Paragraph Styles ---- */
+p {margin:15px 0; line-height:1.8em;}
+
+code, pre { background-color: #F2F2F2; border: 1px solid #E3E3E3; border-left: 4px solid #E3E3E3; display: block !Important; font-family: monospace; font-size: 12px; line-height: 1.4em; margin: 0 6em 1em 1em; padding: 0.5em; max-width: 650px; overflow: auto;}
+
+/*--- Make the tinymce editor show lists correctly ---*/
+body.mceContentBody ul, body.mceContentBody ol { padding: 10px 0 10px 30px !Important; }
+body.mceContentBody ul li { padding: 2px 0 !Important; list-style: circle !Important;}
+body.mceContentBody ol li { padding: 2px 0 !Important; list-style:decimal !Important;}
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

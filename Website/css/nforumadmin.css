@@ -1,0 +1,22 @@
+.nfgridview { width:95%; clear:both; margin:10px 0; }
+.nfgridview th { padding:5px; font-weight:bold; border-bottom:3px #D9D7D7 solid; }
+.nfgridview tr { }
+.nfgridview td { padding:5px; border-bottom:1px #D9D7D7 dotted; }
+.nfformholder { width:650px; }
+.nfformrow { padding:5px 0; clear:both; overflow:hidden; width:100%; }
+.nfformleft { float:left; width:30%; margin:0; line-height:20px; }
+.nfformright { float:right; width:62%; }
+.nfformrow input[type=text], .nfformrow input[type=password] { padding:4px; width:220px; }
+.nfformrow input[type=submit], .nfformrow input[type=button] { padding:1px 7px; cursor:pointer; }
+.nfformrow select { padding:4px; width:220px; }
+.addratetable { font-size:1.1em; }
+
+/*--- General Pager ---*/
+ul.pager {list-style: none outside none; margin: 0; padding: 10px 0 0; overflow:hidden;}
+ul.pager li {display: block; float: left; margin: 0 0 9px; padding-right: 2px; list-style:none;}
+ul.pager li a, ul.pager li a:visited {border: 1px solid #CCCCCC; font-size: 11px; padding: 3px 6px; text-decoration: none;}
+ul.pager li a:hover {background: none repeat scroll 0 0 #2244BB; color:#FFFFFF;}
+ul.pager li.current a { border:none;}
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
