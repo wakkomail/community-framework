@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+<asp:content id="Content1" contentplaceholderid="cp_content" runat="server">
+    <div id="skinHeader" class="clearfix">
+       <h2>
+            Flow with the Go!
+       </h2>
+       <div id="login">
+            <asp:LoginView ID="lvLoginTopMenu" runat="server">
+              <AnonymousTemplate>
+                <umbraco:Macro Alias="nForumLoginForm" runat="server"></umbraco:Macro>           
+              </AnonymousTemplate>            
+            </asp:LoginView>
+        </div>
+    </div>
+
+    <div id="content" class="frontPage">
+        <umbraco:item id="Item1" runat="server" field="bodyText"></umbraco:item>
+    </div>
+    <div id="columns" class="clearfix">
+        <div class="col">
+            <h3>Actieve discussies</h3>
+            <umbraco:Macro Alias="nForumActiveTopics" AmountToTake="10" runat="server"></umbraco:Macro>
+        </div>
+        <div class="col">
+            <h3>Kennisgroepen</h3>
+            <umbraco:Macro Alias="nForumMainForumList" AmountToTake="10" runat="server"></umbraco:Macro>
+        </div>
+        <div class="col">
+            <h3>Lopende projecten</h3>
+            Hier komen projecten
+        </div>
+         <div class="col">
+            <ul id="socialLinks">
+                <li class="twitter"><a id="twitterLink" href="http://twitter.com/tgeyssens" target="_blank">follow me on twitter</a></li>
+                <li class="facebook"><a id="facebookLink" href="http://somelink.com" target="_blank">be our friend on facebook</a></li>
+            </ul>
+        </div>
+    </div>
+</asp:content>

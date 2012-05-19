@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/ForumMaster.master" AutoEventWireup="true" %>
+<asp:content ID="Content1" ContentPlaceHolderId="forumhead" runat="server">
+    <umbraco:Macro Alias="nForumEditorIncludes" runat="server"></umbraco:Macro>
+</asp:content>
+  
+<asp:Content ID="Content2" ContentPlaceHolderId="ForumBody" runat="server">
+   	<umbraco:DisableRequestValidation runat="server"/>
+	<umbraco:Macro Alias="nForumEditPost" runat="server"></umbraco:Macro>
+</asp:Content>
