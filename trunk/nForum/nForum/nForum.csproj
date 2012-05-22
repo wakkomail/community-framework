@@ -239,6 +239,13 @@
       <DependentUpon>YourTopics.master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usercontrols\nForum\ControlPanel.ascx.cs">
+      <DependentUpon>ControlPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\nForum\ControlPanel.ascx.designer.cs">
+      <DependentUpon>ControlPanel.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\nForum\CreateMembergroup.ascx.cs">
       <DependentUpon>CreateMembergroup.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -500,6 +507,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\clc-controlpanel.css" />
     <Content Include="css\nforumadmin.css" />
     <Content Include="css\nforumeditor.css" />
     <Content Include="css\nforumie6.css" />
@@ -560,6 +568,7 @@
     <Content Include="scripts\nforumajaxpostsnippet.js" />
     <Content Include="scripts\nforumgeneral.js" />
     <Content Include="scripts\nforumie6.js" />
+    <Content Include="usercontrols\nForum\ControlPanel.ascx" />
     <Content Include="usercontrols\nForum\CreateMembergroup.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumMainDashboard.ascx" />
@@ -704,9 +713,9 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PostBuildEvent>XCOPY "$(ProjectDir)bin\$(ProjectName)*.*" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\bin\" /y
-XCOPY "$(ProjectDir)usercontrols\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\" /y
-XCOPY "$(ProjectDir)usercontrols\nForum\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\" /y
+    <PostBuildEvent>XCOPY "$(ProjectDir)bin\$(ProjectName)*.*" "$(ProjectDir)\..\..\Website\bin\" /y
+XCOPY "$(ProjectDir)usercontrols\*.ascx" "$(ProjectDir)\..\..\Website\usercontrols\" /y /y
+XCOPY "$(ProjectDir)usercontrols\nForum\*.ascx" "$(ProjectDir)\..\..\Website\usercontrols\\nForum\" /y
 XCOPY "$(ProjectDir)usercontrols\nForum\includes\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\includes\" /y
 XCOPY "$(ProjectDir)usercontrols\nForum\datatypes\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\datatypes\" /y
 XCOPY "$(ProjectDir)usercontrols\nForum\dashboard\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\dashboard\" /y

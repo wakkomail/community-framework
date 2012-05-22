@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <fieldset id="membergroup">
         <p>
             <asp:Label ID="lblName" runat="server" Text="Naam van de groep"></asp:Label>
         </p>
@@ -22,7 +22,7 @@
         <p>
             <asp:Label ID="lblResultInfo" runat="server" Text=""></asp:Label>
         </p>
-    </div>
+    </fieldset>
     </form>
 </body>
 </html>

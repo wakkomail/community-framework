@@ -10,7 +10,7 @@
   
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <title><asp:placeholder runat="server"><umbraco:item id="Item1" runat="server" field="pageName"></umbraco:item> - <umbraco:item id="Item2" runat="server" field="siteName" recursive="true"></umbraco:item></asp:placeholder></title>
-        
+    <link media="screen" rel="stylesheet" type="text/css" href="/css/clc-controlpanel.css" />    
     <link media="screen" rel="stylesheet" type="text/css" href="/css/nforumstyles.css" />
     <link rel="stylesheet" type="text/css" href="/css/friendly-ghost_dark.css">
   
