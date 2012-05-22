@@ -1,0 +1,26 @@
+﻿#options
+{
+    float: left;
+    min-width: 150px;
+    width: 20%;
+}
+#options .button
+{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 90%;    
+    background-color: #0076BC;
+    border: 1px solid #404040;    
+}
+#controlforms
+{
+    min-width: 300px;
+    width: 80%;
+    float: left;
+}
+#resultinfo
+{
+    width: 100%;
+    color: #FF0000;
+    font-size: 20px;
+}

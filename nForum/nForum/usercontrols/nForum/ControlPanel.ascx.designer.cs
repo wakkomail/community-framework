@@ -7,19 +7,28 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace nForum.usercontrols.nForum {
+namespace nForum.usercontrols {
     
     
-    public partial class CreateMembergroup {
+    public partial class ControlPanel {
         
         /// <summary>
-        /// form1 control.
+        /// createMembergroup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Button createMembergroup;
+        
+        /// <summary>
+        /// createProject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button createProject;
         
         /// <summary>
         /// pnlMembergroup control.
@@ -58,15 +67,6 @@ namespace nForum.usercontrols.nForum {
         protected global::System.Web.UI.WebControls.Button btnInsertMembergroup;
         
         /// <summary>
-        /// lblResultInfo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultInfo;
-        
-        /// <summary>
         /// pnlProject control.
         /// </summary>
         /// <remarks>
@@ -94,21 +94,21 @@ namespace nForum.usercontrols.nForum {
         protected global::System.Web.UI.WebControls.TextBox txtProjectName;
         
         /// <summary>
-        /// Button1 control.
+        /// btnInsertProject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnInsertProject;
         
         /// <summary>
-        /// Label2 control.
+        /// lblResultInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblResultInfo;
     }
 }
