@@ -83,7 +83,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="helpers\MediaAdapter.cs" />
+    <Compile Include="global\GlobalConstants.cs" />
+    <Compile Include="helpers\DocumentHelper.cs" />
+    <Compile Include="helpers\MediaHelper.cs" />
     <Compile Include="masterpages\ActiveTopics.master.cs">
       <DependentUpon>ActiveTopics.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

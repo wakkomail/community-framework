@@ -10,6 +10,8 @@ using umbraco.cms.businesslogic;
 using umbraco.cms.businesslogic.member;
 using umbraco.cms.businesslogic.web;
 using nForum.BusinessLogic;
+using nForum.global;
+using nForum.helpers;
 
 namespace nForum.usercontrols
 {
@@ -36,8 +38,10 @@ namespace nForum.usercontrols
         {
             if (!String.IsNullOrEmpty(this.txtMembergroupName.Text))
             {
+                Document category = DocumentHelper.GetOrCreateMembergroupCategory(); ;                              
+
                 // create membergroup
-                Document newMemberGroup = Document.MakeNew(this.txtMembergroupName.Text, DocumentType.GetByAlias("CLCMembergroup"), User.GetUser(0), -1);
+                Document newMemberGroup = Document.MakeNew(this.txtMembergroupName.Text, DocumentType.GetByAlias(GlobalConstants.MembergroupAlias), User.GetUser(0), category.Id);
 
                 // create documentsharing page
                 Document newDocumentSharing = Document.MakeNew("Documenten", DocumentType.GetByAlias("CLCMediaSharing"), User.GetUser(0), newMemberGroup.Id);
@@ -80,12 +84,9 @@ namespace nForum.usercontrols
             this.pnlMembergroup.Visible = option == enuOption.Project;
         }
 
+
+
         #endregion
-
-
-
-
-
 
     }
 }

@@ -23,7 +23,7 @@ namespace nForum.usercontrols.nForum
 
         private void SetMediaList()
         {
-            Media folder = MediaAdapter.GetRootMediaByName(currentCategory.Name);
+            Media folder = MediaAdapter.GetMediaFolderByName(currentCategory.Name);
 
             this.rptMedia.DataSource = folder.GetDescendants();
             this.rptMedia.DataBind();                     

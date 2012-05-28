@@ -1,9 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ControlPanel.ascx.cs" Inherits="nForum.usercontrols.ControlPanel" %>
 
 <div id="options">
-    <asp:Button ID="createMembergroup" ClientIDMode="Static" runat="server" 
+    <asp:Button ID="createMembergroup" ClientIDMode="Static" runat="server" CssClass="button"
         Text="Kennisgroep aanmaken" onclick="createMembergroup_Click" />
-    <asp:Button ID="createProject" runat="server" Text="Kennisgroep aanmaken" 
+    <asp:Button ID="createProject" runat="server" Text="Project aanmaken" CssClass="button"
         onclick="createProject_Click" />    
 </div>
 <div id="controlforms">
