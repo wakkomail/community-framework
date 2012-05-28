@@ -1,0 +1,19 @@
+﻿$(document).ready(function () {
+	//Search watermark
+	$("#searchText").watermark('watermark', 'Zoeken...');
+
+	//Target Blank
+	$("a.blank").attr("target", "_blank");
+
+	//Brandbox
+	$('#brandboxItems').cycle({
+		pager: '#brandboxPager',
+		pagerEvent: 'mouseover',
+		timeout: 6000,
+		speed: 600,
+		pauseOnPagerHover: true,
+		pagerAnchorBuilder: function (idx, slide) {
+			return '<div class="brandboxPagerItem"></div>';
+		}
+	});
+});

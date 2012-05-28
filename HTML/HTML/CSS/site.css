@@ -7,7 +7,7 @@
 
 html
 {
-	font-family: Calibri, Sans-Serif;
+	font-family: Calibri, Arial, Sans-Serif;
 	font-size: 14px;	
 	
 	background-image: url('../Images/background_website.png');
@@ -15,9 +15,35 @@ html
 	background-repeat: no-repeat;
 }
 
+h3
+{
+	font-size: 25px;
+}
+
+.kaffeeSatz
+{
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+b, strong
+{
+	font-weight: bold;
+}
+
+.c1
+{
+	color: #0077bd;
+}
+
+.c2
+{
+	color: #000000;
+}
+
 #mainContainer
 {
 	min-height: 800px;
+	margin-top: 20px;
 	
 	background-image: url('../Images/background_content.png');
 	background-position: left top;
@@ -26,7 +52,7 @@ html
 
 #headerContainer
 {
-	height: 120px;	
+	height: 100px;	
 	margin-top: 15px;
 }
 
@@ -40,18 +66,17 @@ html
 	background-repeat: no-repeat;
 }
 
-#header h1, #header h2
+#header .headerTitle, #header .headerSubTitle
 {
-	color: #0077bd;
-	font-family: Sans-Serif;
+	display: block;
 }
 
-#header h1
+#header .headerTitle
 {
 	font-size: 45px;
 }
 
-#header h2
+#header .headerSubTitle
 {
 	font-size: 25px;
 }
@@ -108,4 +133,105 @@ html
 {
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+#searchText
+{
+	float: left;
+	height: 23px;
+	width: 125px;
+	padding-left: 5px;
+	
+	border: 0px none;
+}
+
+#searchButton
+{
+	float: left;
+	width: 21px;
+	height: 23px;
+	cursor: pointer;
+	
+	border: 0px none;
+	background-image: url('../Images/button_zoeken.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #ffffff;
+}
+
+#brandboxContainer
+{
+	margin-top: 15px;
+	height: 200px;
+	position: relative;
+}
+
+.brandboxItem
+{
+	height: 100%;
+}
+
+.brandboxItemTitle, .brandboxItemText
+{
+	height: 180px;
+	overflow: hidden;
+}
+
+.brandboxItemTitle h2
+{
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.brandboxItemText span
+{
+	font-size: 25px;
+	line-height: 35px;
+}
+
+#brandboxPager
+{
+	position: absolute;
+	height: 12px;
+	bottom: 15px;
+	right: 15px;
+}
+
+.brandboxPagerItem
+{
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+	cursor: pointer;
+	position: relative;
+	z-index: 500;
+	
+	background-color: #000000;
+}
+
+.brandboxPagerItem.activeSlide
+{
+	background-color: #929292;
+}
+
+.fatBorder
+{
+	border-top: 5px solid #242424;
+}
+
+.topicSummary
+{
+	cursor: pointer;
+}
+
+.topicHeader
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.topicSummary:hover .topicHeader
+{
+	text-decoration: underline;
 }
