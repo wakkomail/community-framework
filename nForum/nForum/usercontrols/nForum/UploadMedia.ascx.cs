@@ -73,7 +73,7 @@ namespace nForum.usercontrols.nForum
                     }
 
                     //check if category allready exists in library, create it if it does not extists
-                    parentMedia = MediaAdapter.GetRootMediaByName(currentCategory.Name);
+                    parentMedia = MediaAdapter.GetMediaFolderByName(currentCategory.Name);
                     categoryExists = (parentMedia != null);
 
                     if (categoryExists == false)
