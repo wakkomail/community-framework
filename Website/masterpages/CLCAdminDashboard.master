@@ -3,5 +3,5 @@
 <asp:content ID="Content1" ContentPlaceHolderId="cp_content" runat="server">
   <h2>BEHEERDERS DASHBOARD </h2>
    <umbraco:DisableRequestValidation runat="server"/>
-    <umbraco:Macro Alias="CLC-ControlPanel" runat="server"></umbraco:Macro>  
+   <umbraco:Macro Alias="CLC-ControlPanel" runat="server"></umbraco:Macro>  
 </asp:content>
