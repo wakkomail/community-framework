@@ -85,6 +85,7 @@
   <ItemGroup>
     <Compile Include="global\GlobalConstants.cs" />
     <Compile Include="helpers\DocumentHelper.cs" />
+    <Compile Include="helpers\FolderHelper.cs" />
     <Compile Include="helpers\MediaHelper.cs" />
     <Compile Include="masterpages\ActiveTopics.master.cs">
       <DependentUpon>ActiveTopics.master</DependentUpon>
@@ -718,17 +719,7 @@
     <PostBuildEvent>XCOPY "$(ProjectDir)bin\$(ProjectName)*.*" "$(ProjectDir)\..\..\Website\bin\" /y
 XCOPY "$(ProjectDir)usercontrols\*.ascx" "$(ProjectDir)\..\..\Website\usercontrols\" /y /y
 XCOPY "$(ProjectDir)usercontrols\nForum\*.ascx" "$(ProjectDir)\..\..\Website\usercontrols\\nForum\" /y
-XCOPY "$(ProjectDir)usercontrols\nForum\includes\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\includes\" /y
-XCOPY "$(ProjectDir)usercontrols\nForum\datatypes\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\datatypes\" /y
-XCOPY "$(ProjectDir)usercontrols\nForum\dashboard\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\dashboard\" /y
-XCOPY "$(ProjectDir)usercontrols\nForum\membership\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\membership\" /y
-XCOPY "$(ProjectDir)xslt\*.xslt" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\xslt\" /y
-XCOPY "$(ProjectDir)config\*.config" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\config\" /y
-XCOPY "$(ProjectDir)scripts" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\scripts" /E /Y
-XCOPY "$(ProjectDir)nforum" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\nForum" /E /Y
-XCOPY "$(ProjectDir)css" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\css" /E /Y
-XCOPY "$(ProjectDir)usercontrols\nForum\templates\*.ascx" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\usercontrols\nForum\templates\" /y
-XCOPY "$(ProjectDir)masterpages\*.master" "C:\Users\Lee\Documents\My Dropbox\Websites\nforum1.5\masterpages\" /y</PostBuildEvent>
+XCOPY "$(ProjectDir)css\*.css" "$(ProjectDir)\..\..\Website\css\" /y</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

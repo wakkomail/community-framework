@@ -8,15 +8,21 @@ using umbraco.BusinessLogic;
 
 namespace nForum.helpers
 {
-    public class MediaAdapter
+    public class MediaHelper
     {
-        public static Media GetMediaFolderByName(string mediaName)
+        public static Media GetMediaFolderByName(string mediaName, string parentFolder)
         {
-            foreach (Media mediaItem in Media.GetRootMedias())
+            foreach (Media mediaFolder in GetRootMedia().GetDescendants())
             {
-                if (mediaItem.Text == mediaName)
+                if (mediaFolder.Text == parentFolder)
                 {
-                    return mediaItem;
+                    foreach (Media mediaItem in mediaFolder.GetDescendants())
+                    {
+                        if (mediaItem.Text == mediaName)
+                        {
+                            return mediaItem;
+                        }                        
+                    }
                 }
             }
             return null;
@@ -25,6 +31,13 @@ namespace nForum.helpers
         public static Media GetOrCreateMembergroupCategory()
         {
             Media rootMedia = GetRootMedia();
+
+            if (rootMedia == null)
+            {
+                Media.MakeNew(GlobalConstants.SiteRootName, MediaType.GetByAlias("folder"), User.GetUser(0), 0);
+            }
+
+            // if rootMedia is null, create root Node
             foreach (Media document in rootMedia.GetDescendants())
             {
                 if (document.Text == GlobalConstants.MembergroupFolderName)
@@ -34,7 +47,7 @@ namespace nForum.helpers
             }
 
             // folder document does not exists, create it
-            Media newMembergroupFolder = Media.MakeNew(GlobalConstants.MembergroupFolderName, MediaType.GetByAlias(GlobalConstants.FolderAlias), User.GetUser(0), rootMedia.Id);
+            Media newMembergroupFolder = Media.MakeNew(GlobalConstants.MembergroupFolderName, MediaType.GetByAlias("folder"), User.GetUser(0), rootMedia.Id);
 
             return newMembergroupFolder;
         }
@@ -50,7 +63,5 @@ namespace nForum.helpers
             }
             return null;
         }
-
-
     }
 }

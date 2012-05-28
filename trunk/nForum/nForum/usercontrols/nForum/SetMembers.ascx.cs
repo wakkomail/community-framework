@@ -55,7 +55,14 @@ namespace nForum.usercontrols.nForum
         {
             get
             {
-                return CurrentMember.MemberIsAdmin;
+                if (CurrentMember == null)
+                {
+                    return false;
+                }
+                else
+                {
+                    return CurrentMember.MemberIsAdmin;
+                }                
             }
         }
 

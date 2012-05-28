@@ -8,6 +8,7 @@ using umbraco.cms.businesslogic.media;
 using nForum.BusinessLogic.Models;
 using nForum.BusinessLogic;
 using nForum.helpers;
+using umbraco.NodeFactory;
 
 namespace nForum.usercontrols.nForum
 {
@@ -23,7 +24,7 @@ namespace nForum.usercontrols.nForum
 
         private void SetMediaList()
         {
-            Media folder = MediaAdapter.GetMediaFolderByName(currentCategory.Name);
+            Media folder = MediaHelper.GetMediaFolderByName(currentCategory.Name, Node.GetCurrent().Parent.Name);
 
             this.rptMedia.DataSource = folder.GetDescendants();
             this.rptMedia.DataBind();                     
