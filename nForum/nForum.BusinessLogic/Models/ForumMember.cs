@@ -11,6 +11,11 @@ namespace nForum.BusinessLogic.Models
         /// <param name="memberId"></param>
         public ForumMember(int? memberId)
         {
+            if (memberId == 0)
+            {
+                memberId = null;
+            }
+
             var m = memberId == null ? Member.GetCurrentMember() : new Member((Int32)memberId);
 
             if (m != null)

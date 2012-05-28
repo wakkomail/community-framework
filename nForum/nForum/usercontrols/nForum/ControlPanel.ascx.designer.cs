@@ -31,6 +31,15 @@ namespace nForum.usercontrols {
         protected global::System.Web.UI.WebControls.Button createProject;
         
         /// <summary>
+        /// publishAll control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button publishAll;
+        
+        /// <summary>
         /// pnlMembergroup control.
         /// </summary>
         /// <remarks>

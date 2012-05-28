@@ -12,6 +12,8 @@ using umbraco.cms.businesslogic.web;
 using nForum.BusinessLogic;
 using nForum.global;
 using nForum.helpers;
+using umbraco.cms.businesslogic.media;
+using umbraco.cms.businesslogic.template;
 
 namespace nForum.usercontrols
 {
@@ -38,16 +40,27 @@ namespace nForum.usercontrols
         {
             if (!String.IsNullOrEmpty(this.txtMembergroupName.Text))
             {
-                Document category = DocumentHelper.GetOrCreateMembergroupCategory(); ;                              
+                // ensure membergroups folder in content tree
+                Document contentCategory = DocumentHelper.GetOrCreateMembergroupCategory();                             
 
                 // create membergroup
-                Document newMemberGroup = Document.MakeNew(this.txtMembergroupName.Text, DocumentType.GetByAlias(GlobalConstants.MembergroupAlias), User.GetUser(0), category.Id);
+                Document newMemberGroup = Document.MakeNew(this.txtMembergroupName.Text, DocumentType.GetByAlias(GlobalConstants.MembergroupAlias), User.GetUser(0), contentCategory.Id);
+                newMemberGroup.Template = Template.GetByAlias(GlobalConstants.MembergroupTemplateName).Id;
+                // set default properties
+                newMemberGroup.getProperty(GlobalConstants.PermissionKarmaAmount).Value = GlobalConstants.PermissionKarmaAmountDefaultValue;
+                newMemberGroup.getProperty(GlobalConstants.PermissionPostKarmaAmount).Value = GlobalConstants.PermissionPostKarmaAmountDefaultValue;
+                newMemberGroup.getProperty(GlobalConstants.IsMainCategory).Value = true;
+                newMemberGroup.Publish(User.GetUser(0));
 
-                // create documentsharing page
-                Document newDocumentSharing = Document.MakeNew("Documenten", DocumentType.GetByAlias("CLCMediaSharing"), User.GetUser(0), newMemberGroup.Id);
+                // clear document cache
+                umbraco.library.UpdateDocumentCache(newMemberGroup.Id);
 
-                // create discussion page
-                Document newDiscussion = Document.MakeNew("Discussies", DocumentType.GetByAlias("CLCDiscussions"), User.GetUser(0), newMemberGroup.Id);
+                // ensure membergroups folder in media tree
+                Media mediaCategory = MediaHelper.GetOrCreateMembergroupCategory();
+
+                // create media folder
+                Media.MakeNew(this.txtMembergroupName.Text, MediaType.GetByAlias("folder"), User.GetUser(0), mediaCategory.Id);
+
             }
             else
             {
@@ -58,6 +71,16 @@ namespace nForum.usercontrols
         protected void btnInsertProject_Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void publishAll_Click(object sender, EventArgs e)
+        {
+            // publish root and children
+            DocumentHelper.GetRootDocument().PublishWithChildrenWithResult(User.GetUser(0));
+            // publish membergroups
+            DocumentHelper.GetRootFolderByName(GlobalConstants.MembergroupFolderName).PublishWithSubs(User.GetUser(0));
+            // publish projects // TODO
+            
         }
 
         #endregion
@@ -87,6 +110,8 @@ namespace nForum.usercontrols
 
 
         #endregion
+
+
 
     }
 }

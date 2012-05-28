@@ -29,6 +29,7 @@ namespace nForum.BusinessLogic.Events
         {
             #region Forum Topic Move Events
             var sid = (CMSNode)sender;
+
             var s = new Document(sid.Id);
 
             if (s.ContentType.Alias == "CLC-Discussion" && s.ParentId != -20)

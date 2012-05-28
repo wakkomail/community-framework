@@ -27,6 +27,10 @@ namespace nForum.helpers
 
             // folder document does not exists, create it
             Document newMembergroupFolder = Document.MakeNew(GlobalConstants.MembergroupFolderName, DocumentType.GetByAlias(GlobalConstants.FolderAlias), User.GetUser(0), rootDoc.Id);
+            // publish membergroupfolder
+            newMembergroupFolder.Publish(User.GetUser(0));
+            // clear document cache
+            umbraco.library.UpdateDocumentCache(newMembergroupFolder.Id);
 
             return newMembergroupFolder;
         }
@@ -36,6 +40,18 @@ namespace nForum.helpers
             foreach (Document document in Document.GetRootDocuments())
             {
                 if (document.Text == GlobalConstants.SiteRootName )
+                {
+                    return document;
+                }
+            }
+            return null;
+        }
+
+        public static Document GetRootFolderByName(string folderName)
+        {
+            foreach (Document document in GetRootDocument().GetDescendants())
+            {
+                if (document.Text == folderName)
                 {
                     return document;
                 }

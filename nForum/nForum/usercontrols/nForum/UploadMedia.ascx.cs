@@ -16,6 +16,7 @@ using System.Drawing.Imaging;
 using System.Xml;
 using System.Configuration;
 using nForum.helpers;
+using umbraco.NodeFactory;
 
 namespace nForum.usercontrols.nForum
 {
@@ -73,7 +74,7 @@ namespace nForum.usercontrols.nForum
                     }
 
                     //check if category allready exists in library, create it if it does not extists
-                    parentMedia = MediaAdapter.GetMediaFolderByName(currentCategory.Name);
+                    parentMedia = MediaHelper.GetMediaFolderByName(currentCategory.Name, Node.GetCurrent().Parent.Name);
                     categoryExists = (parentMedia != null);
 
                     if (categoryExists == false)
