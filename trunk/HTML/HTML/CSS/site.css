@@ -171,15 +171,13 @@ a
 	position: relative;
 }
 
-.brandboxItem
-{
-	height: 100%;
-}
 
-.brandboxItemTitle, .brandboxItemText
+.brandboxItem, .brandboxItemTitle, .brandboxItemText
 {
 	height: 180px;
 	overflow: hidden;
+	
+	background-color: transparent !important;
 }
 
 .brandboxItemTitle h2
