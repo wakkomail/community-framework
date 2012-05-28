@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <title>Creative Learning Community</title>
 	<link href="CSS/cssreset-min.css" type="text/css" rel="stylesheet"/>
 	<link href="CSS/960grid.css" type="text/css" rel="stylesheet"/>
@@ -12,7 +13,7 @@
 	<script src="JavaScript/default.js" type="text/javascript"></script>
 </head>
 <body>
-	<div id="mainContainer" class="container_12">
+	<div id="mainContainer" class="container_12 clearfix">
 		<div id="headerContainer" class="grid_12">
 			<div id="header">
 				<span class="headerTitle kaffeeSatz c1">creative learning <b>community</b></span>
@@ -25,7 +26,7 @@
 		</div>
 		<div id="mainMenuContainer" class="grid_12 full">
 			<div class="grid_12">
-				<ul>
+				<ul class="mainMenu">
 					<li>
 						<a href="#">home</a>
 					</li>
@@ -72,7 +73,7 @@
 						<a href="#">leden</a>
 					</li>
 				</ul>
-				<div id="loginContainer">
+				<div class="loginContainer">
 					<a href="#">inloggen</a>
 					<span>|</span>
 					<a href="#">inschrijven</a>
@@ -81,7 +82,7 @@
 		</div>
 		<div id="brandboxContainer" class="grid_12 full">
 			<div id="brandboxItems">
-				<div class="brandboxItem">
+				<div class="brandboxItem grid_12 full">
 					<div class="brandboxItemTitle grid_6">
 						<h2 class="kaffeeSatz c2">
 							FlowWithTheGo ontwikkelt evolutionair community platform...
@@ -94,7 +95,7 @@
 						</span>
 					</div>
 				</div>
-				<div class="brandboxItem">
+				<div class="brandboxItem grid_12 full">
 					<div class="brandboxItemTitle grid_6">
 						<h2 class="kaffeeSatz c2">
 							Wilko heeft de sterren van de hemel geketst...
@@ -106,7 +107,7 @@
 						</span>
 					</div>
 				</div>
-				<div class="brandboxItem">
+				<div class="brandboxItem grid_12 full">
 					<div class="brandboxItemTitle grid_6">
 						<h2 class="kaffeeSatz c2">
 							Karperbaby's zijn fokking lelijk...
@@ -118,7 +119,7 @@
 						</span>
 					</div>
 				</div>
-				<div class="brandboxItem">
+				<div class="brandboxItem grid_12 full">
 					<div class="brandboxItemTitle grid_6">
 						<h2 class="kaffeeSatz c2">
 							Vrouwen met goede karakters hebben vaker last van stalkers...
@@ -136,17 +137,223 @@
 		</div>
 		<div id="discussiesContainer" class="grid_3 fatBorder">
 			<h3 class="kaffeeSatz c1">Discussies</h3>
-			<div class="topicSummary">
-				<a href="#" class="topicHeader c1">Recessie Italïe bevestigd</a>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Recessie Italïe bevestigd</span>
+				<b class="topicDate c2">22-06-2012</b>
+				<span class="topicText c2">Italië bevindt zich in een kritieke situatie.</span>
+				<a class="c1" href="#">Lees meer</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Wat een bijzondere eh...</span>
+				<b class="topicDate c2">28-05-2012</b>
+				<span class="topicText c2">Browse, whoeoehoe. Oh oh oh yeah.</span>
+				<a class="c1" href="#">Lees meer</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">FlowWithTheGo beste webontwikkelingssamenwerking in de historie van het interwebz</span>
+				<b class="topicDate c2">31-02-2012</b>
+				<span class="topicText c2">En om dat te vieren drinken ze bier. Erg veel bier. Liters bier. Onmeunig veel bier.</span>
+				<a class="c1" href="#">Lees meer</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Lorem ipsum dolor sit amet</span>
+				<b class="topicDate c2">12-12-2011</b>
+				<span class="topicText c2">Retteketet, dolor sit amet. Lorem ipsum, harige bipsum.</span>
+				<a class="c1" href="#">Lees meer</a>
 			</div>
 		</div>
 		<div id="kennisGroepenContainer" class="grid_3 fatBorder">
 			<h3 class="kaffeeSatz c1">Kennisgroepen</h3>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Economie</span>
+				<b class="topicCount c2">3 topics</b>
+				<span class="topicText c2">Laatste bericht geplaatst op 28-05-2012 door Wilko Thomassen.</span>
+				<a class="c1" href="#">Bekijk kennisgroep</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Auto's</span>
+				<b class="topicCount c2">27 topics</b>
+				<span class="topicText c2">Laatste bericht geplaatst op 27-05-2012 door PindaPower.</span>
+				<a class="c1" href="#">Bekijk kennisgroep</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Vrouwen</span>
+				<b class="topicCount c2">0 topics</b>
+				<span class="topicText c2">Nog geen berichten in deze kennisgroep.</span>
+				<a class="c1" href="#">Bekijk kennisgroep</a>
+			</div>
 		</div>
 		<div id="projectenContainer" class="grid_3 fatBorder">
 			<h3 class="kaffeeSatz c1">Projecten</h3>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Creative Learning Community</span>
+				<span class="topicText c2">Het ontwikkelen van een keigaaf creatief leerdinges.</span>
+				<span class="memberCount c2">Aantal projectleden: 4</span>
+				<span class="nextEvent c2">Volgende event: 22-06-2012</span>
+				<a class="c1" href="#">Bekijk project</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Ketsen als een tsaar</span>
+				<span class="topicText c2">Het bedrijven van de hoogstmogelijke liefde in het altijd zonnige Volgograd.</span>
+				<span class="memberCount c2">Aantal projectleden: 2</span>
+				<span class="nextEvent c2">Volgende event: 29-05-2012</span>
+				<a class="c1" href="#">Bekijk project</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Pinda's</span>
+				<span class="topicText c2">Eigenlijk wordt het best wel peanuts wat we aan het doen zijn.</span>
+				<span class="memberCount c2">Aantal projectleden: 25</span>
+				<span class="nextEvent c2">Volgende event: 12-07-2012</span>
+				<a class="c1" href="#">Bekijk project</a>
+			</div>
+			<div class="topicSummary anchorItem thinBorder clearfix">
+				<span class="topicHeader c1">Kutgrappen</span>
+				<span class="topicText c2">Het maken van slechte grappen waar niemand om kan lachen.</span>
+				<span class="memberCount c2">Aantal projectleden: 1</span>
+				<span class="nextEvent c2">Volgende event: 01-04-2012</span>
+				<a class="c1" href="#">Bekijk project</a>
+			</div>
 		</div>
 		<div id="crossReferencesContainer" class="grid_3">
+			<div id="nieuweLedenContainer" class="fatBorder">
+				<h3 class="kaffeeSatz c2">Nieuwe leden</h3>
+				<ul>
+					<li>
+						<a class="c2" href="#">Mathew Pettie</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Wilco Tomassen</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Laurens-Jan Smörgasbröd</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Wessel Edwards</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Erwin van Plensbergen</a>
+					</li>
+				</ul>
+			</div>
+			<div id="relevanteDiscussiesContainer" class="fatBorder">
+				<h3 class="kaffeeSatz c2">Relevante discussies</h3>
+				<ul>
+					<li class="relevantTopic">
+						<a class="c2" href="#">
+							27-05-2012 <br />
+							Jak'n tursten
+						</a>
+					</li>
+					<li class="relevantTopic">
+						<a class="c2" href="#">
+							20-05-2012 <br />
+							Ik snap er geen reet van waarom ik dat gedaan heb...
+						</a>
+					</li>
+					<li class="relevantTopic">
+						<a class="c2" href="#">
+							17-05-2012 <br />
+							Mijn vader...Mijn VADER!!!
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="relevanteKennisgroepenContainer" class="fatBorder">
+				<h3 class="kaffeeSatz c2">Relevante kennisgroepen</h3>
+				<ul>
+					<li>
+						<a class="c2" href="#">Geschiedenis</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Turkije</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Knäckebröd</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Karpers</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Elvis Presley</a>
+					</li>
+				</ul>
+			</div>
+			<div id="relevanteProjectenContainer" class="fatBorder">
+				<h3 class="kaffeeSatz c2">Relevante projecten</h3>
+				<ul>
+					<li>
+						<a class="c2" href="#">Creative Learning Community</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Programmeren voor dummy's</a>
+					</li>
+					<li>
+						<a class="c2" href="#">Pinda's</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footerContainer" class="grid_12 full">
+			<div id="footerMenu">
+				<div class="grid_12">
+					<ul class="mainMenu">
+						<li>
+							<a href="#">home</a>
+						</li>
+						<li>
+							<span>/</span>
+						</li>
+						<li>
+							<a href="#">prikbord</a>
+						</li>
+						<li>
+							<span>/</span>
+						</li>
+						<li>
+							<a href="#">agenda</a>
+						</li>
+						<li>
+							<span>/</span>
+						</li>
+						<li>
+							<a href="#">kennisgroepen</a>
+						</li>
+						<li>
+							<span>/</span>
+						</li>
+						<li>
+							<a href="#">discussies</a>
+						</li>
+						<li>
+							<span>/</span>
+						</li>
+						<li>
+							<a href="#">projecten</a>
+						</li>
+						<li>
+							<span>/</span>
+						</li>
+						<li>
+							<a href="#">media</a>
+						</li>
+						<li>
+							<span>/</span>
+						</li>
+						<li>
+							<a href="#">leden</a>
+						</li>
+					</ul>
+					<div class="loginContainer">
+						<a href="#">inloggen</a>
+						<span>|</span>
+						<a href="#">inschrijven</a>
+					</div>
+					<div id="copyrightContainer">
+						©2012 Creative Learning Community - CLC <br />
+						FlowWithTheGo Solutions
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

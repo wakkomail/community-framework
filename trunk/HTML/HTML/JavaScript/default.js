@@ -16,4 +16,8 @@
 			return '<div class="brandboxPagerItem"></div>';
 		}
 	});
+
+	$('.anchorItem').click(function () {
+		window.location = $(this).find('a').attr('href');
+	});
 });
