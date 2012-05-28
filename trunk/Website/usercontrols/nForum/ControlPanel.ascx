@@ -5,6 +5,8 @@
         Text="Kennisgroep aanmaken" onclick="createMembergroup_Click" />
     <asp:Button ID="createProject" runat="server" Text="Project aanmaken" CssClass="button"
         onclick="createProject_Click" />    
+    <asp:Button ID="publishAll" runat="server" Text="Alles publiseren" 
+        CssClass="button" onclick="publishAll_Click" />
 </div>
 <div id="controlforms">
 <!-- Membergroup -->

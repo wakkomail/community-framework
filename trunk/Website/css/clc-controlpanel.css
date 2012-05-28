@@ -6,11 +6,15 @@
 }
 #options .button
 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
     margin-left: 5px;
     margin-top: 5px;
     width: 90%;    
     background-color: #0076BC;
     border: 1px solid #404040;    
+    color: #FFFFFF;
 }
 #controlforms
 {
