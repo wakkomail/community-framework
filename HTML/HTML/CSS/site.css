@@ -10,9 +10,15 @@ html
 	font-family: Calibri, Arial, Sans-Serif;
 	font-size: 14px;	
 	
+	background-color: #000000;
 	background-image: url('../Images/background_website.png');
 	background-position: center top;
 	background-repeat: no-repeat;
+}
+
+h2
+{
+	font-size: 45px;
 }
 
 h3
@@ -232,12 +238,16 @@ a
 
 .topicSummary
 {
-	cursor: pointer;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
-.topicSummary span, .topicSummary b, .topicSummary a
+.topicSummary.anchorItem
+{
+	cursor: pointer;
+}
+
+.topicHeader, .topicDate, .topicText, .topicCount, .memberCount, .nextEvent
 {
 	float: left;
 	width: 100%;
@@ -249,12 +259,12 @@ a
 	text-decoration: none;
 }
 
-.topicSummary:hover .topicHeader
+.topicSummary.anchorItem:hover .topicHeader
 {
 	text-decoration: underline;
 }
 
-.topicSummary:hover
+.topicSummary.anchorItem:hover
 {
 	background-image: url('../Images/topicsummary_hover_bg.png');
 	background-repeat: repeat;
@@ -307,7 +317,12 @@ a
 	margin-bottom: 15px;
 }
 
-#inloggenContainer
+#contentContainer.home
+{
+	margin-top: 0px;
+}
+
+#contentContainer
 {
 	margin-top: 20px;
 }
@@ -376,7 +391,89 @@ a
 	text-decoration: underline;
 }
 
- #inlogInfoContainer p
- {
- 	margin-bottom: 15px;
- }
+#inlogInfoContainer p
+{
+	margin-bottom: 15px;
+}
+ 
+#kruimelpad
+{
+	height: 25px;
+	line-height: 20px;
+	font-weight: bold;
+}
+ 
+#kruimelpad a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+ 
+#kruimelpad a:hover
+{
+  	text-decoration: underline;
+}
+
+#description
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.topicInfo
+{
+	float: left;
+	width: 100%;
+}
+
+.topicInfo .separator
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.showAll
+{
+	margin-top: 15px;
+	display: block;
+}
+
+#documentenContainer
+{
+	margin-top: 15px;
+}
+
+.anchorList
+{
+	margin-top: 15px;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.anchorList li
+{
+	width: 50%;
+	height: 20px;
+	overflow: hidden;
+	float: left;
+}
+
+.anchorList li a
+{
+	text-decoration: none;
+}
+
+.anchorList li a:hover
+{
+	text-decoration: underline;
+}
+
+#prikbordContainer
+{
+	margin-top: 15px;
+}
+
+#projectenContainer
+{
+	margin-top: 15px;
+}
