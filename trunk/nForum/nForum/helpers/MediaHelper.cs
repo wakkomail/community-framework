@@ -30,6 +30,16 @@ namespace nForum.helpers
 
         public static Media GetOrCreateMembergroupCategory()
         {
+            return GetOrCreateCategory(GlobalConstants.MembergroupFolderName);            
+        }
+
+        public static Media GetOrCreateProjectCategory()
+        {
+            return GetOrCreateCategory(GlobalConstants.ProjectFolderName);
+        }
+
+        private static Media GetOrCreateCategory(string folderName)
+        {
             Media rootMedia = GetRootMedia();
 
             if (rootMedia == null)
@@ -40,14 +50,14 @@ namespace nForum.helpers
             // if rootMedia is null, create root Node
             foreach (Media document in rootMedia.GetDescendants())
             {
-                if (document.Text == GlobalConstants.MembergroupFolderName)
+                if (document.Text == folderName)
                 {
                     return document;
                 }
             }
 
             // folder document does not exists, create it
-            Media newMembergroupFolder = Media.MakeNew(GlobalConstants.MembergroupFolderName, MediaType.GetByAlias("folder"), User.GetUser(0), rootMedia.Id);
+            Media newMembergroupFolder = Media.MakeNew(folderName, MediaType.GetByAlias("folder"), User.GetUser(0), rootMedia.Id);
 
             return newMembergroupFolder;
         }

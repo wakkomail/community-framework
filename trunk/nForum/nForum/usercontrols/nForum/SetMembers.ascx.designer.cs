@@ -22,12 +22,12 @@ namespace nForum.usercontrols.nForum {
         protected global::System.Web.UI.WebControls.Repeater rptMembers;
         
         /// <summary>
-        /// btnSetMember control.
+        /// btnSetMembers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSetMember;
+        protected global::System.Web.UI.WebControls.Button btnSetMembers;
     }
 }

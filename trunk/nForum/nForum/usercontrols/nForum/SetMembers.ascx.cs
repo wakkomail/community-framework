@@ -25,7 +25,7 @@ namespace nForum.usercontrols.nForum
             this.rptMembers.DataSource = memberList;
             this.rptMembers.DataBind();
 
-            this.btnSetMember.Visible = CurrentMemberIsAdmin;
+            this.btnSetMembers.Visible = CurrentMemberIsAdmin;
         }
 
         private void Initialize()
@@ -66,7 +66,7 @@ namespace nForum.usercontrols.nForum
             }
         }
 
-        protected void btnSetMember_Click(object sender, EventArgs e)
+        protected void btnSetMembers_Click(object sender, EventArgs e)
         {
             // check if membergroup exists, create it if not
             if (MemberGroup.GetByName(currentCategory.Name) == null)

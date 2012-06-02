@@ -249,13 +249,6 @@
     <Compile Include="usercontrols\nForum\ControlPanel.ascx.designer.cs">
       <DependentUpon>ControlPanel.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\nForum\CreateMembergroup.ascx.cs">
-      <DependentUpon>CreateMembergroup.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="usercontrols\nForum\CreateMembergroup.ascx.designer.cs">
-      <DependentUpon>CreateMembergroup.ascx</DependentUpon>
-    </Compile>
     <Compile Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx.cs">
       <DependentUpon>ForumLatestMembers.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -572,7 +565,6 @@
     <Content Include="scripts\nforumgeneral.js" />
     <Content Include="scripts\nforumie6.js" />
     <Content Include="usercontrols\nForum\ControlPanel.ascx" />
-    <Content Include="usercontrols\nForum\CreateMembergroup.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumMainDashboard.ascx" />
     <Content Include="usercontrols\nForum\ForumActiveTopics.ascx" />

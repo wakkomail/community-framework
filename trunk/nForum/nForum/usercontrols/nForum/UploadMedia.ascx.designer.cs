@@ -13,6 +13,15 @@ namespace nForum.usercontrols.nForum {
     public partial class UploadMedia {
         
         /// <summary>
+        /// pnlUpload control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlUpload;
+        
+        /// <summary>
         /// uploadMedia control.
         /// </summary>
         /// <remarks>

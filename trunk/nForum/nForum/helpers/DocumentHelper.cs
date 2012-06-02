@@ -10,30 +10,47 @@ namespace nForum.helpers
 {
     public class DocumentHelper
     {
+
         /// <summary>
         /// check membergroup categoryfolder allready exists in contenttree, create it if it does not extists
         /// </summary>
         /// <returns></returns>
         public static Document GetOrCreateMembergroupCategory()
         {
-            Document rootDoc = GetRootDocument(); 
+            return GetOrCreateCategory(GlobalConstants.MembergroupFolderName);
+        }
+
+        /// <summary>
+        /// check projectgroup categoryfolder allready exists in contenttree, create it if it does not exists
+        /// </summary>
+        /// <returns></returns>
+        public static Document GetOrCreateProjectgroupCategory()
+        {
+            return GetOrCreateCategory(GlobalConstants.ProjectFolderName);
+        }
+
+
+        private static Document GetOrCreateCategory(string categoryName)
+        {
+            Document rootDoc = GetRootDocument();
             foreach (Document document in rootDoc.GetDescendants())
             {
-                if (document.Text == GlobalConstants.MembergroupFolderName)
+                if (document.Text == categoryName)
                 {
                     return document;
                 }
             }
 
             // folder document does not exists, create it
-            Document newMembergroupFolder = Document.MakeNew(GlobalConstants.MembergroupFolderName, DocumentType.GetByAlias(GlobalConstants.FolderAlias), User.GetUser(0), rootDoc.Id);
+            Document newCategoryFolder = Document.MakeNew(categoryName, DocumentType.GetByAlias(GlobalConstants.FolderAlias), User.GetUser(0), rootDoc.Id);
             // publish membergroupfolder
-            newMembergroupFolder.Publish(User.GetUser(0));
+            newCategoryFolder.Publish(User.GetUser(0));
             // clear document cache
-            umbraco.library.UpdateDocumentCache(newMembergroupFolder.Id);
+            umbraco.library.UpdateDocumentCache(newCategoryFolder.Id);
 
-            return newMembergroupFolder;
+            return newCategoryFolder;
         }
+
 
         public static Document GetRootDocument()
         {
