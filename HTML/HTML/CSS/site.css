@@ -306,3 +306,77 @@ a
 {
 	margin-bottom: 15px;
 }
+
+#inloggenContainer
+{
+	margin-top: 20px;
+}
+
+#inlogInfoContainer
+{
+	padding-left: 13px;
+	
+	border-left: 2px solid #878787;
+}
+
+#inlogFormContainer h3, #inlogInfoContainer h3
+{
+	margin-bottom: 20px;
+}
+
+#inlogFormContainer input[type='text'], #inlogFormContainer input[type='password']
+{
+	color: #ffffff;
+	width: 250px;
+	height: 32px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 32px;
+	
+	border: 0px none;
+	background-color: #000000;
+}
+
+#inlogFormContainer input[type='submit']
+{
+	height: 32px;
+	width: 90px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+	display: block;
+	
+	background-color: #0077BD;
+	border: 0px none;
+}
+
+#inloggen, #aangemeldBlijven, #inlogFormContainer label
+{
+	float: left;
+}
+
+#aangemeldBlijven
+{
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+#inlogFormContainer label
+{
+	margin-left: 5px;
+	margin-top: 16px;
+	text-decoration: underline;
+}
+
+#inlogFormContainer a
+{
+	margin-top: 15px;
+	float: left;
+	text-decoration: underline;
+}
+
+ #inlogInfoContainer p
+ {
+ 	margin-bottom: 15px;
+ }
