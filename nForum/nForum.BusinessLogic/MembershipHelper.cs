@@ -1,6 +1,7 @@
 ﻿using System.Web;
 using System.Web.Security;
 using nForum.BusinessLogic.Models;
+using umbraco.cms.businesslogic.member;
 
 namespace nForum.BusinessLogic
 {
@@ -84,6 +85,16 @@ namespace nForum.BusinessLogic
         {
             return HttpContext.Current.User.Identity.IsAuthenticated;
         }
+
+        public static bool IsMember(string groupName)
+        {
+            if (IsAuthenticated() == false)
+            {
+                return false;
+            }
+
+            return HttpContext.Current.User.IsInRole(groupName);
+         }
 
     }
 }

@@ -12,5 +12,5 @@
     </ItemTemplate>
 </asp:Repeater>
 
-<asp:Button ID="btnSetMember" CssClass="btnsubmittopic" runat="server" 
-    Text="Lidmaatschappen opslaan" onclick="btnSetMember_Click" />
+<asp:Button ID="btnSetMembers" CssClass="button" runat="server" 
+    Text="Rechten instellen" onclick="btnSetMembers_Click" />

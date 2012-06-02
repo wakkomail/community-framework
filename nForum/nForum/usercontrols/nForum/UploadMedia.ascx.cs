@@ -26,7 +26,17 @@ namespace nForum.usercontrols.nForum
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Initialize();
+            // set permissions
+
+            if (CurrentMember != null && (MembershipHelper.IsMember(currentCategory.Name) || CurrentMember.MemberIsAdmin))
+            {
+                Initialize();
+            }
+            else
+            {
+                this.pnlUpload.Visible = false;
+            }
+            
         }
 
         private void Initialize()

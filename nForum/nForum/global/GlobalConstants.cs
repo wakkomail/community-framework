@@ -19,13 +19,17 @@ namespace nForum.global
 
         // project
         public static string ProjectFolderName { get { return "Projects"; } }
+        public static string ProjectAlias { get { return "CLC-Project"; } }
+        public static string ProjectTemplateName { get { return "CLCProject"; } }
 
         // default membergroup / project settings
         public static string PermissionKarmaAmount { get { return "forumCategoryPermissionKarmaAmount"; } }
-        public static int PermissionKarmaAmountDefaultValue { get { return 30; } }
+        public static int PermissionKarmaAmountDefaultValue { get { return 0; } }
         public static string PermissionPostKarmaAmount { get { return "forumCategoryPostPermissionKarmaAmount"; } }
-        public static int PermissionPostKarmaAmountDefaultValue { get { return 30; } }
+        public static int PermissionPostKarmaAmountDefaultValue { get { return 0; } }
         public static string IsMainCategory { get { return "forumCategoryIsMainCategory"; } }
      
+        // membership
+        public static string MemberTypeAlias { get { return "ForumUser"; } }
     }
 }

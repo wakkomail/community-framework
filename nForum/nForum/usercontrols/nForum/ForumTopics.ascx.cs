@@ -51,7 +51,7 @@ namespace nForum.usercontrols.nForum
         /// </summary>
         private void ShowCreateTopicButton()
         {
-            if (MembershipHelper.IsAuthenticated() && !IsBanned)
+            if (MembershipHelper.IsMember(CurrentNode.Name) && !IsBanned)
             {
                 var url = library.NiceUrl(CurrentNode.Id);
                 hlCreateTopic.Visible = true;
