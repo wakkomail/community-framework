@@ -114,3 +114,32 @@ E:\Projecten\CLC Framework\Repository\nForum\nForum\bin\umbraco.XmlSerializers.d
 E:\Projecten\CLC Framework\Repository\nForum\nForum\obj\Debug\ResolveAssemblyReference.cache
 E:\Projecten\CLC Framework\Repository\nForum\nForum\obj\Debug\nForum.dll
 E:\Projecten\CLC Framework\Repository\nForum\nForum\obj\Debug\nForum.pdb
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\nForum.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\nForum.pdb
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\businesslogic.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\cms.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\controls.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\Examine.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\interfaces.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\nForum.BusinessLogic.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\umbraco.DataLayer.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\umbraco.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\umbraco.editorControls.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\HtmlSanitizationLibrary.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\AntiXssLibrary.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\ClientDependency.Core.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\HtmlAgilityPack.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\ICSharpCode.SharpZipLib.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\TidyNet.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\Lucene.Net.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\CookComputing.XmlRpcV2.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\umbraco.providers.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\MySql.Data.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\Microsoft.ApplicationBlocks.Data.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\nForum.BusinessLogic.pdb
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\HtmlSanitizationLibrary.xml
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\AntiXssLibrary.xml
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\bin\umbraco.XmlSerializers.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\obj\Debug\ResolveAssemblyReference.cache
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\obj\Debug\nForum.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum\obj\Debug\nForum.pdb

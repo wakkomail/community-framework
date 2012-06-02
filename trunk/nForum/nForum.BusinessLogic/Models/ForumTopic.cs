@@ -97,6 +97,15 @@ namespace nForum.BusinessLogic.Models
             return _factory.ReturnLatestPostInTopic(this.Id);
         }
 
+		/// <summary>
+		/// Get the first post in this topic
+		/// </summary>
+		/// <returns></returns>
+		public ForumPost GetFirstPost()
+		{
+			return _factory.ReturnTopicStarterPost(this.Id);
+		}
+
         /// <summary>
         /// Returns the parent category of this topic
         /// </summary>
