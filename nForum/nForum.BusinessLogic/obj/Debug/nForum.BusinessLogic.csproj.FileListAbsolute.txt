@@ -110,3 +110,31 @@ E:\Projecten\CLC Framework\Repository\nForum\nForum.BusinessLogic\bin\Debug\umbr
 E:\Projecten\CLC Framework\Repository\nForum\nForum.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
 E:\Projecten\CLC Framework\Repository\nForum\nForum.BusinessLogic\obj\Debug\nForum.BusinessLogic.dll
 E:\Projecten\CLC Framework\Repository\nForum\nForum.BusinessLogic\obj\Debug\nForum.BusinessLogic.pdb
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\nForum.BusinessLogic.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\nForum.BusinessLogic.pdb
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\AntiXSSLibrary.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\businesslogic.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\cms.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\Examine.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\HtmlSanitizationLibrary.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\interfaces.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\umbraco.DataLayer.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\umbraco.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\umbraco.Linq.Core.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\UmbracoExamine.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\ClientDependency.Core.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\HtmlAgilityPack.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\TidyNet.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\Lucene.Net.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\controls.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\umbraco.providers.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\MySql.Data.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\AntiXSSLibrary.xml
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\HtmlSanitizationLibrary.xml
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\bin\Debug\umbraco.XmlSerializers.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\obj\Debug\nForum.BusinessLogic.dll
+D:\Projecten\Overig\Vanalles\SVN\nForum\nForum.BusinessLogic\obj\Debug\nForum.BusinessLogic.pdb

@@ -1,21 +1,156 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
 <asp:content id="Content1" contentplaceholderid="cp_content" runat="server">
-    <div id="skinHeader" class="clearfix">
-       <h2>
-            Flow with the Go!
-       </h2>
-       <div id="login">
+  <div id="contentContainer" class="grid_12 full home">
+      <div id="brandboxContainer" class="grid_12 full">
+        <div id="brandboxItems">
+          <div class="brandboxItem grid_12 full">
+            <div class="brandboxItemTitle grid_6">
+              <h2 class="kaffeeSatz c2">
+                FlowWithTheGo ontwikkelt evolutionair community platform...
+              </h2>
+            </div>
+            <div class="brandboxItemText grid_6">
+              <span class="kaffeeSatz c2">Hulde! Zie hier de nieuwe Creative Learning Community waarmee
+                we eindelijk een medium hebben waarmee we op een laagdrempelige manier elkaars kennis
+                kunnen verbreden. Geen paniek, het is een eenvoudig systeem wat zichzelf wijst.
+                Probeer het maar... </span>
+            </div>
+          </div>
+          <div class="brandboxItem grid_12 full">
+            <div class="brandboxItemTitle grid_6">
+              <h2 class="kaffeeSatz c2">
+                Het systeem is gebouwd door vakkundige ontwikkelaars...
+              </h2>
+            </div>
+            <div class="brandboxItemText grid_6">
+              <span class="kaffeeSatz c2">Waarvoor hulde! We zijn allemaal erg benieuwd naar het uiteindelijke
+                resultaat... </span>
+            </div>
+          </div>
+          <div class="brandboxItem grid_12 full">
+            <div class="brandboxItemTitle grid_6">
+              <h2 class="kaffeeSatz c2">
+                Actie OBS De Meerkoet tegen discriminatie
+              </h2>
+            </div>
+            <div class="brandboxItemText grid_6">
+              <span class="kaffeeSatz c2">Openbare basisschool De Meerkoet in Dirkshorn kreeg donderdag
+                24 mei 2012 bezoek van Myrthe Scheltema de Heere. </span>
+            </div>
+          </div>
+          <div class="brandboxItem grid_12 full">
+            <div class="brandboxItemTitle grid_6">
+              <h2 class="kaffeeSatz c2">
+                Finale Mission Olympic in Olympisch Stadion
+              </h2>
+            </div>
+            <div class="brandboxItemText grid_6">
+              <span class="kaffeeSatz c2">Vrijdag 8 juni 2012 ondernemen scholieren van 185 Nederlandse
+                scholen de reis naar het Olympisch Stadion in Amsterdam. Daar staat deze dag Mission
+                Olympic: The School Final op het programma. Mission Olympic, een evenement dat in
+                2012 tien jaar aan de weg timmert, is de grootste schoolsportcompetitie van ons
+                land. Kroonprins Willem-Alexander opent deze bijzondere editie. Dat meldt het Brabants
+                Dagblad </span>
+            </div>
+          </div>
+        </div>
+        <div id="brandboxPager">
+        </div>
+      </div>
+      <div id="discussiesContainer" class="grid_3 fatBorder">
+        <h3 class="kaffeeSatz c1">
+          Discussies</h3>
+        <umbraco:Macro Alias="CLC-ActiveDiscussions" AmountToTake="10" runat="server"></umbraco:Macro>
+      </div>
+      <div id="kennisGroepenContainer" class="grid_3 fatBorder">
+        <h3 class="kaffeeSatz c1">
+          Kennisgroepen</h3>
+        <umbraco:Macro Alias="CLC-Membergroups" AmountToTake="10" runat="server"></umbraco:Macro>
+      </div>
+      <div id="projectenContainer" class="grid_3 fatBorder">
+        <h3 class="kaffeeSatz c1">
+          Projecten</h3>
+        <div class="topicSummary anchorItem thinBorder clearfix">
+          <span class="topicHeader c1">Creative Learning Community</span> <span class="topicText c2">
+            Het ontwikkelen van een keigaaf creatief leerdinges.</span> <span class="memberCount c2">
+              Aantal projectleden: 4</span> <span class="nextEvent c2">Volgende event: 22-06-2012</span>
+          <a class="c1" href="#">Bekijk project</a>
+        </div>
+        <div class="topicSummary anchorItem thinBorder clearfix">
+          <span class="topicHeader c1">Flessen als een tsaar</span> <span class="topicText c2">
+            Het bedrijven van de hoogstmogelijke liefde in het altijd zonnige Volgograd.</span>
+          <span class="memberCount c2">Aantal projectleden: 2</span> <span class="nextEvent c2">
+            Volgende event: 29-05-2012</span> <a class="c1" href="#">Bekijk project</a>
+        </div>
+        <div class="topicSummary anchorItem thinBorder clearfix">
+          <span class="topicHeader c1">Pinda's</span> <span class="topicText c2">Eigenlijk wordt
+            het best wel peanuts wat we aan het doen zijn.</span> <span class="memberCount c2">Aantal
+              projectleden: 25</span> <span class="nextEvent c2">Volgende event: 12-07-2012</span>
+          <a class="c1" href="#">Bekijk project</a>
+        </div>
+        <div class="topicSummary anchorItem thinBorder clearfix">
+          <span class="topicHeader c1">Flutgrappen</span> <span class="topicText c2">Het maken
+            van slechte grappen waar niemand om kan lachen.</span> <span class="memberCount c2">
+              Aantal projectleden: 1</span> <span class="nextEvent c2">Volgende event: 01-04-2012</span>
+          <a class="c1" href="#">Bekijk project</a>
+        </div>
+      </div>
+      <div id="crossReferencesContainer" class="grid_3">
+        <div id="ledenContainer" class="fatBorder">
+          <h3 class="kaffeeSatz c2">
+            Nieuwe leden</h3>
+          <ul>
+            <li><a class="c2" href="#">Mathew Pettie</a> </li>
+            <li><a class="c2" href="#">Wilko Tomassen</a> </li>
+            <li><a class="c2" href="#">Laurens-Jan Smörgasbröd</a> </li>
+            <li><a class="c2" href="#">Wessel Edwards</a> </li>
+            <li><a class="c2" href="#">Erwin van Plensbergen</a> </li>
+          </ul>
+        </div>
+        <div id="relevanteDiscussiesContainer" class="fatBorder">
+          <h3 class="kaffeeSatz c2">
+            Relevante discussies</h3>
+          <ul>
+            <li class="relevantTopic"><a class="c2" href="#">27-05-2012
+              <br />
+              Relevante topic 1 </a></li>
+            <li class="relevantTopic"><a class="c2" href="#">20-05-2012
+              <br />
+              Relevante topic 2 </a></li>
+            <li class="relevantTopic"><a class="c2" href="#">17-05-2012
+              <br />
+              Relevante topic 3 </a></li>
+          </ul>
+        </div>
+        <div id="relevanteKennisgroepenContainer" class="fatBorder">
+          <h3 class="kaffeeSatz c2">
+            Relevante kennisgroepen</h3>
+          <ul>
+            <li><a class="c2" href="#">Geschiedenis</a> </li>
+            <li><a class="c2" href="#">Turkije</a> </li>
+            <li><a class="c2" href="#">Knäckebröd</a> </li>
+            <li><a class="c2" href="#">Karpers</a> </li>
+            <li><a class="c2" href="#">Elvis Presley</a> </li>
+          </ul>
+        </div>
+        <div id="relevanteProjectenContainer" class="fatBorder">
+          <h3 class="kaffeeSatz c2">
+            Relevante projecten</h3>
+          <ul>
+            <li><a class="c2" href="#">Creative Learning Community</a> </li>
+            <li><a class="c2" href="#">Programmeren voor dummy's</a> </li>
+            <li><a class="c2" href="#">Pinda's</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+       <!--<div id="login">
             <asp:LoginView ID="lvLoginTopMenu" runat="server">
               <AnonymousTemplate>
                 <umbraco:Macro Alias="nForumLoginForm" runat="server"></umbraco:Macro>           
               </AnonymousTemplate>            
             </asp:LoginView>
-        </div>
-    </div>
-
-    <div id="content" class="frontPage">
-        <umbraco:item id="Item1" runat="server" field="bodyText"></umbraco:item>
-    </div>
+        </div>-->
     <div id="columns" class="clearfix">
         <div class="col">
             <h3>Actieve discussies</h3>
