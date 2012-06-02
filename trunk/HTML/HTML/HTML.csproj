@@ -51,6 +51,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="inloggen.html" />
     <Content Include="CSS\960grid.css" />
     <Content Include="CSS\cssreset-min.css" />
     <Content Include="CSS\Font\SIL Open Font License 1.1.txt" />
