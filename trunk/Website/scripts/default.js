@@ -1,8 +1,8 @@
 ﻿$(document).ready(function () {
 	//Search watermark
 	$("#searchText").watermark('Zoeken...');
-	$("#gebruikersnaam").watermark('Gebruikersnaam');
-	$("#wachtwoord").watermark('Wachtwoord');
+	$(".gebruikersnaam").watermark('Gebruikersnaam');
+	$(".wachtwoord").watermark('Wachtwoord');
 
 	//Target Blank
 	$("a.blank").attr("target", "_blank");
