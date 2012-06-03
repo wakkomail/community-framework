@@ -366,12 +366,12 @@ a
   border: 0px none;
 }
 
-#inloggen, #aangemeldBlijven, #inlogFormContainer label
+#inlogFormContainer input[type='submit'], #inlogFormContainer input[type='checkbox'], #inlogFormContainer label
 {
   float: left;
 }
 
-#aangemeldBlijven
+#inlogFormContainer input[type='checkbox']
 {
   margin-left: 10px;
   margin-top: 18px;

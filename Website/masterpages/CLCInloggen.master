@@ -1,0 +1,4 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+<asp:content ContentPlaceHolderId="cp_content" runat="server">
+  <umbraco:Macro Alias="clc-inloggen" runat="server"></umbraco:Macro>
+</asp:content>

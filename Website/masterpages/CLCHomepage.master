@@ -144,14 +144,7 @@
         </div>
       </div>
     </div>  
-       <!--<div id="login">
-            <asp:LoginView ID="lvLoginTopMenu" runat="server">
-              <AnonymousTemplate>
-                <umbraco:Macro Alias="nForumLoginForm" runat="server"></umbraco:Macro>           
-              </AnonymousTemplate>            
-            </asp:LoginView>
-        </div>-->
-    <div id="columns" class="clearfix">
+    <!--<div id="columns" class="clearfix">
         <div class="col">
             <h3>Actieve discussies</h3>
             <umbraco:Macro Alias="nForumActiveTopics" AmountToTake="10" runat="server"></umbraco:Macro>
@@ -170,5 +163,5 @@
                 <li class="facebook"><a id="facebookLink" href="http://somelink.com" target="_blank">be our friend on facebook</a></li>
             </ul>
         </div>
-    </div>
+    </div>-->
 </asp:content>

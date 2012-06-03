@@ -256,6 +256,20 @@
     <Compile Include="usercontrols\CLC\Membergroups.ascx.designer.cs">
       <DependentUpon>Membergroups.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\membership\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\membership\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\CLC\membership\UserAdmin.ascx.cs">
+      <DependentUpon>UserAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\membership\UserAdmin.ascx.designer.cs">
+      <DependentUpon>UserAdmin.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\nForum\ControlPanel.ascx.cs">
       <DependentUpon>ControlPanel.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -587,6 +601,8 @@
     <Content Include="scripts\nforumie6.js" />
     <Content Include="usercontrols\CLC\ActiveDiscussions.ascx" />
     <Content Include="usercontrols\CLC\Membergroups.ascx" />
+    <Content Include="usercontrols\CLC\membership\Login.ascx" />
+    <Content Include="usercontrols\CLC\membership\UserAdmin.ascx" />
     <Content Include="usercontrols\nForum\ControlPanel.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumMainDashboard.ascx" />
