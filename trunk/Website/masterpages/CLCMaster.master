@@ -27,7 +27,7 @@
        <msg:MessageBox ID="MainMessageBox" runat="server" />
       <asp:contentplaceholder id="cp_top" runat="server">
          <div id="headerContainer" class="grid_12">
-      <a href="index.html">
+           <a href="/">
         <div id="header">
           <span class="headerTitle kaffeeSatz c1">creative learning <b>community</b></span>
           <span class="headerSubTitle kaffeeSatz c1">samenwerking en kennisdeling</span>

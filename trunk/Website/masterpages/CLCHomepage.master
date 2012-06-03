@@ -96,17 +96,7 @@
         </div>
       </div>
       <div id="crossReferencesContainer" class="grid_3">
-        <div id="ledenContainer" class="fatBorder">
-          <h3 class="kaffeeSatz c2">
-            Nieuwe leden</h3>
-          <ul>
-            <li><a class="c2" href="#">Mathew Pettie</a> </li>
-            <li><a class="c2" href="#">Wilko Tomassen</a> </li>
-            <li><a class="c2" href="#">Laurens-Jan Smörgasbröd</a> </li>
-            <li><a class="c2" href="#">Wessel Edwards</a> </li>
-            <li><a class="c2" href="#">Erwin van Plensbergen</a> </li>
-          </ul>
-        </div>
+        <umbraco:Macro ShowNewest="1" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
         <div id="relevanteDiscussiesContainer" class="fatBorder">
           <h3 class="kaffeeSatz c2">
             Relevante discussies</h3>
