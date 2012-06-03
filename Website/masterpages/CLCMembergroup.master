@@ -6,7 +6,20 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
-  <div id="columns" class="clearfix">
+  <div id="contentContainer" class="grid_12 full">
+      <div id="kruimelpad" class="grid_12">
+        <a class="c2" href="#">Home</a> &gt; <a class="c2" href="#">Kennisgroepen</a> &gt;
+        <a class="c2" href="kennisgroep-economie.html">Economie</a>
+      </div>
+      <div id="kennisgroepContainer" class="grid_9 fatBorder">
+        <umbraco:Macro Alias="CLC-Membergroup" runat="server" />
+      </div>
+      <div id="crossReferencesContainer" class="grid_3">
+        <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
+      </div>
+  </div>
+  
+  <!--<div id="columns" class="clearfix">
     <div class="colbig">
       <umbraco:Macro Alias="nForumShowSubCategories" runat="server"></umbraco:Macro>
       <umbraco:Macro Alias="nForumListTopics" runat="server"></umbraco:Macro> 
@@ -14,7 +27,8 @@
       <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>      
     </div>
     <div class="col">
-      <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>    
+      <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>
+      <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>    
     </div>
-  </div>  
+  </div>-->
 </asp:Content>

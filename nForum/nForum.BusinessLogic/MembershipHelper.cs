@@ -66,6 +66,24 @@ namespace nForum.BusinessLogic
             return username;
         }
 
+		/// <summary>
+		/// Returns a formatted HTML link to the members profile, using the SEO Url rewriting
+		/// </summary>
+		public static string ReturnMemberProfileLink(string username, string cssClass, int? memberid, int? postid)
+		{
+			if (username != "N/A")
+			{
+				string relatt = null;
+				if (postid != null)
+					relatt = string.Concat(" postmember", postid);
+
+				return string.Format("<a class='{3}{2}' href='/member/{1}.aspx'>{0}</a>",
+									 username,
+									 memberid,
+									 relatt, cssClass);
+			}
+			return username;
+		}
 
         /// <summary>
         /// Log out the member
