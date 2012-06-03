@@ -49,8 +49,12 @@ namespace nForum.usercontrols.CLC
                     Helpers.GetPrettyDate(post.CreatedOn.ToString()),
                     post.Owner.MemberLoginName);
             }
-            var getNa = library.GetDictionaryItem("GetNAText");
-            return string.Format(library.GetDictionaryItem("LastPostByTextFormat"), getNa, getNa);
+
+			return "Er zijn nog geen discussies in deze kennisgroep.";
+           
+			
+			//var getNa = library.GetDictionaryItem("GetNAText");
+            //return string.Format(library.GetDictionaryItem("LastPostByTextFormat"), getNa, getNa);
         }
 
         protected void HidePrivateCategories(object sender, RepeaterItemEventArgs e)
