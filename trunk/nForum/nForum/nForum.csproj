@@ -249,6 +249,13 @@
     <Compile Include="usercontrols\CLC\ActiveDiscussions.ascx.designer.cs">
       <DependentUpon>ActiveDiscussions.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\CreateNotice.ascx.cs">
+      <DependentUpon>CreateNotice.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\CreateNotice.ascx.designer.cs">
+      <DependentUpon>CreateNotice.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\Membergroup.ascx.cs">
       <DependentUpon>Membergroup.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,6 +290,13 @@
     </Compile>
     <Compile Include="usercontrols\CLC\MembersList.ascx.designer.cs">
       <DependentUpon>MembersList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\CLC\Noticeboard.ascx.cs">
+      <DependentUpon>Noticeboard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\Noticeboard.ascx.designer.cs">
+      <DependentUpon>Noticeboard.ascx</DependentUpon>
     </Compile>
     <Compile Include="usercontrols\CLC\templates\SmallDiscussionRepeaterItem.ascx.cs">
       <DependentUpon>SmallDiscussionRepeaterItem.ascx</DependentUpon>
@@ -621,11 +635,13 @@
     <Content Include="scripts\nforumgeneral.js" />
     <Content Include="scripts\nforumie6.js" />
     <Content Include="usercontrols\CLC\ActiveDiscussions.ascx" />
+    <Content Include="usercontrols\CLC\CreateNotice.ascx" />
     <Content Include="usercontrols\CLC\Membergroup.ascx" />
     <Content Include="usercontrols\CLC\Membergroups.ascx" />
     <Content Include="usercontrols\CLC\membership\Login.ascx" />
     <Content Include="usercontrols\CLC\membership\UserAdmin.ascx" />
     <Content Include="usercontrols\CLC\MembersList.ascx" />
+    <Content Include="usercontrols\CLC\Noticeboard.ascx" />
     <Content Include="usercontrols\CLC\templates\SmallDiscussionRepeaterItem.ascx" />
     <Content Include="usercontrols\CLC\ControlPanel.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx" />

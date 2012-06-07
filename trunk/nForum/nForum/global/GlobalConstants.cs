@@ -31,5 +31,11 @@ namespace nForum.global
      
         // membership
         public static string MemberTypeAlias { get { return "ForumUser"; } }
+
+        // notices
+        public static string NoticeTemplateName { get { return "CLC-Notice"; } }
+        public static string NoticeBoardFolder { get { return "Noticeboard"; } }
+        public static string NoticeBoardAlias { get { return "CLC-Noticeboard"; } }
+
     }
 }
