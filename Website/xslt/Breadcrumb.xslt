@@ -11,21 +11,20 @@
 
   <xsl:param name="currentPage"/>
 
-  <xsl:variable name="minLevel" select="1"/>
+  <xsl:variable name="minLevel" select="0"/>
 
   <xsl:template match="/">
 
     <xsl:if test="$currentPage/@level &gt; $minLevel">
       <xsl:if test="count($currentPage/ancestor::* [@level &gt; $minLevel and string(umbracoNaviHide) != '1']) &gt; 0">
-          <ul id="breadcrumb">
+          <div id="kruimelpad" class="grid_12">
             <xsl:for-each select="$currentPage/ancestor::* [@level &gt; $minLevel and string(umbracoNaviHide) != '1' and name() != 'ForumDateFolder']">
-              <li>
-                <a href="{umbraco.library:NiceUrl(@id)}">
-                  <xsl:value-of select="@nodeName"/>
-                </a> &gt;&gt;
-              </li>
+              <xsl:if test="@level &gt; $minLevel + 1">
+                &gt;
+              </xsl:if>  
+              <a class="c2" href="{umbraco.library:NiceUrl(@id)}"><xsl:value-of select="@nodeName"/></a>
             </xsl:for-each>
-          </ul>
+          </div>
         </xsl:if>
     </xsl:if>
     
