@@ -18,7 +18,7 @@ using System.Configuration;
 using nForum.helpers;
 using umbraco.NodeFactory;
 
-namespace nForum.usercontrols.nForum
+namespace nForum.usercontrols.CLC
 {
     public partial class UploadMedia : BaseForumUsercontrol
     {

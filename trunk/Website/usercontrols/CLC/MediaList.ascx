@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MediaList.ascx.cs" Inherits="nForum.usercontrols.nForum.MediaList" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MediaList.ascx.cs" Inherits="nForum.usercontrols.CLC.MediaList" %>
 <%@ Import Namespace="umbraco.cms.businesslogic.media" %>
 
 <asp:Repeater ID="rptMedia" runat="server">

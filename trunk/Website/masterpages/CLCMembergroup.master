@@ -14,6 +14,8 @@
       <div id="kennisgroepContainer" class="grid_9 fatBorder">
         <umbraco:Macro Alias="CLC-Membergroup" runat="server" />
       </div>
+    <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>      
+      <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
       <div id="crossReferencesContainer" class="grid_3">
         <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
       </div>

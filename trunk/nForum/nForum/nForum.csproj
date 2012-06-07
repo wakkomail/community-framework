@@ -291,11 +291,11 @@
     <Compile Include="usercontrols\CLC\templates\SmallDiscussionRepeaterItem.ascx.designer.cs">
       <DependentUpon>SmallDiscussionRepeaterItem.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\nForum\ControlPanel.ascx.cs">
+    <Compile Include="usercontrols\CLC\ControlPanel.ascx.cs">
       <DependentUpon>ControlPanel.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="usercontrols\nForum\ControlPanel.ascx.designer.cs">
+    <Compile Include="usercontrols\CLC\ControlPanel.ascx.designer.cs">
       <DependentUpon>ControlPanel.ascx</DependentUpon>
     </Compile>
     <Compile Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx.cs">
@@ -466,11 +466,11 @@
     <Compile Include="usercontrols\nForum\includes\MainMessage.ascx.designer.cs">
       <DependentUpon>MainMessage.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\nForum\MediaList.ascx.cs">
+    <Compile Include="usercontrols\CLC\MediaList.ascx.cs">
       <DependentUpon>MediaList.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="usercontrols\nForum\MediaList.ascx.designer.cs">
+    <Compile Include="usercontrols\CLC\MediaList.ascx.designer.cs">
       <DependentUpon>MediaList.ascx</DependentUpon>
     </Compile>
     <Compile Include="usercontrols\nForum\membership\ForumForgotPassword.ascx.cs">
@@ -529,11 +529,11 @@
     <Compile Include="usercontrols\nForum\membership\UserAdmin.ascx.designer.cs">
       <DependentUpon>UserAdmin.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\nForum\SetMembers.ascx.cs">
+    <Compile Include="usercontrols\CLC\membership\SetMembers.ascx.cs">
       <DependentUpon>SetMembers.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="usercontrols\nForum\SetMembers.ascx.designer.cs">
+    <Compile Include="usercontrols\CLC\membership\SetMembers.ascx.designer.cs">
       <DependentUpon>SetMembers.ascx</DependentUpon>
     </Compile>
     <Compile Include="usercontrols\CLC\templates\DiscussionRepeaterItem.ascx.cs">
@@ -550,11 +550,11 @@
     <Compile Include="usercontrols\nForum\templates\RepeaterItemTopics.ascx.designer.cs">
       <DependentUpon>RepeaterItemTopics.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\nForum\UploadMedia.ascx.cs">
+    <Compile Include="usercontrols\CLC\UploadMedia.ascx.cs">
       <DependentUpon>UploadMedia.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="usercontrols\nForum\UploadMedia.ascx.designer.cs">
+    <Compile Include="usercontrols\CLC\UploadMedia.ascx.designer.cs">
       <DependentUpon>UploadMedia.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -627,7 +627,7 @@
     <Content Include="usercontrols\CLC\membership\UserAdmin.ascx" />
     <Content Include="usercontrols\CLC\MembersList.ascx" />
     <Content Include="usercontrols\CLC\templates\SmallDiscussionRepeaterItem.ascx" />
-    <Content Include="usercontrols\nForum\ControlPanel.ascx" />
+    <Content Include="usercontrols\CLC\ControlPanel.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumMainDashboard.ascx" />
     <Content Include="usercontrols\nForum\ForumActiveTopics.ascx" />
@@ -652,7 +652,7 @@
     <Content Include="usercontrols\nForum\Install.ascx" />
     <Content Include="usercontrols\nForum\ForumTopicRss.ascx" />
     <Content Include="usercontrols\nForum\includes\MainMessage.ascx" />
-    <Content Include="usercontrols\nForum\MediaList.ascx" />
+    <Content Include="usercontrols\CLC\MediaList.ascx" />
     <Content Include="usercontrols\nForum\membership\ForumForgotPassword.ascx" />
     <Content Include="usercontrols\nForum\membership\ForumMemberProfile.ascx" />
     <Content Include="usercontrols\nForum\membership\ForumMemberProfileEdit.ascx" />
@@ -661,10 +661,10 @@
     <Content Include="usercontrols\nForum\membership\Login.ascx" />
     <Content Include="usercontrols\nForum\membership\Register.ascx" />
     <Content Include="usercontrols\nForum\membership\UserAdmin.ascx" />
-    <Content Include="usercontrols\nForum\SetMembers.ascx" />
+    <Content Include="usercontrols\CLC\membership\SetMembers.ascx" />
     <Content Include="usercontrols\CLC\templates\DiscussionRepeaterItem.ascx" />
     <Content Include="usercontrols\nForum\templates\RepeaterItemTopics.ascx" />
-    <Content Include="usercontrols\nForum\UploadMedia.ascx" />
+    <Content Include="usercontrols\CLC\UploadMedia.ascx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\nForum.BusinessLogic\nForum.BusinessLogic.csproj">

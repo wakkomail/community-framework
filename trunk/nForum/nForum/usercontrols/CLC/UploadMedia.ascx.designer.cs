@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace nForum.usercontrols.nForum {
+namespace nForum.usercontrols.CLC {
     
     
     public partial class UploadMedia {

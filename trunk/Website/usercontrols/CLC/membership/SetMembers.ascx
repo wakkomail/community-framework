@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SetMembers.ascx.cs" Inherits="nForum.usercontrols.nForum.SetMembers" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SetMembers.ascx.cs" Inherits="nForum.usercontrols.CLC.membership.SetMembers" %>
 <%@ Import Namespace="umbraco.cms.businesslogic.member" %>
 
 

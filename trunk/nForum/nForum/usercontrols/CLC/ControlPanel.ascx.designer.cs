@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace nForum.usercontrols {
+namespace nForum.usercontrols.CLC {
     
     
     public partial class ControlPanel {
