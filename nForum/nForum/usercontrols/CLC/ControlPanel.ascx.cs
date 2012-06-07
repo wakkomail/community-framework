@@ -16,7 +16,7 @@ using nForum.helpers;
 using umbraco.cms.businesslogic.media;
 using umbraco.cms.businesslogic.template;
 
-namespace nForum.usercontrols
+namespace nForum.usercontrols.CLC
 {
     public partial class ControlPanel : System.Web.UI.UserControl
     {

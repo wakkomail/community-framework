@@ -10,7 +10,7 @@ using nForum.BusinessLogic;
 using nForum.BusinessLogic.Models;
 
 
-namespace nForum.usercontrols.nForum
+namespace nForum.usercontrols.CLC.membership
 {
     public partial class SetMembers : BaseForumUsercontrol
     {

@@ -1,5 +1,5 @@
 ﻿
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ControlPanel.ascx.cs" Inherits="nForum.usercontrols.ControlPanel" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ControlPanel.ascx.cs" Inherits="nForum.usercontrols.CLC.ControlPanel" %>
 
 <div id="options">
     <asp:Button ID="createMembergroup" ClientIDMode="Static" runat="server" CssClass="button"
