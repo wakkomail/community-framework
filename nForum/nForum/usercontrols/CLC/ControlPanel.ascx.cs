@@ -70,6 +70,10 @@ namespace nForum.usercontrols.CLC
                 // create media folder
                 Media.MakeNew(this.txtMembergroupName.Text, MediaType.GetByAlias("folder"), User.GetUser(0), mediaCategory.Id);
 
+                // create noticeboard
+                Document noticeBoard = Document.MakeNew(GlobalConstants.NoticeBoardFolder, DocumentType.GetByAlias(GlobalConstants.NoticeBoardAlias), User.GetUser(0), newMemberGroup.Id);
+                noticeBoard.Publish(User.GetUser(0));
+
                 SetOption(enuOption.None);
                 lblResultInfo.Text = "Kennisgroep '" + this.txtMembergroupName.Text + "' aangemaakt!";
             }

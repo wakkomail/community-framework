@@ -10,6 +10,24 @@ namespace nForum.helpers
 {
     public class DocumentHelper
     {
+        public static Document GetDocumentFolderByName(string mediaName, string parentFolder)
+        {
+            foreach (Document documentFolder in GetRootDocument().GetDescendants())
+            {
+                if (documentFolder.Text == parentFolder)
+                {
+                    foreach (Document documentItem in documentFolder.GetDescendants())
+                    {
+                        if (documentItem.Text == mediaName)
+                        {
+                            return documentItem;
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+
 
         /// <summary>
         /// check membergroup categoryfolder allready exists in contenttree, create it if it does not extists
