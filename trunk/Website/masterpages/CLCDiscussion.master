@@ -5,6 +5,7 @@
 </asp:Content>
   
 <asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
+  <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
    <umbraco:DisableRequestValidation runat="server"/>
   <umbraco:Macro Alias="nForumTopicPosts" runat="server"></umbraco:Macro>
 </asp:Content>
