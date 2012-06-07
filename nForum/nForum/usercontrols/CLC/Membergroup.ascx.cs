@@ -10,6 +10,12 @@ namespace nForum.usercontrols.CLC
 {
     public partial class Membergroup : BaseForumUsercontrol
     {
+		#region Properties
+
+		public bool ShowAll { get; set; }
+
+		#endregion
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if(!Page.IsPostBack)
@@ -119,6 +125,11 @@ namespace nForum.usercontrols.CLC
             var maintopics = from t in Factory.ReturnAllTopicsInCategory(CurrentNode.Id, true, useNodeFactory)
                              where !t.IsSticky
                              select t;
+
+			if(!ShowAll)
+			{
+				maintopics = maintopics.Take(2);
+			}
 
             // Pass to my pager helper
             var pagedResults = new PaginatedList<ForumTopic>(maintopics, p ?? 0, Convert.ToInt32(Settings.TopicsPerPage));

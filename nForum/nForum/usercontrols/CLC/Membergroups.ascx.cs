@@ -8,9 +8,10 @@ using umbraco;
 namespace nForum.usercontrols.CLC
 {
     public partial class Membergroups : BaseForumUsercontrol
-    {
+	{
+		
 
-        protected void Page_Load(object sender, EventArgs e)
+		protected void Page_Load(object sender, EventArgs e)
         {
             if(!Page.IsPostBack)
             {

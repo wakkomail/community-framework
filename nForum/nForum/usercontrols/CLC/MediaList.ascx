@@ -1,15 +1,16 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MediaList.ascx.cs" Inherits="nForum.usercontrols.CLC.MediaList" %>
 <%@ Import Namespace="umbraco.cms.businesslogic.media" %>
 
-<asp:Repeater ID="rptMedia" runat="server">
-    <ItemTemplate>
-        <p class="documentlink">
-            <asp:HyperLink ID="lnkDocument" runat="server" NavigateUrl='<%# ((Media)Container.DataItem).getProperty("umbracoFile").Value.ToString() %>' Text='<%# ((Media)Container.DataItem).Text %>' >
-                    
-            </asp:HyperLink>
-        </p>
-        <p>
-            <asp:Image ID="imgDocument" runat="server" Visible='<%# IsImage(((Media)Container.DataItem).Text) %>' ImageUrl='<%# GetThumbnail(((Media)Container.DataItem).getProperty("umbracoFile").Value.ToString())%>' />                                
-        </p>
-    </ItemTemplate>    
-</asp:Repeater>
+<div id="documentenContainer" class="fatBorder">
+	<h3 class="kaffeeSatz c1">Documenten</h3>
+	<ul id="documentenList" class="anchorList clearfix">
+		<asp:Repeater ID="rptMedia" runat="server">
+			<ItemTemplate>
+				<li>
+					<a href="<%# ((Media)Container.DataItem).getProperty("umbracoFile").Value.ToString() %>" class="c2"><%# ((Media)Container.DataItem).Text %></a>
+				</li>
+			</ItemTemplate>    
+		</asp:Repeater>
+	</ul>
+	<a class="showAll c2" href="#">Bekijk alle documenten</a>
+</div>
