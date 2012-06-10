@@ -17,15 +17,3 @@
 				Text="Create a new topic" /></p>
 	</div>
 </div>
-<div id="discussiesContainer" class="fatBorder">
-	<h3 class="kaffeeSatz c1">
-		Discussies</h3>
-	<asp:Repeater ID="rptTopicList" runat="server" EnableViewState="false">
-		<ItemTemplate>
-			<CLC:DiscussionRepeaterItem ID="RepeaterItem" FTopic="<%# Container.DataItem %>" runat="server" />
-		</ItemTemplate>
-	</asp:Repeater>
-	<a class="showAll c2" href="#">Bekijk alle discussies</a>
-</div>
-
-<asp:Literal ID="litPager" runat="server" />

@@ -10,42 +10,33 @@
 namespace nForum.usercontrols.CLC {
     
     
-    public partial class Membergroup {
+    public partial class Discussions {
         
         /// <summary>
-        /// litHeading control.
+        /// rptTopicList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litHeading;
+        protected global::System.Web.UI.WebControls.Repeater rptTopicList;
         
         /// <summary>
-        /// litDescription control.
+        /// showAll control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litDescription;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor showAll;
         
         /// <summary>
-        /// lRss control.
+        /// litPager control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lRss;
-        
-        /// <summary>
-        /// hlCreateTopic control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlCreateTopic;
+        protected global::System.Web.UI.WebControls.Literal litPager;
     }
 }
