@@ -249,6 +249,13 @@
     <Compile Include="usercontrols\CLC\ActiveDiscussions.ascx.designer.cs">
       <DependentUpon>ActiveDiscussions.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\Discussions.ascx.cs">
+      <DependentUpon>Discussions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\Discussions.ascx.designer.cs">
+      <DependentUpon>Discussions.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\CreateNotice.ascx.cs">
       <DependentUpon>CreateNotice.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -635,6 +642,7 @@
     <Content Include="scripts\nforumgeneral.js" />
     <Content Include="scripts\nforumie6.js" />
     <Content Include="usercontrols\CLC\ActiveDiscussions.ascx" />
+    <Content Include="usercontrols\CLC\Discussions.ascx" />
     <Content Include="usercontrols\CLC\CreateNotice.ascx" />
     <Content Include="usercontrols\CLC\Membergroup.ascx" />
     <Content Include="usercontrols\CLC\Membergroups.ascx" />

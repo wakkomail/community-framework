@@ -8,16 +8,20 @@ using umbraco;
 
 namespace nForum.usercontrols.CLC
 {
-    public partial class Membergroup : BaseForumUsercontrol
+    public partial class Discussions : BaseForumUsercontrol
     {
+		#region Properties
+
+		public bool ShowAll { get; set; }
+
+		#endregion
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if(!Page.IsPostBack)
             {
                 ShowCanonicalTag();
-                ShowCreateTopicButton();
-				Initialize();
-                ShowRssLink();
+                GetTopicsFromCategory();
             }
         }
 
@@ -33,36 +37,9 @@ namespace nForum.usercontrols.CLC
         }
 
         /// <summary>
-        /// Choose whether to show the RSS feed
-        /// </summary>
-        private void ShowRssLink()
-        {
-            if (!Helpers.MainForumSettings().EnableRssFeeds) return;
-
-            var rssurl = library.NiceUrl(CurrentNode.Id);                
-            lRss.NavigateUrl = Helpers.AlternateTemplateUrlFix("/topicrss", rssurl);
-            lRss.Visible = true;
-            lRss.ImageUrl = "/nforum/img/rss.png";
-            lRss.CssClass = "topicrssicon";
-        }
-
-        /// <summary>
-        /// Displays the create new topic button if user is logged in
-        /// </summary>
-        private void ShowCreateTopicButton()
-        {
-            if (MembershipHelper.IsMember(CurrentNode.Name) && !IsBanned)
-            {
-                var url = library.NiceUrl(CurrentNode.Id);
-                hlCreateTopic.Visible = true;
-                hlCreateTopic.NavigateUrl = Helpers.AlternateTemplateUrlFix("/createtopic", url);
-            }
-        }
-
-        /// <summary>
         /// Gets all the topics from the parent category
         /// </summary>
-        private void Initialize()
+        private void GetTopicsFromCategory()
         {
             // Before anything see if the category has been marked as private, if so make sure user is loggged in
             var currentCategory = Mapper.MapForumCategory(CurrentNode);
@@ -74,12 +51,6 @@ namespace nForum.usercontrols.CLC
                 if (CurrentMember.MemberKarmaAmount < currentCategory.KarmaAccessAmount)
                 {
                     userHasAccess = false;
-                }
-
-                // Double check they have enough karma to post a topic
-                if (CurrentMember.MemberKarmaAmount < currentCategory.KarmaPostAmount)
-                {
-                    hlCreateTopic.Visible = false;
                 }
             }
             else
@@ -96,18 +67,35 @@ namespace nForum.usercontrols.CLC
                 Response.Redirect(string.Concat(Settings.Url, "?m=", library.GetDictionaryItem("NoPermissionToViewPage")));
             }
 
+            // Get the paging variable
+            int? p = null;
+            if (Request.QueryString["p"] != null)
+                p = Convert.ToInt32(Request.QueryString["p"]);
 
-            // First get title and description
-            litHeading.Text = "Kennisgroep " + currentCategory.Name;
-            var fDescription = currentCategory.Description;
-            litDescription.Text = fDescription;
-            // Set the meta description
-            var metaDescription = new HtmlMeta
+            // Set cache variables
+            var useNodeFactory = Request.QueryString["nf"] != null;
+            var maintopics = from t in Factory.ReturnAllTopicsInCategory(CurrentNode.Id, true, useNodeFactory)
+                             where !t.IsSticky
+                             select t;
+
+			if(!ShowAll)
+			{
+				maintopics = maintopics.Take(2);
+				showAll.Visible = true;
+			}
+
+            // Pass to my pager helper
+            var pagedResults = new PaginatedList<ForumTopic>(maintopics, p ?? 0, Convert.ToInt32(Settings.TopicsPerPage));
+
+            // Decide whether to show pager or not
+            if (pagedResults.TotalPages > 1)
             {
-                Name = "description",
-                Content = library.StripHtml(fDescription)
-            };
-            Page.Header.Controls.Add(metaDescription);
+                litPager.Text = pagedResults.ReturnPager();
+            }
+
+            // Now bind
+            rptTopicList.DataSource = pagedResults;
+            rptTopicList.DataBind();
         }
     }
 }

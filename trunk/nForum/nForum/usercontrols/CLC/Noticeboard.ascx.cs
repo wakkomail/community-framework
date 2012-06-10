@@ -27,12 +27,14 @@ namespace nForum.usercontrols.CLC
             currentCategory = Mapper.MapForumCategory(CurrentNode);
 
             // get proper noticeboard folder
-            Node noticeBoard = (Node)Node.GetCurrent().ChildrenAsList.First(n => n.NodeTypeAlias == GlobalConstants.NoticeBoardAlias);
+            Node noticeBoard = (Node)Node.GetCurrent().ChildrenAsList.FirstOrDefault(n => n.NodeTypeAlias == GlobalConstants.NoticeBoardAlias);
            
-            // get list of notice items and bind it to the repeater
-            Node currentNode = Node.GetCurrent();
-            this.rptNoticeBoard.DataSource = noticeBoard.Children;
-            this.rptNoticeBoard.DataBind();
+			if(noticeBoard != null)
+			{
+				// get list of notice items and bind it to the repeater
+				this.rptNoticeBoard.DataSource = noticeBoard.Children;
+				this.rptNoticeBoard.DataBind();
+			}
         }
     }
 }

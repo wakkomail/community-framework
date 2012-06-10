@@ -9,17 +9,18 @@
   <div id="contentContainer" class="grid_12 full">
       <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
       <div id="kennisgroepContainer" class="grid_9 fatBorder">
-        <umbraco:Macro ShowAll="0" Alias="CLC-Membergroup" runat="server" />
+        <umbraco:Macro Alias="CLC-Membergroup" runat="server" />
+        <umbraco:Macro ShowAll="0" Alias="CLC-Discussions" runat="server" />
         <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
         <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>
-      </div>
-      <div id="prikbordContainer" class="grid_9 fatBorder">
-        <umbraco:Macro Alias="CLC-NoticeBoard" runat="server"></umbraco:Macro>
-        <umbraco:Macro Alias="CLC-CreateNotice" runat="server"></umbraco:Macro>
+        <div id="prikbordContainer">
+          <umbraco:Macro Alias="CLC-NoticeBoard" runat="server"></umbraco:Macro>
+          <umbraco:Macro Alias="CLC-CreateNotice" runat="server"></umbraco:Macro>
+        </div>
       </div>
       <div id="crossReferencesContainer" class="grid_3">
         <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
-	<p>TODO: Onderstaande is tijdelijke functionaliteit</p>
+  <p>TODO: Onderstaande is tijdelijke functionaliteit</p>
         <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>
       </div>
   </div>
