@@ -31,7 +31,7 @@ namespace nForum.usercontrols.CLC
             // get proper noticeboard folder
             Node noticeBoard = (Node)Node.GetCurrent().ChildrenAsList.First(n => n.NodeTypeAlias == GlobalConstants.NoticeBoardAlias);
             
-            Document newDocument = Document.MakeNew(name + "|" + dateTime, DocumentType.GetByAlias(GlobalConstants.NoticeTemplateName), User.GetUser(0), noticeBoard.Id);
+            Document newDocument = Document.MakeNew(name + "|" + dateTime, DocumentType.GetByAlias(GlobalConstants.NoticeAlias), User.GetUser(0), noticeBoard.Id);
             newDocument.getProperty("content").Value = ((TextBox)this.lvEditPost.FindControl("txtNotice")).Text;
             newDocument.Publish(User.GetUser(0));
             // clear document cache

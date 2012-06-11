@@ -33,9 +33,13 @@ namespace nForum.global
         public static string MemberTypeAlias { get { return "ForumUser"; } }
 
         // notices
-        public static string NoticeTemplateName { get { return "CLC-Notice"; } }
+        public static string NoticeAlias { get { return "CLC-Notice"; } }
         public static string NoticeBoardFolder { get { return "Noticeboard"; } }
         public static string NoticeBoardAlias { get { return "CLC-Noticeboard"; } }
 
+        // agenda
+        public static string AgendaItemAlias { get { return "CLC-AgendaItem"; } }
+        public static string AgendaBoardFolder { get { return "Agenda"; } }
+        public static string AgendaAlias { get { return "CLC-Agenda"; } }
     }
 }
