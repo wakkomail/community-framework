@@ -249,6 +249,20 @@
     <Compile Include="usercontrols\CLC\ActiveDiscussions.ascx.designer.cs">
       <DependentUpon>ActiveDiscussions.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\Agenda.ascx.cs">
+      <DependentUpon>Agenda.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\Agenda.ascx.designer.cs">
+      <DependentUpon>Agenda.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\CLC\CreateAgendaItem.ascx.cs">
+      <DependentUpon>CreateAgendaItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\CreateAgendaItem.ascx.designer.cs">
+      <DependentUpon>CreateAgendaItem.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\Discussions.ascx.cs">
       <DependentUpon>Discussions.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -642,6 +656,8 @@
     <Content Include="scripts\nforumgeneral.js" />
     <Content Include="scripts\nforumie6.js" />
     <Content Include="usercontrols\CLC\ActiveDiscussions.ascx" />
+    <Content Include="usercontrols\CLC\Agenda.ascx" />
+    <Content Include="usercontrols\CLC\CreateAgendaItem.ascx" />
     <Content Include="usercontrols\CLC\Discussions.ascx" />
     <Content Include="usercontrols\CLC\CreateNotice.ascx" />
     <Content Include="usercontrols\CLC\Membergroup.ascx" />

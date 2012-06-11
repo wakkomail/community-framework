@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderId="cp_head" runat="server">
+  <script src="/scripts/nforumhoverintent.js" type="text/javascript"></script>
+    <script src="/scripts/nforumajaxpostsnippet.js" type="text/javascript"></script>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
+  <div id="columns" class="clearfix">
+    <div class="colbig">
+      <umbraco:Macro Alias="CLC-CreateAgendaItem" runat="server"></umbraco:Macro>      
+      <umbraco:Macro Alias="CLC-Agenda" runat="server"></umbraco:Macro>      
+    </div>
+  </div>  
+</asp:Content>
