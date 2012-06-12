@@ -108,6 +108,11 @@ namespace nForum.usercontrols.CLC
                 // create media folder
                 Media.MakeNew(this.txtProjectName.Text, MediaType.GetByAlias("folder"), User.GetUser(0), mediaCategory.Id);
 
+                // create agenda
+                Document agenda = Document.MakeNew(GlobalConstants.AgendaFolder, DocumentType.GetByAlias(GlobalConstants.AgendaAlias), User.GetUser(0), newProject.Id);
+                agenda.Template = Template.GetByAlias(GlobalConstants.AgendaAlias).Id;
+                agenda.Publish(User.GetUser(0));
+
                 SetOption(enuOption.None);
                 lblResultInfo.Text = "Project '" + this.txtProjectName.Text + "' aangemaakt!";
             }
