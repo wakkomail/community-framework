@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Noticeboard.ascx.cs" Inherits="nForum.usercontrols.CLC.Noticeboard" %>
-<%@ Import Namespace="umbraco.cms.businesslogic.web" %>
 <%@ Import Namespace="umbraco.NodeFactory" %>
 <%@ Import Namespace="nForum.BusinessLogic" %>
 

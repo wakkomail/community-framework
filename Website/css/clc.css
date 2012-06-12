@@ -477,7 +477,7 @@ a
 {
   margin-top: 15px;
 }
-#agendadate
+.agendaDate
 {
   float: left;
   width: 32px;
@@ -485,6 +485,8 @@ a
   background-image: url('clc/background_agenda_date.png');
   background-position: top left;
   color: #FFFFFF;
+  font-size: 11px;
+  text-align: center;
 }
 
 

@@ -15,25 +15,33 @@ using nForum.BusinessLogic.Models;
 namespace nForum.usercontrols.CLC
 {
     public partial class CreateAgendaItem : BaseForumUsercontrol
-    {
-        ForumCategory currentCategory = new ForumCategory();
-
+    {        
         protected void Page_Load(object sender, EventArgs e)
         {
-            currentCategory = Mapper.MapForumCategory(CurrentNode);
         }
 
         protected void createAgendaItem_Click(object sender, EventArgs e)
         {
-            // get proper noticeboard folder
-            Node agenda = (Node)Node.GetCurrent().ChildrenAsList.First(n => n.NodeTypeAlias == GlobalConstants.AgendaAlias);
+            // get proper agenda folder
+            Node agenda = (Node)Node.GetCurrent();
             DateTime itemDate = ((Calendar)this.lvEditItem.FindControl("cldDate")).SelectedDate;
+            int parentId = -1;
 
-            // todo, first find if current year folder is present, if not, create it. Make this the parent node
-
+            // first find if current year folder is present, if not, create it. Make this the parent node
+            Node yearFolder = (Node)agenda.ChildrenAsList.FirstOrDefault(n => n.NodeTypeAlias == GlobalConstants.DateFolderAlias &&
+                                                        n.Name == System.DateTime.Now.Year.ToString());
+            if (yearFolder == null)
+            {
+                Document newYear = Document.MakeNew(DateTime.Now.Year.ToString(), DocumentType.GetByAlias(GlobalConstants.DateFolderAlias), User.GetUser(0), agenda.Id);
+                parentId = newYear.Id;
+            }
+            else
+            {
+                parentId = yearFolder.Id;
+            }
 
             // set date
-            Document newDocument = Document.MakeNew(itemDate.ToString("MM-dd-yy H:mm:ss"), DocumentType.GetByAlias(GlobalConstants.AgendaItemAlias), User.GetUser(0), agenda.Id);
+            Document newDocument = Document.MakeNew(itemDate.ToString("MM-dd-yy H:mm:ss"), DocumentType.GetByAlias(GlobalConstants.AgendaItemAlias), User.GetUser(0), parentId);
             newDocument.getProperty("title").Value = ((TextBox)this.lvEditItem.FindControl("txtTitle")).Text;
             newDocument.getProperty("description").Value = ((TextBox)this.lvEditItem.FindControl("txtDescription")).Text;
             newDocument.getProperty("date").Value = itemDate;
