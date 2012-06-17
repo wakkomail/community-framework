@@ -72,26 +72,8 @@
           Projecten</h3>
         <div class="topicSummary anchorItem thinBorder clearfix">
           <span class="topicHeader c1">Creative Learning Community</span> <span class="topicText c2">
-            Het ontwikkelen van een keigaaf creatief leerdinges.</span> <span class="memberCount c2">
-              Aantal projectleden: 4</span> <span class="nextEvent c2">Volgende event: 22-06-2012</span>
-          <a class="c1" href="#">Bekijk project</a>
-        </div>
-        <div class="topicSummary anchorItem thinBorder clearfix">
-          <span class="topicHeader c1">Flessen als een tsaar</span> <span class="topicText c2">
-            Het bedrijven van de hoogstmogelijke liefde in het altijd zonnige Volgograd.</span>
-          <span class="memberCount c2">Aantal projectleden: 2</span> <span class="nextEvent c2">
-            Volgende event: 29-05-2012</span> <a class="c1" href="#">Bekijk project</a>
-        </div>
-        <div class="topicSummary anchorItem thinBorder clearfix">
-          <span class="topicHeader c1">Pinda's</span> <span class="topicText c2">Eigenlijk wordt
-            het best wel peanuts wat we aan het doen zijn.</span> <span class="memberCount c2">Aantal
-              projectleden: 25</span> <span class="nextEvent c2">Volgende event: 12-07-2012</span>
-          <a class="c1" href="#">Bekijk project</a>
-        </div>
-        <div class="topicSummary anchorItem thinBorder clearfix">
-          <span class="topicHeader c1">Flutgrappen</span> <span class="topicText c2">Het maken
-            van slechte grappen waar niemand om kan lachen.</span> <span class="memberCount c2">
-              Aantal projectleden: 1</span> <span class="nextEvent c2">Volgende event: 01-04-2012</span>
+            Het ontwikkelen van een Creative Learning Community.</span> <span class="memberCount c2">
+              Aantal projectleden: 2</span> <span class="nextEvent c2">Volgende event: 22-06-2012</span>
           <a class="c1" href="#">Bekijk project</a>
         </div>
       </div>
@@ -103,55 +85,35 @@
           <ul>
             <li class="relevantTopic"><a class="c2" href="#">27-05-2012
               <br />
-              Relevante topic 1 </a></li>
+              Relevante discussie 1 </a></li>
             <li class="relevantTopic"><a class="c2" href="#">20-05-2012
               <br />
-              Relevante topic 2 </a></li>
+              Relevante discussie 2 </a></li>
             <li class="relevantTopic"><a class="c2" href="#">17-05-2012
               <br />
-              Relevante topic 3 </a></li>
+              Relevante discussie 3 </a></li>
           </ul>
         </div>
         <div id="relevanteKennisgroepenContainer" class="fatBorder">
           <h3 class="kaffeeSatz c2">
             Relevante kennisgroepen</h3>
           <ul>
-            <li><a class="c2" href="#">Geschiedenis</a> </li>
-            <li><a class="c2" href="#">Turkije</a> </li>
-            <li><a class="c2" href="#">Knäckebröd</a> </li>
-            <li><a class="c2" href="#">Karpers</a> </li>
-            <li><a class="c2" href="#">Elvis Presley</a> </li>
+            <li><a class="c2" href="#">Relevante kennisgroep 1</a> </li>
+            <li><a class="c2" href="#">Relevante kennisgroep 2</a> </li>
+            <li><a class="c2" href="#">Relevante kennisgroep 3</a> </li>
+            <li><a class="c2" href="#">Relevante kennisgroep 4</a> </li>
+            <li><a class="c2" href="#">Relevante kennisgroep 5</a> </li>
           </ul>
         </div>
         <div id="relevanteProjectenContainer" class="fatBorder">
           <h3 class="kaffeeSatz c2">
             Relevante projecten</h3>
           <ul>
-            <li><a class="c2" href="#">Creative Learning Community</a> </li>
-            <li><a class="c2" href="#">Programmeren voor dummy's</a> </li>
-            <li><a class="c2" href="#">Pinda's</a> </li>
+            <li><a class="c2" href="#">Relevant project 1</a> </li>
+            <li><a class="c2" href="#">Relevant project 2</a> </li>
+            <li><a class="c2" href="#">Relevant project 3</a> </li>
           </ul>
         </div>
       </div>
     </div>  
-    <!--<div id="columns" class="clearfix">
-        <div class="col">
-            <h3>Actieve discussies</h3>
-            <umbraco:Macro Alias="nForumActiveTopics" AmountToTake="10" runat="server"></umbraco:Macro>
-        </div>
-        <div class="col">
-            <h3>Kennisgroepen</h3>
-            <umbraco:Macro Alias="nForumMainForumList" AmountToTake="10" runat="server"></umbraco:Macro>
-        </div>
-        <div class="col">
-            <h3>Lopende projecten</h3>
-            Hier komen projecten
-        </div>
-         <div class="col">
-            <ul id="socialLinks">
-                <li class="twitter"><a id="twitterLink" href="http://twitter.com/tgeyssens" target="_blank">follow me on twitter</a></li>
-                <li class="facebook"><a id="facebookLink" href="http://somelink.com" target="_blank">be our friend on facebook</a></li>
-            </ul>
-        </div>
-    </div>-->
 </asp:content>
