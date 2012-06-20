@@ -31,6 +31,7 @@ namespace nForum.helpers
 
         /// <summary>
         /// check membergroup categoryfolder allready exists in contenttree, create it if it does not extists
+		/// People who type allready when they mean already and extists when they mean exists are very enoying indeed.
         /// </summary>
         /// <returns></returns>
         public static Document GetOrCreateMembergroupCategory()
