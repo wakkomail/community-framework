@@ -110,7 +110,7 @@ namespace nForum.usercontrols.CLC
 
                 // create agenda
                 Document agenda = Document.MakeNew(GlobalConstants.AgendaFolder, DocumentType.GetByAlias(GlobalConstants.AgendaAlias), User.GetUser(0), newProject.Id);
-                agenda.Template = Template.GetByAlias(GlobalConstants.AgendaAlias).Id;
+                agenda.Template = Template.GetByAlias(GlobalConstants.AgendaTemplateAlias).Id;
                 agenda.Publish(User.GetUser(0));
 
                 SetOption(enuOption.None);
