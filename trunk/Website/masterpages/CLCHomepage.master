@@ -6,7 +6,7 @@
           <div class="brandboxItem grid_12 full">
             <div class="brandboxItemTitle grid_6">
               <h2 class="kaffeeSatz c2">
-                FlowWithTheGo ontwikkelt evolutionair community platform...
+                Team developers ontwikkelt evolutionair community platform...
               </h2>
             </div>
             <div class="brandboxItemText grid_6">
@@ -76,6 +76,24 @@
               Aantal projectleden: 2</span> <span class="nextEvent c2">Volgende event: 22-06-2012</span>
           <a class="c1" href="#">Bekijk project</a>
         </div>
+        <div class="topicSummary anchorItem thinBorder clearfix">
+          <span class="topicHeader c1">Nieuwe locatie Harderwijk</span> <span class="topicText c2">
+            In Harderwijk is de schop in de grond voor de nieuwe locatie</span> <span class="memberCount c2">
+              Aantal projectleden: 12</span> <span class="nextEvent c2">Volgende event: 12-06-2012</span>
+          <a class="c1" href="#">Bekijk project</a>
+        </div>
+        <div class="topicSummary anchorItem thinBorder clearfix">
+          <span class="topicHeader c1">Maatschappelijk bewustzijn creëren bij jongeren</span> <span class="topicText c2">
+            De onderwijsprojecten van Codename Future dagen jongeren uit om op interactieve manier bezig te zijn met maatschappelijke thema's en hun ideeën uit te dragen!</span> <span class="memberCount c2">
+              Aantal projectleden: 5</span> <span class="nextEvent c2">Volgende event: 23-06-2012</span>
+          <a class="c1" href="#">Bekijk project</a>
+        </div>
+        <div class="topicSummary anchorItem thinBorder clearfix">
+          <span class="topicHeader c1">Young ICT</span> <span class="topicText c2">
+            Een onderscheidend didactisch concept waarbij zelfstandige keuzes, samenwerking, construeren en werken met ICT centraal staat, gericht op heldere kerndoelen en eindtermen.</span> <span class="memberCount c2">
+              Aantal projectleden: 9</span> <span class="nextEvent c2">Volgende event: 13-07-2012</span>
+          <a class="c1" href="#">Bekijk project</a>
+        </div>        
       </div>
       <div id="crossReferencesContainer" class="grid_3">
         <umbraco:Macro ShowNewest="1" Alias="CLC-MembersList" runat="server"></umbraco:Macro>

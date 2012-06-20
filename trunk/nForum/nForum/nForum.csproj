@@ -86,6 +86,7 @@
     <Compile Include="global\GlobalConstants.cs" />
     <Compile Include="helpers\DocumentHelper.cs" />
     <Compile Include="helpers\FolderHelper.cs" />
+    <Compile Include="helpers\HtmlHelper.cs" />
     <Compile Include="helpers\MediaHelper.cs" />
     <Compile Include="masterpages\ActiveTopics.master.cs">
       <DependentUpon>ActiveTopics.master</DependentUpon>

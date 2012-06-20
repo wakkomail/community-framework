@@ -152,7 +152,7 @@ namespace nForum.usercontrols.CLC
         }
 
         protected void publishAll_Click(object sender, EventArgs e)
-        {
+        {            
             // publish root and children
             DocumentHelper.GetRootDocument().PublishWithChildrenWithResult(User.GetUser(0));
             // publish membergroups

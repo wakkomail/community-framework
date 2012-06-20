@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+
 namespace nForum.global
 {
     public static class GlobalConstants
@@ -43,5 +44,8 @@ namespace nForum.global
         public static string AgendaFolder { get { return "Agenda"; } }
         public static string AgendaAlias { get { return "CLC-Agenda"; } }
         public static string AgendaTemplateAlias { get { return "CLCAgenda"; } }
+
+        // nforum
+        public static int SummaryMaxLength = 150;
     }
 }

@@ -1,5 +1,7 @@
 ﻿using nForum.BusinessLogic;
 using nForum.BusinessLogic.Models;
+using nForum.global;
+using nForum.helpers;
 
 namespace nForum.usercontrols.CLC.templates
 {
@@ -15,7 +17,15 @@ namespace nForum.usercontrols.CLC.templates
 
 		public string GetFirstPost(ForumTopic topic)
 		{
-			return topic.GetFirstPost().Content;
+            string result = topic.GetFirstPost().Content.StripHTML();
+
+            if (result.Length > GlobalConstants.SummaryMaxLength)
+            {
+                result = result.Substring(0, GlobalConstants.SummaryMaxLength) + "...";
+            }
+
+
+            return result; 
 		}
     }
 }
