@@ -30,23 +30,26 @@ namespace nForum.usercontrols.CLC
             {
                 var yearFolders = GetYearFolders(Node.GetCurrent());
 
-                List<Node> agendaItems = new List<Node>();
-
-                foreach (Node yearFolder in yearFolders)
+                if (yearFolders != null)
                 {
-                    foreach (Node agendaItem in yearFolder.ChildrenAsList)
+                    List<Node> agendaItems = new List<Node>();
+
+                    foreach (Node yearFolder in yearFolders)
                     {
-                        agendaItems.Add(agendaItem);
-                    }                    
-                }
+                        foreach (Node agendaItem in yearFolder.ChildrenAsList)
+                        {
+                            agendaItems.Add(agendaItem);
+                        }
+                    }
 
-                if (ShowAll == false)
-                {
-                    agendaItems = agendaItems.Take(3).ToList();
-                }
+                    if (ShowAll == false)
+                    {
+                        agendaItems = agendaItems.Take(3).ToList();
+                    }
 
-                this.rptAgenda.DataSource = agendaItems;
-                this.rptAgenda.DataBind();
+                    this.rptAgenda.DataSource = agendaItems;
+                    this.rptAgenda.DataBind();
+                }
             }
 
         }

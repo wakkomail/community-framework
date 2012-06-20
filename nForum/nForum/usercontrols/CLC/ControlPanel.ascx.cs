@@ -112,6 +112,7 @@ namespace nForum.usercontrols.CLC
                 Document agenda = Document.MakeNew(GlobalConstants.AgendaFolder, DocumentType.GetByAlias(GlobalConstants.AgendaAlias), User.GetUser(0), newProject.Id);
                 agenda.Template = Template.GetByAlias(GlobalConstants.AgendaTemplateAlias).Id;
                 agenda.Publish(User.GetUser(0));
+                umbraco.library.UpdateDocumentCache(agenda.Id);
 
                 SetOption(enuOption.None);
                 lblResultInfo.Text = "Project '" + this.txtProjectName.Text + "' aangemaakt!";
