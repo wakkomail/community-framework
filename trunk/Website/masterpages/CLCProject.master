@@ -13,7 +13,8 @@
             <umbraco:Macro ShowAll="0" Alias="CLC-Agenda" runat="server" />
             <umbraco:Macro ShowAll="0" Alias="CLC-Discussions" runat="server" />
             <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
-            <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>            
+            <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro> 
+            <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>          
         </div>
   </div>
 </asp:Content>

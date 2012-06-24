@@ -11,6 +11,64 @@ using umbraco.interfaces;
 
 namespace nForum.usercontrols.CLC
 {
+	public static class AgendaHelper
+	{
+		public static List<Node> GetAgendaItems(int nodeId)
+		{
+			Node node = new Node(nodeId);
+			List<Node> agendaItems = new List<Node>();
+
+			if (node != null && node.Children.Count > 0)
+			{
+				var yearFolders = GetYearFolders(node);
+
+				if (yearFolders != null)
+				{
+					foreach (Node yearFolder in yearFolders)
+					{
+						foreach (Node agendaItem in yearFolder.ChildrenAsList)
+						{
+							agendaItems.Add(agendaItem);
+						}
+					}
+				}
+			}
+
+			return agendaItems;
+		}
+
+		private static IEnumerable<INode> GetYearFolders(Node node)
+		{
+			if (node.ChildrenAsList.Count == 0)
+			{
+				return null;
+			}
+			else if (!IsNodeAgenda(node))
+			{
+				// no agenda folder, go level deeper
+				foreach (Node childNode in node.ChildrenAsList)
+				{
+					if (IsNodeAgenda(childNode))
+					{
+						// agenda found
+						return childNode.ChildrenAsList.Where(n => n.NodeTypeAlias == GlobalConstants.DateFolderAlias);
+					}
+				}
+				return null;
+			}
+			else
+			{
+				// agenda found
+				return node.ChildrenAsList.Where(n => n.NodeTypeAlias == GlobalConstants.DateFolderAlias);
+			}
+		}
+
+		private static bool IsNodeAgenda(Node node)
+		{
+			return (node.ChildrenAsList.FirstOrDefault(n => n.NodeTypeAlias == GlobalConstants.DateFolderAlias) != null);
+		}
+	}
+
     public partial class Agenda : System.Web.UI.UserControl
     {
         #region Properties
@@ -26,65 +84,14 @@ namespace nForum.usercontrols.CLC
 
             // get all agenda items of current node
 
-            if (Node.GetCurrent().Children.Count > 0)
-            {
-                var yearFolders = GetYearFolders(Node.GetCurrent());
+			List<Node> agendaItems = AgendaHelper.GetAgendaItems(Node.GetCurrent().Id);
+			if (ShowAll == false)
+			{
+				agendaItems = agendaItems.Take(3).ToList();
+			}
 
-                if (yearFolders != null)
-                {
-                    List<Node> agendaItems = new List<Node>();
-
-                    foreach (Node yearFolder in yearFolders)
-                    {
-                        foreach (Node agendaItem in yearFolder.ChildrenAsList)
-                        {
-                            agendaItems.Add(agendaItem);
-                        }
-                    }
-
-                    if (ShowAll == false)
-                    {
-                        agendaItems = agendaItems.Take(3).ToList();
-                    }
-
-                    this.rptAgenda.DataSource = agendaItems;
-                    this.rptAgenda.DataBind();
-                }
-            }
-
+			this.rptAgenda.DataSource = agendaItems;
+			this.rptAgenda.DataBind();
         }
-
-        private IEnumerable<INode> GetYearFolders(Node node)
-        {
-            if (node.ChildrenAsList.Count == 0)
-            {
-                return null;
-            }
-            else if (!IsNodeAgenda(node))
-            {
-                // no agenda folder, go level deeper
-                foreach (Node childNode in node.ChildrenAsList)
-                {
-                    if (IsNodeAgenda(childNode))
-                    {
-                        // agenda found
-                        return childNode.ChildrenAsList.Where(n => n.NodeTypeAlias == GlobalConstants.DateFolderAlias);
-                    }
-                }
-                return null;
-            }
-            else
-            {
-                // agenda found
-                return node.ChildrenAsList.Where(n => n.NodeTypeAlias == GlobalConstants.DateFolderAlias);
-            }            
-        }
-
-        private bool IsNodeAgenda(Node node)
-        {
-            return (node.ChildrenAsList.FirstOrDefault(n => n.NodeTypeAlias == GlobalConstants.DateFolderAlias) != null);
-        }
-
-
     }
 }
