@@ -71,9 +71,11 @@ a
 {
   float: left;
   padding-right: 80px;
+  padding-top: 8px;
+  height: 84px;
   
   background-image: url('clc/logo_clc.png');
-  background-position: right center;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 
@@ -90,6 +92,8 @@ a
 #header .headerSubTitle
 {
   font-size: 25px;
+  letter-spacing: -0.5px;
+  margin-top: -8px;
 }
 
 #searchContainer
@@ -488,6 +492,8 @@ a
   font-size: 11px;
   text-align: center;
 }
+
+
 
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

@@ -55,7 +55,7 @@ namespace nForum.usercontrols.CLC
             {
                 var url = library.NiceUrl(CurrentNode.Id);
                 hlCreateTopic.Visible = true;
-                hlCreateTopic.NavigateUrl = Helpers.AlternateTemplateUrlFix("/createtopic", url);
+                hlCreateTopic.NavigateUrl = Helpers.AlternateTemplateUrlFix("/creatediscussion", url);
             }
         }
 
