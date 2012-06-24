@@ -343,18 +343,26 @@ a
   margin-bottom: 20px;
 }
 
-#inlogFormContainer input[type='text'], #inlogFormContainer input[type='password']
+input[type='text'], input[type='password']
 {
   color: #ffffff;
-  width: 250px;
-  height: 32px;
-  margin-bottom: 15px;
   padding-left: 5px;
   padding-right: 5px;
   line-height: 32px;
   
   border: 0px none;
-  background-color: #000000;
+  background-color: #242424;
+}
+
+input[type='text'], input[type='password']
+{
+  height: 32px;
+}
+
+#inlogFormContainer input[type='text'], #inlogFormContainer input[type='password']
+{
+  width: 250px;
+  margin-bottom: 15px;
 }
 
 #inlogFormContainer input[type='submit']
@@ -492,6 +500,30 @@ a
   font-size: 11px;
   text-align: center;
 }
+
+.newDiscussionSummary
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.discussionSubject
+{
+  margin-top: 15px;
+  width: 550px;
+}
+
+#emoticonholder
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body.mceContentBody
+{
+  background-color: #242424;
+}
+
 
 
 

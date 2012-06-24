@@ -20,7 +20,7 @@ body {
   font-size: 76%; font-family:Arial, Helvetica, sans-serif; color:#000;
 }
 
-body.mceContentBody { margin:15px 10px;}
+body.mceContentBody { margin:15px 10px; background-color: #242424;}
 
 /* ---- Lees Clearer ---- */
 .clearer {clear:both; line-height:1px; height:1px; font-size:1px;}
