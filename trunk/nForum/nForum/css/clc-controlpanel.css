@@ -50,9 +50,21 @@ fieldset legend
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
+    color: #000000;
+    background-image: url('clc/topicsummary_hover_bg.png');
+    background-repeat: repeat;
+    width: 100%;    
+    float: left;
+    border: 1px solid #5972FF;
+    
+}
+.normalmembergroup
+{
+    color: #404040;
 }
 .setmembercontainer
 {
+    padding: 15px;
     width: 100%;
     float: left;
 }
