@@ -12,6 +12,8 @@ using umbraco.NodeFactory;
 using umbraco.cms.businesslogic.member;
 using umbraco.interfaces;
 using umbraco.BusinessLogic;
+using nForum.global;
+using umbraco.cms.businesslogic.web;
 
 namespace nForum.usercontrols.CLC
 {
@@ -20,6 +22,9 @@ namespace nForum.usercontrols.CLC
 
         private int SelectedNodeID { get; set; }
         private string MembergroupSearchText { get; set; }
+        private string ProjectSearchText { get; set; }
+
+        private const int SEARCHITEMSCOUNT = 20;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -29,14 +34,34 @@ namespace nForum.usercontrols.CLC
         private void Initialize()
         {
             this.selectMembers.Visible = false;
-            if (Request.QueryString["memid"] != null)
+            this.selectMembergroup.Visible = false;
+            this.selectProject.Visible = false;
+
+            if (Request.QueryString["documenttype"] != null)
             {
-                this.SelectedNodeID = Convert.ToInt32(Request.QueryString["memid"]);
+                switch (Request.QueryString["documenttype"].ToString())
+                {
+                    case GlobalConstants.MembergroupAlias:
+                        {
+                            this.selectMembergroup.Visible = true;
+                            SetMembergroupList();
+                        }break;
+                    case GlobalConstants.ProjectAlias:
+                        {
+                            this.selectProject.Visible = true;
+                            SetProjectList();
+                        }break;
+                }
+            }
+
+            if (Request.QueryString["memid"] != null || Request.QueryString["projid"] != null)
+            {
+                this.SelectedNodeID = (Request.QueryString["memid"] != null) ? Convert.ToInt32(Request.QueryString["memid"]) : Convert.ToInt32(Request.QueryString["projid"]);
                 this.selectMembers.Visible = true;
             }
 
-            SetMembergroupList();
             SetMemberList();
+            this.DataBind();
         }
 
         public bool IsMembergroupSelected(int memberGroupID)
@@ -54,10 +79,25 @@ namespace nForum.usercontrols.CLC
             return result;
         }
 
+        public bool IsProjectSelected(int projectID)
+        {
+            bool result = false;
+
+            if (Request.QueryString["projid"] != null)
+            {
+                if (Convert.ToInt32(Request.QueryString["projid"]) == projectID)
+                {
+                    result = true;
+                }
+            }
+
+            return result;
+        }
+
         private void SetMemberList()
         {
             IEnumerable<Member> members;
-            if (Request.QueryString["memid"] != null) 
+            if (this.SelectedNodeID > 0) 
             {
                 if (Request.QueryString["memsearch"] != null)
                 {
@@ -66,12 +106,42 @@ namespace nForum.usercontrols.CLC
                 }
                 else
                 {
-                    members = Member.GetAllAsList().OrderByDescending(m => m.CreateDateTime).Take(20);
+                    members = Member.GetAllAsList().OrderByDescending(m => m.CreateDateTime).Take(SEARCHITEMSCOUNT);
                     lastMembers.Visible = true;
                 }
 
                 this.rprMembers.DataSource = members;
                 this.rprMembers.DataBind();
+            }
+        }
+
+        private void SetProjectList()
+        {
+            IEnumerable<Document> projects = null;
+
+            if (Request.QueryString["projsearch"] != null || !string.IsNullOrEmpty(this.txtSearchProject.Text))
+            {
+                if (!string.IsNullOrEmpty(this.txtSearchProject.Text))
+                {
+                    this.ProjectSearchText = this.txtSearchMembergroup.Text;
+                }
+                else
+                {
+                    this.ProjectSearchText = Request.QueryString["projsearch"];
+                    this.txtSearchProject.Text = this.ProjectSearchText;
+                }
+
+                projects = DocumentHelper.GetOrCreateProjectgroupCategory().Children.Where(p => p.Text.Contains(this.ProjectSearchText));
+            }
+            else
+            {
+                projects = DocumentHelper.GetOrCreateProjectgroupCategory().Children.Take(SEARCHITEMSCOUNT);                
+            }
+
+            if (projects.Any())
+            {
+                rprProjects.DataSource = projects;
+                rprProjects.DataBind();
             }
         }
 
@@ -102,7 +172,7 @@ namespace nForum.usercontrols.CLC
                 memberGroups = from m in Factory.ReturnAllCategories(useNodeFactory)
                                where m.IsMainCategory orderby m.CreatedOn descending
                                select m;
-                memberGroups = memberGroups.Take(20);
+                memberGroups = memberGroups.Take(SEARCHITEMSCOUNT);
                 this.lastGroups.Visible = true;
             }
 
@@ -135,7 +205,17 @@ namespace nForum.usercontrols.CLC
 
         protected void search_Click(object sender, EventArgs e)
         {
-            Response.Redirect("membergroupmanagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&memid=" + this.SelectedNodeID);
+            Response.Redirect("membergroupmanagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&memid=" + this.SelectedNodeID + "&documenttype=" + GlobalConstants.MembergroupAlias);
+        }
+
+        protected void searchProjects_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("membergroupmanagement.aspx?projsearch=" + this.txtSearchMembergroup.Text + "&documenttype=" + GlobalConstants.ProjectAlias);
+        }
+
+        protected void searchMembergroups_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("membergroupmanagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&documenttype=" + GlobalConstants.MembergroupAlias);
         }
 
         protected void save_Click(object sender, EventArgs e)
@@ -176,10 +256,6 @@ namespace nForum.usercontrols.CLC
 
         }
 
-        protected void searchMembergroups_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("membergroupmanagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text);
-        }
 
     }
 }

@@ -1,11 +1,35 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MembergroupManager.ascx.cs" Inherits="nForum.usercontrols.CLC.MembergroupManager" %>
 <%@ Import Namespace="umbraco.cms.businesslogic.member" %>
+<%@ Import Namespace="nForum.global" %>
 <%@ Import Namespace="nForum.BusinessLogic" %>
 <%@ Import Namespace="nForum.BusinessLogic.Models" %>
+<%@ Import Namespace="umbraco.NodeFactory" %>
+<%@ Import Namespace="umbraco.cms.businesslogic.web" %>
 
 <div class="setmembercontainer">
+    <div id="selectProject" class="halfpage" runat="server" visible="false">
+        <h3 id="h2" class="kaffeeSatz c2" runat="server">Stap 1: project selecteren</h3>
+        <asp:TextBox ID="txtSearchProject" runat="server" Width="300"></asp:TextBox>        
+        <asp:Button ID="searchProjects" runat="server" CssClass="button" 
+            Text="Projecten zoeken" onclick="searchProjects_Click" />
+        <div id="Div2">
+        <h3 id="H3" class="kaffeeSatz c2" runat="server" Visible="false">20 nieuwste projecten</h3>
+        <ul>        
+            <asp:Repeater ID="rprProjects" runat="server" >                
+ 			    <ItemTemplate>
+                <li>
+                     <a href='<%# "membergroupmanagement.aspx?projid=" + ((Document)Container.DataItem).Id + "&projsearch=" + txtSearchProject.Text + "&documenttype=" + GlobalConstants.ProjectAlias  %>'
+                     class='<%# (IsProjectSelected(((Document)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
+                     <%# ((Document)Container.DataItem).Text %>
+                     </a>                     
+                </li>
+			    </ItemTemplate>               
+            </asp:Repeater>
+        </ul>
+        </div>
+    </div>
     <div id="selectMembergroup" class="halfpage" runat="server">
-        <h3 id="h1" class="kaffeeSatz c2" runat="server">Stap 1: Kennisgroep leden koppelen</h3>
+        <h3 id="h1" class="kaffeeSatz c2" runat="server">Stap 1: Kennisgroep selecteren</h3>
         <asp:TextBox ID="txtSearchMembergroup" runat="server" Width="300"></asp:TextBox>        
         <asp:Button ID="searchMembergroups" runat="server" CssClass="button" Text="Groepen zoeken" 
             onclick="searchMembergroups_Click" />
@@ -15,8 +39,8 @@
             <asp:Repeater ID="rprGroups" runat="server" >                
  			    <ItemTemplate>
                 <li>
-                     <a href='<%# "membergroupmanagement.aspx?memid=" + ((ForumCategory)Container.DataItem).Id + "&memgsearch=" + txtSearchMembergroup.Text  %>'
-                     class='<%# (IsMembergroupSelected(((ForumCategory)Container.DataItem).Id)) ? "selectedmembergroup" : "normalmembergroup"   %>'>
+                     <a href='<%# "membergroupmanagement.aspx?memid=" + ((ForumCategory)Container.DataItem).Id + "&memgsearch=" + txtSearchMembergroup.Text  + "&documenttype=" + GlobalConstants.MembergroupAlias  %>'
+                     class='<%# (IsMembergroupSelected(((ForumCategory)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
                      <%# ((ForumCategory)Container.DataItem).Name %>
                      </a>                     
                 </li>
@@ -54,4 +78,5 @@
 <asp:Button ID="save" runat="server" Text="Opslaan" CssClass="button" onclick="save_Click" />
 
  <a href="/Control-panel.aspx" class="button">Terug naar het beheerscherm</a> 
- <a href="membergroupmanagement.aspx" class="button">Velden leegmaken</a>
+ <a href='<%# "membergroupmanagement.aspx?documenttype=" + Request.QueryString["documenttype"].ToString() %>' class="button">Velden leegmaken</a>
+
