@@ -24,7 +24,7 @@ namespace nForum.usercontrols.CLC
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.DataBind();
         }
 
         protected void createMembergroup_Click(object sender, EventArgs e)

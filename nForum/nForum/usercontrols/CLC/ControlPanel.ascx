@@ -1,5 +1,5 @@
-﻿
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ControlPanel.ascx.cs" Inherits="nForum.usercontrols.CLC.ControlPanel" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ControlPanel.ascx.cs" Inherits="nForum.usercontrols.CLC.ControlPanel" %>
+<%@ Import Namespace="nForum.global" %>
 
 <div id="options">
     <asp:Button ID="createMembergroup" ClientIDMode="Static" runat="server" CssClass="button"
@@ -8,6 +8,9 @@
         onclick="createProject_Click" />    
     <asp:Button ID="createMember" runat="server" Text="Lid aanmaken" 
         CssClass="button" onclick="createMember_Click" />
+    <a href='<%# "/control-panel/membergroupmanagement.aspx?documenttype=" + GlobalConstants.MembergroupAlias %>'  class="button">Kennisgroep leden koppelen</a> 
+    <a href='<%# "/control-panel/membergroupmanagement.aspx?documenttype=" + GlobalConstants.ProjectAlias %>'  class="button">Project leden koppelen</a> 
+
     <asp:Button ID="publishAll" runat="server" Text="Alles publiseren" 
         CssClass="button" onclick="publishAll_Click" />
     

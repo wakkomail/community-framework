@@ -6,46 +6,46 @@ using System.Web;
 
 namespace nForum.global
 {
-    public static class GlobalConstants
+    public  class GlobalConstants
     {
-        public static string SiteRootName { get { return "Creative Learning Community"; } }
-        public static string SiteRootTemplate { get { return "CLC Homepage"; } }
-        public static string DiscussionAlias { get { return "CLC-Discussion"; } }
-        public static string FolderAlias { get { return "CLC-Folder"; } }
+        public const string SiteRootName = "Creative Learning Community"; 
+        public const string SiteRootTemplate = "CLC Homepage"; 
+        public const string DiscussionAlias = "CLC-Discussion"; 
+        public const string FolderAlias = "CLC-Folder"; 
 
         // membergroup
-        public static string MembergroupAlias { get { return "CLC-Membergroup"; } }
-        public static string MembergroupFolderName { get { return "Membergroups"; } }
-        public static string MembergroupTemplateName { get { return "CLCMembergroup"; } }
+        public const string MembergroupAlias = "CLC-Membergroup";
+        public const string MembergroupFolderName = "Membergroups"; 
+        public const string MembergroupTemplateName = "CLCMembergroup"; 
 
         // project
-        public static string ProjectFolderName { get { return "Projects"; } }
-        public static string ProjectAlias { get { return "CLC-Project"; } }
-        public static string ProjectTemplateName { get { return "CLCProject"; } }
+        public const string ProjectFolderName = "Projects"; 
+        public const string ProjectAlias = "CLC-Project"; 
+        public const string ProjectTemplateName = "CLCProject"; 
 
         // default membergroup / project settings
-        public static string PermissionKarmaAmount { get { return "forumCategoryPermissionKarmaAmount"; } }
-        public static int PermissionKarmaAmountDefaultValue { get { return 0; } }
-        public static string PermissionPostKarmaAmount { get { return "forumCategoryPostPermissionKarmaAmount"; } }
-        public static int PermissionPostKarmaAmountDefaultValue { get { return 0; } }
-        public static string IsMainCategory { get { return "forumCategoryIsMainCategory"; } }
-        public static string DateFolderAlias { get { return "ForumDateFolder"; } }
+        public const string PermissionKarmaAmount = "forumCategoryPermissionKarmaAmount"; 
+        public const int PermissionKarmaAmountDefaultValue = 0; 
+        public const string PermissionPostKarmaAmount = "forumCategoryPostPermissionKarmaAmount"; 
+        public const int PermissionPostKarmaAmountDefaultValue = 0; 
+        public const string IsMainCategory = "forumCategoryIsMainCategory"; 
+        public const string DateFolderAlias = "ForumDateFolder"; 
      
         // membership
-        public static string MemberTypeAlias { get { return "ForumUser"; } }
+        public const string MemberTypeAlias = "ForumUser"; 
 
         // notices
-        public static string NoticeAlias { get { return "CLC-Notice"; } }
-        public static string NoticeBoardFolder { get { return "Noticeboard"; } }
-        public static string NoticeBoardAlias { get { return "CLC-Noticeboard"; } }
+        public const string NoticeAlias = "CLC-Notice"; 
+        public const string NoticeBoardFolder = "Noticeboard"; 
+        public const string NoticeBoardAlias = "CLC-Noticeboard"; 
 
         // agenda
-        public static string AgendaItemAlias { get { return "CLC-AgendaItem"; } }
-        public static string AgendaFolder { get { return "Agenda"; } }
-        public static string AgendaAlias { get { return "CLC-Agenda"; } }
-        public static string AgendaTemplateAlias { get { return "CLCAgenda"; } }
+        public const string AgendaItemAlias = "CLC-AgendaItem"; 
+        public const string AgendaFolder = "Agenda"; 
+        public const string AgendaAlias = "CLC-Agenda"; 
+        public const string AgendaTemplateAlias = "CLCAgenda"; 
 
         // nforum
-        public static int SummaryMaxLength = 150;
+        public const int SummaryMaxLength = 150;
     }
 }
