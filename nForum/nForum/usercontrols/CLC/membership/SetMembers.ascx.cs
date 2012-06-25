@@ -37,7 +37,7 @@ namespace nForum.usercontrols.CLC.membership
         {
             bool result = false;
 
-            Member member = Member.GetMemberByName(loginName, false)[0];
+            Member member = Member.GetMemberByName(loginName, false)[0];            
 
             foreach (var group in member.Groups.Values)
             {
