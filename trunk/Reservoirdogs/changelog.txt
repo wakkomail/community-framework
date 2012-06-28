@@ -1,0 +1,4 @@
+28 juni : WTH :
+	- prikbord verversen na aanmaken
+	- prikbord verdieping
+	- omschrijving bij control panel

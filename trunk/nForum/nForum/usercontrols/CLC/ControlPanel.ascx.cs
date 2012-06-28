@@ -58,6 +58,7 @@ namespace nForum.usercontrols.CLC
                 // set default properties
                 newMemberGroup.getProperty(GlobalConstants.PermissionKarmaAmount).Value = GlobalConstants.PermissionKarmaAmountDefaultValue;
                 newMemberGroup.getProperty(GlobalConstants.PermissionPostKarmaAmount).Value = GlobalConstants.PermissionPostKarmaAmountDefaultValue;
+                newMemberGroup.getProperty(GlobalConstants.DescriptionField).Value = this.txtMembergroupDescription.Text;
                 newMemberGroup.getProperty(GlobalConstants.IsMainCategory).Value = true;
                 newMemberGroup.Publish(User.GetUser(0));
 
@@ -72,6 +73,7 @@ namespace nForum.usercontrols.CLC
 
                 // create noticeboard
                 Document noticeBoard = Document.MakeNew(GlobalConstants.NoticeBoardFolder, DocumentType.GetByAlias(GlobalConstants.NoticeBoardAlias), User.GetUser(0), newMemberGroup.Id);
+                noticeBoard.Template = Template.GetByAlias(GlobalConstants.NoticeBoardAlias).Id;
                 noticeBoard.Publish(User.GetUser(0));
 
                 SetOption(enuOption.None);
@@ -96,6 +98,7 @@ namespace nForum.usercontrols.CLC
                 // set default properties
                 newProject.getProperty(GlobalConstants.PermissionKarmaAmount).Value = GlobalConstants.PermissionKarmaAmountDefaultValue;
                 newProject.getProperty(GlobalConstants.PermissionPostKarmaAmount).Value = GlobalConstants.PermissionPostKarmaAmountDefaultValue;
+                newProject.getProperty(GlobalConstants.DescriptionField).Value = this.txtProjectDescription.Text;
                 newProject.getProperty(GlobalConstants.IsMainCategory).Value = true;
                 newProject.Publish(User.GetUser(0));
 

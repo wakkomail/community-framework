@@ -26,8 +26,14 @@
             <p>
                 <asp:TextBox ID="txtMembergroupName" MaxLength="30" runat="server"></asp:TextBox>
             </p>
+            <p>
+                <asp:Label ID="lblMembergroupDescription" runat="server" Text="Omschrijving van de kennisgroep"></asp:Label>
+            </p>
+            <p>
+                <asp:TextBox ID="txtMembergroupDescription" MaxLength="30" runat="server" TextMode="MultiLine" Rows="3"></asp:TextBox>
+            </p>
             <p>                
-                <asp:Button ID="btnInsertMembergroup" runat="server" Text="Toevoegen" 
+                <asp:Button ID="btnInsertMembergroup" runat="server" Text="Toevoegen" CssClass="button"
                     onclick="btnInsertMembergroup_Click" />
             </p>        
         </fieldset>
@@ -43,7 +49,13 @@
                 <asp:TextBox ID="txtProjectName" MaxLength="30" runat="server"></asp:TextBox>
             </p>
             <p>
-                <asp:Button ID="btnInsertProject" runat="server" Text="Toevoegen" 
+                <asp:Label ID="lblProjectDescription" runat="server" Text="Omschrijving van het project"></asp:Label>
+            </p>
+            <p>
+                <asp:TextBox ID="txtProjectDescription" MaxLength="30" runat="server" TextMode="MultiLine" Rows="3"></asp:TextBox>
+            </p>
+            <p>
+                <asp:Button ID="btnInsertProject" runat="server" Text="Toevoegen"  CssClass="button"
                     onclick="btnInsertProject_Click" />
             </p>        
         </fieldset>
@@ -77,7 +89,7 @@
                 <asp:TextBox ID="txtMemberPassword" MaxLength="30" runat="server"></asp:TextBox>
             </p>
             <p>
-                <asp:Button ID="btnInsertMember" runat="server" Text="Toevoegen" 
+                <asp:Button ID="btnInsertMember" runat="server" Text="Toevoegen"  CssClass="button"
                     onclick="btnInsertMember_Click" />
             </p>        
         </fieldset>

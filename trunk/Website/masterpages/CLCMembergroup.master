@@ -14,15 +14,12 @@
         <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
         <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>
         <div id="prikbordContainer">
-          <umbraco:Macro Alias="CLC-NoticeBoard" runat="server"></umbraco:Macro>
+          <umbraco:Macro ShowAll="0" Alias="CLC-NoticeBoard" runat="server"></umbraco:Macro>
           <umbraco:Macro Alias="CLC-CreateNotice" runat="server"></umbraco:Macro>
         </div>
       </div>
       <div id="crossReferencesContainer" class="grid_3">
         <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
-  <p>TODO: Onderstaande is tijdelijke functionaliteit</p>
-        <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>
-      </div>
   </div>
   
   <!--<div id="columns" class="clearfix">

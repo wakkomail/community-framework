@@ -15,12 +15,9 @@ namespace nForum.usercontrols.CLC
 {
     public partial class CreateNotice : BaseForumUsercontrol
     {
-        ForumCategory currentCategory = new ForumCategory();
-
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            currentCategory = Mapper.MapForumCategory(CurrentNode);
+
         }
 
         protected void createNotice_Click(object sender, EventArgs e)
@@ -36,6 +33,8 @@ namespace nForum.usercontrols.CLC
             newDocument.Publish(User.GetUser(0));
             // clear document cache
             umbraco.library.UpdateDocumentCache(newDocument.Id);
+
+            //Response.Redirect(Request.RawUrl);
         }
     }
 }

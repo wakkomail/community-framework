@@ -76,6 +76,24 @@ namespace nForum.usercontrols.CLC {
         protected global::System.Web.UI.WebControls.TextBox txtMembergroupName;
         
         /// <summary>
+        /// lblMembergroupDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMembergroupDescription;
+        
+        /// <summary>
+        /// txtMembergroupDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtMembergroupDescription;
+        
+        /// <summary>
         /// btnInsertMembergroup control.
         /// </summary>
         /// <remarks>
@@ -110,6 +128,24 @@ namespace nForum.usercontrols.CLC {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtProjectName;
+        
+        /// <summary>
+        /// lblProjectDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProjectDescription;
+        
+        /// <summary>
+        /// txtProjectDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProjectDescription;
         
         /// <summary>
         /// btnInsertProject control.

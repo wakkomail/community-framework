@@ -48,7 +48,7 @@ namespace nForum.usercontrols.CLC
             newDocument.Publish(User.GetUser(0));
 
             // clear document cache
-            umbraco.library.UpdateDocumentCache(newDocument.Id);
+            umbraco.library.UpdateDocumentCache(newDocument.Id);            
         }
     }
 }
