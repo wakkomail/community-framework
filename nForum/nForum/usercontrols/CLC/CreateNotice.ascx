@@ -2,7 +2,7 @@
 
 <asp:LoginView ID="lvEditPost" runat="server">
     <LoggedInTemplate>
-        <h2>Notitie toevoegen</h2>
+        <h3 class="kaffeeSatz">Nieuwe notitie</h3>
 
         <asp:TextBox ID="txtNotice" TextMode="MultiLine" Rows="4" runat="server" ClientIDMode="Static"></asp:TextBox>
         <asp:Button ID="createNotice" ClientIDMode="Static" runat="server" 

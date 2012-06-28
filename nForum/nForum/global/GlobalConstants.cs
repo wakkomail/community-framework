@@ -16,7 +16,7 @@ namespace nForum.global
         // membergroup
         public const string MembergroupAlias = "CLC-Membergroup";
         public const string MembergroupFolderName = "Membergroups"; 
-        public const string MembergroupTemplateName = "CLCMembergroup"; 
+        public const string MembergroupTemplateName = "CLCMembergroup";       
 
         // project
         public const string ProjectFolderName = "Projects"; 
@@ -29,7 +29,8 @@ namespace nForum.global
         public const string PermissionPostKarmaAmount = "forumCategoryPostPermissionKarmaAmount"; 
         public const int PermissionPostKarmaAmountDefaultValue = 0; 
         public const string IsMainCategory = "forumCategoryIsMainCategory"; 
-        public const string DateFolderAlias = "ForumDateFolder"; 
+        public const string DateFolderAlias = "ForumDateFolder";
+        public const string DescriptionField = "forumCategoryDescription"; 
      
         // membership
         public const string MemberTypeAlias = "ForumUser"; 

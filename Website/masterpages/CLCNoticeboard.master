@@ -1,23 +1,17 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
 
-<asp:Content ContentPlaceHolderID="CLCMasterContentPlaceHolder" runat="server">
-<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+<asp:Content ID="Content1" ContentPlaceHolderId="cp_head" runat="server">
+  <script src="/scripts/nforumhoverintent.js" type="text/javascript"></script>
+    <script src="/scripts/nforumajaxpostsnippet.js" type="text/javascript"></script>
+</asp:Content>
 
-<asp:content ContentPlaceHolderId="cp_head" runat="server">
-	
-</asp:content>
-
-<asp:content ContentPlaceHolderId="cp_top" runat="server">
-	
-</asp:content>
-
-<asp:content ContentPlaceHolderId="cp_content" runat="server">
-	
-</asp:content>
-
-<asp:content ContentPlaceHolderId="cp_footer" runat="server">
-	
-</asp:content>
-
-
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
+  <div id="columns" class="clearfix">
+    <div class="colbig">
+        <div id="prikbordContainer">
+          <umbraco:Macro ShowAll="1" Alias="CLC-NoticeBoard" runat="server"></umbraco:Macro>
+          <umbraco:Macro Alias="CLC-CreateNotice" runat="server"></umbraco:Macro>
+        </div>    
+    </div>
+  </div>  
 </asp:Content>
