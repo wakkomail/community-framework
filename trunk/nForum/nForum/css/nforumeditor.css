@@ -20,7 +20,7 @@ body {
   font-size: 76%; font-family:Arial, Helvetica, sans-serif; color:#000;
 }
 
-body.mceContentBody { margin:15px 10px; background-color: #242424;}
+body.mceContentBody { margin:15px 10px; background-color: #242424; color: #ffffff;}
 
 /* ---- Lees Clearer ---- */
 .clearer {clear:both; line-height:1px; height:1px; font-size:1px;}
@@ -30,11 +30,11 @@ a, a:visited {color:#1A6AB3;}
 a:hover, a:focus {color:#666; text-decoration:none;}
 
 /* ---- Generic Heading Styles ---- */
-h1 {font-size:2.1em; margin-bottom:7px; color:#333; font-weight:normal; font-weight: bold;}
-h2 {font-size:1.3em; margin-bottom:4px; color:#333; font-weight:normal;}
-h3 {font-size:1.3em; margin-bottom:4px; color:#333; font-weight:normal;}
-h4 {font-size:1.2em; margin-bottom:8px; color:#000; font-weight:normal;}
-h5 {font-size:1.2em; margin-bottom:8px; color:#000; font-weight:normal;}
+h1 {font-size:2.1em; margin-bottom:7px; color:#ffffff; font-weight:normal; font-weight: bold;}
+h2 {font-size:1.3em; margin-bottom:4px; color:#ffffff; font-weight:normal;}
+h3 {font-size:1.3em; margin-bottom:4px; color:#ffffff; font-weight:normal;}
+h4 {font-size:1.2em; margin-bottom:8px; color:#ffffff; font-weight:normal;}
+h5 {font-size:1.2em; margin-bottom:8px; color:#ffffff; font-weight:normal;}
 
 /* ---- Paragraph Styles ---- */
 p {margin:15px 0; line-height:1.8em;}

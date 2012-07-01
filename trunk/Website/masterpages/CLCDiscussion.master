@@ -5,7 +5,14 @@
 </asp:Content>
   
 <asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
-  <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
-   <umbraco:DisableRequestValidation runat="server"/>
-  <umbraco:Macro Alias="nForumTopicPosts" runat="server"></umbraco:Macro>
+  <div id="contentContainer" class="grid_12 full">
+    <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+    <umbraco:DisableRequestValidation runat="server"/>
+    <div id="discussionContainer" class="grid_9 fatBorder clearfix">
+      <umbraco:Macro Alias="clc-discussion" runat="server"></umbraco:Macro>
+    </div>
+    <div id="crossReferencesContainer" class="grid_3">
+        <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
+    </div>
+  </div>
 </asp:Content>

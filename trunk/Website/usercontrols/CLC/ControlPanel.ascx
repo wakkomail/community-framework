@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ControlPanel.ascx.cs" Inherits="nForum.usercontrols.CLC.ControlPanel" %>
 <%@ Import Namespace="nForum.global" %>
 
-<div id="options">
+<div id="options" class="grid_3">
     <asp:Button ID="createMembergroup" ClientIDMode="Static" runat="server" CssClass="button"
         Text="Kennisgroep aanmaken" onclick="createMembergroup_Click" />
     <asp:Button ID="createProject" runat="server" Text="Project aanmaken" CssClass="button"
@@ -15,7 +15,7 @@
         CssClass="button" onclick="publishAll_Click" />
     
 </div>
-<div id="controlforms">    
+<div id="controlforms" class="grid_9">    
 <!-- Membergroup -->
     <asp:Panel ID="pnlMembergroup" runat="server">
         <fieldset id="membergroup">

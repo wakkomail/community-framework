@@ -24,6 +24,8 @@
               </xsl:if>  
               <a class="c2" href="{umbraco.library:NiceUrl(@id)}"><xsl:value-of select="@nodeName"/></a>
             </xsl:for-each>
+            &gt;
+            <a class="c2" href="{umbraco.library:NiceUrl($currentPage/@id)}"><xsl:value-of select="$currentPage/@nodeName"/></a>
           </div>
         </xsl:if>
     </xsl:if>

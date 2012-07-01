@@ -157,6 +157,8 @@ a
   width: 125px;
   padding-left: 5px;
   
+  background-color: #ffffff;
+  color: #000000;
   border: 0px none;
 }
 
@@ -343,7 +345,7 @@ a
   margin-bottom: 20px;
 }
 
-input[type='text'], input[type='password']
+input[type='text'], input[type='password'], textarea
 {
   color: #ffffff;
   padding-left: 5px;
@@ -501,6 +503,11 @@ input[type='text'], input[type='password']
   text-align: center;
 }
 
+#newDiscussionContainer
+{
+	overflow: hidden;
+}
+
 .newDiscussionSummary
 {
   margin-top: 15px;
@@ -510,18 +517,12 @@ input[type='text'], input[type='password']
 .discussionSubject
 {
   margin-top: 15px;
-  width: 550px;
+  width: 100%;
 }
 
 #emoticonholder
 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-body.mceContentBody
-{
-  background-color: #242424;
+	margin-top: 15px;
 }
 
 /*--- AJAX Post Tooltip ---*/
@@ -530,6 +531,86 @@ body.mceContentBody
 #ajaxpostcontent h5 { margin:0 0 4px 0; font-size:12px; font-weight:bold; color:#999999;} 
 #ajaxpostcontent p { margin:0;}
 
+.post, .postDetails, .postContent, .postActions, #newPost
+{
+	float: left;
+	width: 100%;
+}
 
+.post
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.postDetails b
+{
+	float: left;
+	width: 100%;
+}
+
+.postContent
+{
+	margin-top: 5px;
+}
+
+.postContent p
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	float: left;
+	width: 100%;
+}
+
+.lastedited
+{
+	font-weight: bold;
+}
+
+.postActions a
+{
+	float: left;
+	margin-right: 10px;
+}
+
+#newPost
+{
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+#newPost .button, .newDiscussionContent .button
+{
+	margin-top: 15px;
+}
+
+.pagerLabel
+{
+	float: left;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.pager
+{
+	float: left;
+	margin-top: 15px;
+}
+
+.pager li
+{
+	float: left;
+	margin-right: 5px;
+}
+
+.pager a
+{
+	color: #0077bd;
+}
+
+.pager .current a
+{
+	font-weight: bold;
+}
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
