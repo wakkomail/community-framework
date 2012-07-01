@@ -1,6 +1,5 @@
 ﻿$(document).ready(function () {
 
-
     $(function () {
         var hideDelay = 500;
         var currentID;
@@ -23,7 +22,6 @@
         + '</div>');
 
         $('body').append(container);
-
         $('.postpreview').live('mouseover', function () {
             if (!$(this).data('hoverIntentAttached')) {
                 $(this).data('hoverIntentAttached', true);

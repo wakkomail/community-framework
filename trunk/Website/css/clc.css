@@ -524,7 +524,11 @@ body.mceContentBody
   background-color: #242424;
 }
 
-
+/*--- AJAX Post Tooltip ---*/
+#ajaxpostcontainer{ position:absolute; left:0; top:0; display:none; z-index: 20000;}
+#ajaxpostcontent{ background-color: #FFF; width: 300px; min-height: 70px; overflow:auto; display:block; -moz-border-radius:7px; -webkit-border-radius:7px; -khtml-border-radius:7px; border-radius:7px;  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5); border:1px #CCC solid; padding:10px;}
+#ajaxpostcontent h5 { margin:0 0 4px 0; font-size:12px; font-weight:bold; color:#999999;} 
+#ajaxpostcontent p { margin:0;}
 
 
 

@@ -6,13 +6,10 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
-  <div id="columns" class="clearfix">
-    <div class="colbig">
-      <umbraco:Macro Alias="nForumShowSubCategories" runat="server"></umbraco:Macro>
-      <umbraco:Macro Alias="nForumListTopics" runat="server"></umbraco:Macro>    
-    </div>
-    <div class="col">
-      <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>    
-    </div>
-  </div>  
+  <div id="contentContainer" class="grid_12 full">
+      <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+      <div id="discussiesContainer" class="grid_9 fatBorder">
+	<umbraco:Macro ShowAll="1" Alias="CLC-Discussions" runat="server" /> 
+      </div>
+  </div>
 </asp:Content>

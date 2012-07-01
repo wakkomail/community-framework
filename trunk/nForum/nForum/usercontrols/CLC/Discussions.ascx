@@ -8,8 +8,10 @@
 		<ItemTemplate>
 			<CLC:DiscussionRepeaterItem ID="RepeaterItem" FTopic="<%# Container.DataItem %>" runat="server" />
 		</ItemTemplate>
-	</asp:Repeater>
-	<a id="showAll" runat="server" class="showAll c2" href="/Discussions.aspx" visible="false">Bekijk alle discussies</a>
+	</asp:Repeater>	
+    <p>
+	    <asp:HyperLink ID="btnShowAll" runat="server" CssClass="showAll c2" Visible="false" Text="Bekijk alle discussies" />
+    </p>
 </div>
 
 <asp:Literal ID="litPager" runat="server" />
