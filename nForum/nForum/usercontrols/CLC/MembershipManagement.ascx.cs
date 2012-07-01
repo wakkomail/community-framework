@@ -17,7 +17,7 @@ using umbraco.cms.businesslogic.web;
 
 namespace nForum.usercontrols.CLC
 {
-    public partial class MembergroupManager : BaseForumUsercontrol
+    public partial class MembershipManagement : BaseForumUsercontrol
     {
 
         private int SelectedNodeID { get; set; }

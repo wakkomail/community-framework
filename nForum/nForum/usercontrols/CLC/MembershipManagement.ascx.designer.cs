@@ -10,7 +10,7 @@
 namespace nForum.usercontrols.CLC {
     
     
-    public partial class MembergroupManager {
+    public partial class MembershipManagement {
         
         /// <summary>
         /// selectProject control.

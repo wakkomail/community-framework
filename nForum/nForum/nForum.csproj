@@ -270,12 +270,12 @@
     <Compile Include="usercontrols\CLC\CreateDiscussion.ascx.designer.cs">
       <DependentUpon>CreateDiscussion.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\CLC\MembergroupManager.ascx.cs">
-      <DependentUpon>MembergroupManager.ascx</DependentUpon>
+    <Compile Include="usercontrols\CLC\MembershipManagement.ascx.cs">
+      <DependentUpon>MembershipManagement.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="usercontrols\CLC\MembergroupManager.ascx.designer.cs">
-      <DependentUpon>MembergroupManager.ascx</DependentUpon>
+    <Compile Include="usercontrols\CLC\MembershipManagement.ascx.designer.cs">
+      <DependentUpon>MembershipManagement.ascx</DependentUpon>
     </Compile>
     <Compile Include="usercontrols\CLC\Projects.ascx.cs">
       <DependentUpon>Projects.ascx</DependentUpon>
@@ -686,7 +686,7 @@
     <Content Include="usercontrols\CLC\ActiveDiscussions.ascx" />
     <Content Include="usercontrols\CLC\Agenda.ascx" />
     <Content Include="usercontrols\CLC\CreateDiscussion.ascx" />
-    <Content Include="usercontrols\CLC\MembergroupManager.ascx" />
+    <Content Include="usercontrols\CLC\MembershipManagement.ascx" />
     <Content Include="usercontrols\CLC\Projects.ascx" />
     <Content Include="usercontrols\CLC\CreateAgendaItem.ascx" />
     <Content Include="usercontrols\CLC\Discussions.ascx" />
