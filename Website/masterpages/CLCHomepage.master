@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
 <asp:content id="Content1" contentplaceholderid="cp_content" runat="server">
+  <script src="/scripts/nforumhoverintent.js" type="text/javascript"></script>
+  <script src="/scripts/nforumajaxpostsnippet.js" type="text/javascript"></script>
   <div id="contentContainer" class="grid_12 full home">
       <div id="brandboxContainer" class="grid_12 full">
         <div id="brandboxItems">

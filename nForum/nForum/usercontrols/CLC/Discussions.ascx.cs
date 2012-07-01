@@ -22,6 +22,7 @@ namespace nForum.usercontrols.CLC
             {
                 ShowCanonicalTag();
                 GetTopicsFromCategory();
+                SetAllDiscussionsButton();
             }
         }
 
@@ -81,7 +82,7 @@ namespace nForum.usercontrols.CLC
 			if(!ShowAll)
 			{
 				maintopics = maintopics.Take(2);
-				showAll.Visible = true;
+                btnShowAll.Visible = true;
 			}
 
             // Pass to my pager helper
@@ -96,6 +97,12 @@ namespace nForum.usercontrols.CLC
             // Now bind
             rptTopicList.DataSource = pagedResults;
             rptTopicList.DataBind();
+        }
+
+        private void SetAllDiscussionsButton()
+        {
+            var url = library.NiceUrl(CurrentNode.Id);
+            btnShowAll.NavigateUrl = Helpers.AlternateTemplateUrlFix("/CLCDiscussions", url);
         }
     }
 }

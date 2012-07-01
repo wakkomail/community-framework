@@ -6,5 +6,5 @@
 		<%# Helpers.GetPrettyDate(FTopic.CreatedOn.ToString())%>
 	</b> 
 	<span class="topicText c2"><%# GetFirstPost(FTopic)%></span>
-	<a class="c1" href="<%# FTopic.Url%>"<%# ShowAjaxPostLink(FTopic.Id)%>>Lees meer</a>
+	<a href="<%# FTopic.Url%>"<%# ShowAjaxPostLink(FTopic.Id)%>>Lees meer</a>
 </div>
