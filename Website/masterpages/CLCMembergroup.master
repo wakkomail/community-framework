@@ -20,18 +20,6 @@
       </div>
       <div id="crossReferencesContainer" class="grid_3">
         <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
+      </div>
   </div>
-  
-  <!--<div id="columns" class="clearfix">
-    <div class="colbig">
-      <umbraco:Macro Alias="nForumShowSubCategories" runat="server"></umbraco:Macro>
-      <umbraco:Macro Alias="nForumListTopics" runat="server"></umbraco:Macro> 
-      <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>      
-      <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>      
-    </div>
-    <div class="col">
-      <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>
-      <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>    
-    </div>
-  </div>-->
 </asp:Content>

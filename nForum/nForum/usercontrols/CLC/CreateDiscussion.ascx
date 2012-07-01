@@ -9,20 +9,20 @@
 						<asp:Literal ID="litDescription" runat="server" />
 					</p>
 					<div class="newDiscussionContent fatBorder">
-						<asp:TextBox ID="tbTopicTitle" CssClass="discussionSubject" runat="server" ClientIDMode="Static" ToolTip="Onderwerp"></asp:TextBox>
+						<asp:TextBox ID="tbTopicTitle" CssClass="discussionSubject" runat="server" ClientIDMode="Static" ToolTip="Onderwerp" placeholder="Onderwerp"></asp:TextBox>
 						<nforum:Emoticons ID="emoticonInclude" runat="server" />
-						<asp:TextBox ID="txtPost" runat="server" CssClass="grid_9 alpha omega" TextMode="MultiLine" Rows="14" ClientIDMode="Static"></asp:TextBox>
+						<asp:TextBox ID="txtPost" runat="server" CssClass="grid_9 alpha omega" TextMode="MultiLine" Rows="8" ClientIDMode="Static"></asp:TextBox>
 						<asp:Panel ID="pnlMakeSticky" runat="server" Visible="false">
-							<asp:CheckBox ID="cbSticky" ClientIDMode="Static" runat="server" /> Mark as a sticky topic
-							<asp:CheckBox ID="cbLockTopic" ClientIDMode="Static" runat="server" /> Close/Lock Topic
+							<asp:CheckBox ID="cbSticky" ClientIDMode="Static" runat="server" /> Sticky discussie
+							<asp:CheckBox ID="cbLockTopic" ClientIDMode="Static" runat="server" /> Sluit discussie
 						</asp:Panel>
-						<asp:Button ID="btnSubmitPost" CssClass="btnsubmittopic" runat="server" Text="Create Topic" />
+						<asp:Button ID="btnSubmitPost" CssClass="btnsubmittopic button" runat="server" Text="Aanmaken" />
 					</div>
 				</LoggedInTemplate>
 			</asp:LoginView>
 	</div>
 
 	<div class="postsuccess" style="display: none;">
-	  <h4 style="text-align: center;">Creating your topic...</h4>
+	  <h4 style="text-align: center;">Uw discussie wordt aangemaakt...</h4>
 	</div>
 </div>
