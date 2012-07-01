@@ -8,8 +8,8 @@
         onclick="createProject_Click" />    
     <asp:Button ID="createMember" runat="server" Text="Lid aanmaken" 
         CssClass="button" onclick="createMember_Click" />
-    <a href='<%# "/control-panel/membergroupmanagement.aspx?documenttype=" + GlobalConstants.MembergroupAlias %>'  class="button">Kennisgroep leden koppelen</a> 
-    <a href='<%# "/control-panel/membergroupmanagement.aspx?documenttype=" + GlobalConstants.ProjectAlias %>'  class="button">Project leden koppelen</a> 
+    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.MembergroupAlias %>'  class="button">Kennisgroep leden koppelen</a> 
+    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.ProjectAlias %>'  class="button">Project leden koppelen</a> 
 
     <asp:Button ID="publishAll" runat="server" Text="Alles publiseren" 
         CssClass="button" onclick="publishAll_Click" />
