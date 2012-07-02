@@ -5,15 +5,14 @@
     <script src="/scripts/nforumajaxpostsnippet.js" type="text/javascript"></script>
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">       
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">    
       <div id="contentContainer" class="grid_12 full">
-      <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
-         <div id="projectsContainer" class="grid_9 fatBorder">
+        <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+        <div id="projectsContainer" class="grid_9 fatBorder">
             <h2 class="c1 kaffeeSatz">
-                Kennisgroepen
+                Projecten
             </h2>            
-            <umbraco:Macro Alias="CLC-MyMembergroups" runat="server" />                
-         </div>   
+            <umbraco:Macro Alias="CLC-MyProjects" runat="server" />           
+        </div>        
       </div>
-
 </asp:Content>

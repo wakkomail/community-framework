@@ -8,6 +8,9 @@ using nForum.helpers;
 using nForum.global;
 using umbraco.NodeFactory;
 using umbraco.interfaces;
+using nForum.BusinessLogic;
+using nForum.BusinessLogic.Models;
+using umbraco;
 
 namespace nForum.usercontrols.CLC
 {
@@ -69,7 +72,7 @@ namespace nForum.usercontrols.CLC
 		}
 	}
 
-    public partial class Agenda : System.Web.UI.UserControl
+    public partial class Agenda : BaseForumUsercontrol
     {
         #region Properties
 
@@ -80,7 +83,7 @@ namespace nForum.usercontrols.CLC
         protected void Page_Load(object sender, EventArgs e)
         {
             // set showAll link based on macro parameter
-            showAll.Visible = ShowAll;
+            btnShowAll.Visible = !ShowAll;
 
             // get all agenda items of current node
 
@@ -92,6 +95,16 @@ namespace nForum.usercontrols.CLC
 
 			this.rptAgenda.DataSource = agendaItems;
 			this.rptAgenda.DataBind();
+
+            SetAllDiscussionsButton();
+        }
+
+        private void SetAllDiscussionsButton()
+        {
+            var url = library.NiceUrl(CurrentNode.Id);
+            btnShowAll.NavigateUrl = Helpers.AlternateTemplateUrlFix("/Agenda", url);
         }
     }
+
+
 }

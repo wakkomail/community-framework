@@ -10,11 +10,12 @@
         <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
         
         <div id="projectContainer" class="grid_9 fatBorder">
+            <!-- TODO CLC-Membergroup generieker maken zodat hij ook voor Projecten te gebruiken is -->
+            <umbraco:Macro Alias="CLC-Membergroup" runat="server" />
             <umbraco:Macro ShowAll="0" Alias="CLC-Agenda" runat="server" />
             <umbraco:Macro ShowAll="0" Alias="CLC-Discussions" runat="server" />
             <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
-            <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro> 
-            <umbraco:Macro Alias="CLC-SetMembergroupMembers" runat="server"></umbraco:Macro>          
+            <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>           
         </div>
   </div>
 </asp:Content>

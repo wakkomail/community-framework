@@ -18,6 +18,7 @@ namespace nForum.usercontrols.CLC
     {        
         protected void Page_Load(object sender, EventArgs e)
         {
+            ((Calendar)this.lvEditItem.FindControl("cldDate")).SelectedDate = DateTime.Now;
         }
 
         protected void createAgendaItem_Click(object sender, EventArgs e)
@@ -48,7 +49,9 @@ namespace nForum.usercontrols.CLC
             newDocument.Publish(User.GetUser(0));
 
             // clear document cache
-            umbraco.library.UpdateDocumentCache(newDocument.Id);            
+            umbraco.library.UpdateDocumentCache(newDocument.Id);
+
+            Response.Redirect(Request.RawUrl);
         }
     }
 }
