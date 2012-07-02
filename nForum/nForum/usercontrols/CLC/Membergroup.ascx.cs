@@ -94,8 +94,7 @@ namespace nForum.usercontrols.CLC
             if(!userHasAccess)
             {
                 Response.Redirect(string.Concat(Settings.Url, "?m=", library.GetDictionaryItem("NoPermissionToViewPage")));
-            }
-
+            }       
 
             // First get title and description
             litHeading.Text = "Kennisgroep " + currentCategory.Name;

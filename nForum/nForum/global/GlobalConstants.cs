@@ -15,11 +15,11 @@ namespace nForum.global
 
         // membergroup
         public const string MembergroupAlias = "CLC-Membergroup";
-        public const string MembergroupFolderName = "Membergroups"; 
+        public const string MembergroupFolderName = "Kennisgroepen"; 
         public const string MembergroupTemplateName = "CLCMembergroup";       
 
         // project
-        public const string ProjectFolderName = "Projects"; 
+        public const string ProjectFolderName = "Projecten"; 
         public const string ProjectAlias = "CLC-Project"; 
         public const string ProjectTemplateName = "CLCProject"; 
 

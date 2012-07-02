@@ -10,24 +10,15 @@
 namespace nForum.usercontrols.CLC {
     
     
-    public partial class Agenda {
+    public partial class MyProjects {
         
         /// <summary>
-        /// rptAgenda control.
+        /// rprProjects control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptAgenda;
-        
-        /// <summary>
-        /// btnShowAll control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink btnShowAll;
+        protected global::System.Web.UI.WebControls.Repeater rprProjects;
     }
 }

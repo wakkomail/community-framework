@@ -6,10 +6,11 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
-  <div id="columns" class="clearfix">
-    <div class="colbig">
-      <umbraco:Macro Alias="CLC-CreateAgendaItem" runat="server"></umbraco:Macro>      
-      <umbraco:Macro Alias="CLC-Agenda" runat="server"></umbraco:Macro>      
-    </div>
+  <div id="contentContainer" class="grid_12 full">
+      <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+      <div id="agendaContainer" class="grid_9 fatBorder">
+        <umbraco:Macro Alias="CLC-CreateAgendaItem" runat="server"></umbraco:Macro>      
+        <umbraco:Macro Alias="CLC-Agenda" ShowAll="1" runat="server"></umbraco:Macro>  
+      </div>
   </div>  
 </asp:Content>

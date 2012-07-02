@@ -2,6 +2,7 @@
 <%@ Import Namespace="umbraco.NodeFactory" %>
 <%@ Import Namespace="nForum.BusinessLogic" %>
 
+<div id="discussiesContainer" class="fatBorder">
 <h3 class="kaffeeSatz c1">Agenda</h3>
 <asp:Repeater ID="rptAgenda" runat="server" EnableViewState="false">
     <ItemTemplate>
@@ -16,4 +17,7 @@
         </p>
     </ItemTemplate>
 </asp:Repeater>
-<a id="showAll" runat="server" class="showAll c2" href="/Agenda.aspx" visible="false">Bekijk alle discussies</a>
+<p>
+	<asp:HyperLink ID="btnShowAll" runat="server" CssClass="showAll c2" Visible="false" Text="Bekijk de volledige agenda" />
+</p>
+</div>

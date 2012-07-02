@@ -41,21 +41,15 @@
     <div id="mainMenuContainer" class="grid_12 full">
       <div class="grid_12">
         <ul class="mainMenu">
-          <li><a href="#">home</a> </li>
+          <li><a href="/">home</a> </li>
           <li><span>/</span> </li>
-          <li><a href="#">prikbord</a> </li>
+          <li><a href="#">Mijn agenda</a> </li>
           <li><span>/</span> </li>
-          <li><a href="#">agenda</a> </li>
+          <li><a href="/kennisgroepen.aspx">Mijn kennisgroepen</a> </li>
           <li><span>/</span> </li>
-          <li><a href="#">kennisgroepen</a> </li>
+          <li><a href="/projecten.aspx">Mijn projecten</a> </li>
           <li><span>/</span> </li>
-          <li><a href="#">discussies</a> </li>
-          <li><span>/</span> </li>
-          <li><a href="#">projecten</a> </li>
-          <li><span>/</span> </li>
-          <li><a href="#">media</a> </li>
-          <li><span>/</span> </li>
-          <li><a href="#">leden</a> </li>
+          <li><a href="#">Leden</a> </li>
         </ul>
         <div class="loginContainer">
            <umbraco:Macro Alias="clc-useradmin" runat="server"></umbraco:Macro>
@@ -70,21 +64,15 @@
       <div id="footerMenu">
         <div class="grid_12">
           <ul class="mainMenu">
-            <li><a href="#">home</a> </li>
-            <li><span>/</span> </li>
-            <li><a href="#">prikbord</a> </li>
-            <li><span>/</span> </li>
-            <li><a href="#">agenda</a> </li>
-            <li><span>/</span> </li>
-            <li><a href="#">kennisgroepen</a> </li>
-            <li><span>/</span> </li>
-            <li><a href="#">discussies</a> </li>
-            <li><span>/</span> </li>
-            <li><a href="#">projecten</a> </li>
-            <li><span>/</span> </li>
-            <li><a href="#">media</a> </li>
-            <li><span>/</span> </li>
-            <li><a href="#">leden</a> </li>
+          <li><a href="/">home</a> </li>
+          <li><span>/</span> </li>
+          <li><a href="#">Mijn agenda</a> </li>
+          <li><span>/</span> </li>
+          <li><a href="/kennisgroepen.aspx">Mijn kennisgroepen</a> </li>
+          <li><span>/</span> </li>
+          <li><a href="/projecten.aspx">Mijn projecten</a> </li>
+          <li><span>/</span> </li>
+          <li><a href="#">Leden</a> </li>
           </ul>
           <div class="loginContainer">
             <umbraco:Macro Alias="clc-useradmin" runat="server"></umbraco:Macro>
