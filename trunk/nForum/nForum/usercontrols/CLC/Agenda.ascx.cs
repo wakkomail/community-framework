@@ -96,10 +96,10 @@ namespace nForum.usercontrols.CLC
 			this.rptAgenda.DataSource = agendaItems;
 			this.rptAgenda.DataBind();
 
-            SetAllDiscussionsButton();
+            SetAllAgendaItemsButton();
         }
 
-        private void SetAllDiscussionsButton()
+        private void SetAllAgendaItemsButton()
         {
             var url = library.NiceUrl(CurrentNode.Id);
             btnShowAll.NavigateUrl = Helpers.AlternateTemplateUrlFix("/Agenda", url);

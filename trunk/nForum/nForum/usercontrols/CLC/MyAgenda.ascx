@@ -1,9 +1,8 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Agenda.ascx.cs" Inherits="nForum.usercontrols.CLC.Agenda" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MyAgenda.ascx.cs" Inherits="nForum.usercontrols.CLC.MyAgenda" %>
 <%@ Import Namespace="umbraco.NodeFactory" %>
 <%@ Import Namespace="nForum.BusinessLogic" %>
 
 <div id="agendaContainer" class="fatBorder">
-<h3 class="kaffeeSatz c1">Agenda</h3>
 <asp:Repeater ID="rptAgenda" runat="server" EnableViewState="false">
     <ItemTemplate>
         <div class="agendaDate">
@@ -17,7 +16,7 @@
         </p>
     </ItemTemplate>
 </asp:Repeater>
-<p>
-	<asp:HyperLink ID="btnShowAll" runat="server" CssClass="showAll c2" Visible="false" Text="Bekijk de volledige agenda" />
-</p>
 </div>
+
+
+TEST
