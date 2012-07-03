@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
+    <div id="contentContainer" class="grid_12 full">
+        <center>
+            <h2 class="c1 kaffeeSatz">
+                U dient in te loggen om deze pagina te bekijken
+            </h2>                
+        </center>
+    </div>
+</asp:Content>

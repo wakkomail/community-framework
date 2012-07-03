@@ -2,7 +2,7 @@
 <%@ Import Namespace="umbraco.NodeFactory" %>
 <%@ Import Namespace="nForum.BusinessLogic" %>
 
-<div id="discussiesContainer" class="fatBorder">
+<div id="agendaContainer" class="fatBorder">
 <h3 class="kaffeeSatz c1">Agenda</h3>
 <asp:Repeater ID="rptAgenda" runat="server" EnableViewState="false">
     <ItemTemplate>
