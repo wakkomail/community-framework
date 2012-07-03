@@ -2,9 +2,13 @@
 	- prikbord verversen na aanmaken
 	- prikbord verdieping
 	- omschrijving bij control panel
-03 juli	: WTH : 
+02 juli	: WTH : 
 	- Mijn projecten
 	- Mijn kennisgroepen
 	- Renamen naar nederlands t.b.v. kruimelpad
 	- Project template
 	- AGenda
+03 juli	: WTH :
+	- Mijn Agenda
+	- Enige vorm van security ingesteld
+	
