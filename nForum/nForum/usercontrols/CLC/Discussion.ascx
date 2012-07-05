@@ -46,6 +46,6 @@
 	</asp:LoginView>
 	<div class="postsuccess" style="display: none;">
 		<h4 style="text-align: center;">
-			Posting your reply...</h4>
+			Uw reactie wordt toegevoegd...</h4>
 	</div>
 </div>

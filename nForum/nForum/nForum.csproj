@@ -277,6 +277,13 @@
     <Compile Include="usercontrols\CLC\Discussion.ascx.designer.cs">
       <DependentUpon>Discussion.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\EditPost.ascx.cs">
+      <DependentUpon>EditPost.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\EditPost.ascx.designer.cs">
+      <DependentUpon>EditPost.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\MembershipManagement.ascx.cs">
       <DependentUpon>MembershipManagement.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -715,6 +722,7 @@
     <Content Include="usercontrols\CLC\Agenda.ascx" />
     <Content Include="usercontrols\CLC\CreateDiscussion.ascx" />
     <Content Include="usercontrols\CLC\Discussion.ascx" />
+    <Content Include="usercontrols\CLC\EditPost.ascx" />
     <Content Include="usercontrols\CLC\MembershipManagement.ascx" />
     <Content Include="usercontrols\CLC\MyAgenda.ascx" />
     <Content Include="usercontrols\CLC\MyMembergroups.ascx" />

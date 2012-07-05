@@ -13,7 +13,7 @@
 	<div id="topiclistheadbuttons">
 		<asp:HyperLink ID="lRss" runat="server" Visible="false" Text="Rss Feed For This Topic" />
 		<p>
-			<asp:HyperLink ID="hlCreateTopic" runat="server" CssClass="forumbutton" Visible="false"
-				Text="Create a new topic" /></p>
+			<asp:HyperLink ID="hlCreateTopic" runat="server" CssClass="forumbutton c1" Visible="false"
+				Text="Maak een nieuwe discussie aan" /></p>
 	</div>
 </div>

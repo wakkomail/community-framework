@@ -12,7 +12,7 @@ namespace nForum.usercontrols.CLC.templates
         public string ShowAjaxPostLink(int postid)
         {
             // If Ajax snippets are enabled add them
-            return Settings.EnableAjaxPostSnippets ? string.Format(" class=\"postpreview\" rel=\"{0}\"", postid) : null;
+            return Settings.EnableAjaxPostSnippets ? string.Format(" class=\"c1 postpreview\" rel=\"{0}\"", postid) : null;
         }
 
 		public string GetFirstPost(ForumTopic topic)

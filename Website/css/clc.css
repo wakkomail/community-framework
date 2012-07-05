@@ -505,7 +505,7 @@ input[type='text'], input[type='password']
 
 #newDiscussionContainer
 {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .newDiscussionSummary
@@ -522,7 +522,7 @@ input[type='text'], input[type='password']
 
 #emoticonholder
 {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 /*--- AJAX Post Tooltip ---*/
@@ -533,84 +533,123 @@ input[type='text'], input[type='password']
 
 .post, .postDetails, .postContent, .postActions, #newPost
 {
-	float: left;
-	width: 100%;
+  float: left;
+  width: 100%;
 }
 
 .post
 {
-	padding-top: 15px;
-	padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .postDetails b
 {
-	float: left;
-	width: 100%;
+  float: left;
+  width: 100%;
 }
 
 .postContent
 {
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 .postContent p
 {
-	margin-bottom: 5px;
-	margin-top: 5px;
-	float: left;
-	width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  float: left;
+  width: 100%;
 }
 
 .lastedited
 {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .postActions a
 {
-	float: left;
-	margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 #newPost
 {
-	margin-top: 15px;
-	overflow: hidden;
+  margin-top: 15px;
+  overflow: hidden;
 }
 
-#newPost .button, .newDiscussionContent .button
+#newPost .button, .newDiscussionContent .button, #editPostContainer .button
 {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 .pagerLabel
 {
-	float: left;
-	margin-right: 10px;
-	margin-top: 15px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 15px;
 }
 
 .pager
 {
-	float: left;
-	margin-top: 15px;
+  float: left;
+  margin-top: 15px;
 }
 
 .pager li
 {
-	float: left;
-	margin-right: 5px;
+  float: left;
+  margin-right: 5px;
 }
 
 .pager a
 {
-	color: #0077bd;
+  color: #0077bd;
 }
 
 .pager .current a
 {
-	font-weight: bold;
+  font-weight: bold;
 }
+
+#editPostContainer
+{
+  overflow: hidden;
+}
+
+.info
+{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  padding: 15px;
+  margin-left: -116px;
+  margin-top: -66px;
+  z-index: 5;
+  
+  background-image: url("clc/background_content.png");
+  background-position: left top;
+  background-repeat: repeat;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.info a
+{
+  float: right;
+}
+
+.info p
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
