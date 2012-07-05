@@ -5,6 +5,9 @@
 </asp:content>
 
 <asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
-     <umbraco:DisableRequestValidation runat="server"/>
-  <umbraco:Macro Alias="nForumEditPost" runat="server"></umbraco:Macro>
+ <div id="contentContainer" class="grid_12 full">
+    <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+    <umbraco:DisableRequestValidation runat="server"/>
+    <umbraco:Macro Alias="clc-editpost" runat="server"></umbraco:Macro>
+  </div>
 </asp:Content>
