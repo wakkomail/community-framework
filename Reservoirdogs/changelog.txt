@@ -11,4 +11,7 @@
 03 juli	: WTH :
 	- Mijn Agenda
 	- Enige vorm van security ingesteld
+05 juli : MAMA :
+	- Zie SVN Log voor codewijzigingen. :-)
+	- Nederlandse vertalingen toegevoegd aan dictionary.
 	
