@@ -35,6 +35,19 @@ namespace nForum.BusinessLogic.Models
             return fCat;
         }
 
+        public AgendaItem MapAgendaItem(INode nodetomap)
+        {
+            if (nodetomap == null) return null;
+            var fCat = new AgendaItem
+            {
+                Id = nodetomap.Id,                
+                Title = nodetomap.Name,
+                Url = library.NiceUrl(nodetomap.Id),
+                Description = nodetomap.GetProperty("description").Value,
+            };
+            return fCat;
+        }
+
         /// <summary>
         /// Maps an Umbraco 'Examine' Search Result to the ForumCategory type
         /// </summary>

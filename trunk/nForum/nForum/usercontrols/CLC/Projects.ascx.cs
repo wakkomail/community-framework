@@ -9,6 +9,7 @@ using umbraco.cms.businesslogic.member;
 using umbraco.cms.businesslogic.web;
 using umbraco.NodeFactory;
 using System.Collections.Generic;
+using nForum.helpers.businessobjects;
 
 namespace nForum.usercontrols.CLC
 {
@@ -47,10 +48,10 @@ namespace nForum.usercontrols.CLC
 		protected string GetNextEvent(int nodeId)
 		{
 			string result = String.Empty;
-			List<Node> agendaItems = AgendaHelper.GetAgendaItems(nodeId).OrderBy(n => Convert.ToDateTime(n.GetProperty("date").Value)).ToList();
+            IEnumerable<Node> agendaItems = AgendaHelper.GetUpcomingEvents(nodeId);
 			Node nextEvent = null;
 
-			if(agendaItems.Count > 0)
+			if(agendaItems.Count() > 0)
 			{
 				nextEvent = agendaItems.FirstOrDefault(n => Convert.ToDateTime(n.GetProperty("date").Value).Date >= DateTime.Now.Date);
 				if(nextEvent != null)

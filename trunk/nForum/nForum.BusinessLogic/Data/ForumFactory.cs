@@ -110,6 +110,7 @@ namespace nForum.BusinessLogic.Data
             return results.Select(searchResult => Mapper.MapForumCategory(searchResult)).OrderBy(x => x.SortOrder);
         }
 
+
         /// <summary>
         /// Returns all the current categories on the site
         /// </summary>

@@ -14,6 +14,7 @@ using umbraco.interfaces;
 using umbraco.BusinessLogic;
 using nForum.global;
 using umbraco.cms.businesslogic.web;
+using umbraco.BasePages;
 
 namespace nForum.usercontrols.CLC
 {
@@ -205,17 +206,17 @@ namespace nForum.usercontrols.CLC
 
         protected void search_Click(object sender, EventArgs e)
         {
-            Response.Redirect("membergroupmanagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&memid=" + this.SelectedNodeID + "&documenttype=" + GlobalConstants.MembergroupAlias);
+            Response.Redirect("MembershipManagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&memid=" + this.SelectedNodeID + "&documenttype=" + GlobalConstants.MembergroupAlias);
         }
 
         protected void searchProjects_Click(object sender, EventArgs e)
         {
-            Response.Redirect("membergroupmanagement.aspx?projsearch=" + this.txtSearchMembergroup.Text + "&documenttype=" + GlobalConstants.ProjectAlias);
+            Response.Redirect("MembershipManagement.aspx?projsearch=" + this.txtSearchMembergroup.Text + "&documenttype=" + GlobalConstants.ProjectAlias);
         }
 
         protected void searchMembergroups_Click(object sender, EventArgs e)
         {
-            Response.Redirect("membergroupmanagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&documenttype=" + GlobalConstants.MembergroupAlias);
+            Response.Redirect("MembershipManagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&documenttype=" + GlobalConstants.MembergroupAlias);
         }
 
         protected void save_Click(object sender, EventArgs e)
@@ -225,7 +226,7 @@ namespace nForum.usercontrols.CLC
             // check if membergroup exists, create it if not
             if (MemberGroup.GetByName(selectedNode.Name) == null)
             {
-                MemberGroup.MakeNew(selectedNode.Name, User.GetCurrent());
+                MemberGroup.MakeNew(selectedNode.Name, User.GetUser(0));
             }
 
             MemberGroup group = MemberGroup.GetByName(selectedNode.Name);
@@ -254,8 +255,6 @@ namespace nForum.usercontrols.CLC
 
             this.lblResultInfo.Text = "Wijzigingen opgeslagen!";
 
-        }
-
-
+        }        
     }
 }

@@ -21,16 +21,16 @@
         <fieldset id="membergroup">
         <legend>Kennisgroep aanmaken</legend>
             <p>
-                <asp:Label ID="lblMembergroupName" runat="server" Text="Naam van de kennisgroep"></asp:Label>
+                <asp:Label ID="lblMembergroupName" runat="server" Text="Naam van de kennisgroep" ></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtMembergroupName" MaxLength="30" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtMembergroupName" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>
                 <asp:Label ID="lblMembergroupDescription" runat="server" Text="Omschrijving van de kennisgroep"></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtMembergroupDescription" MaxLength="30" runat="server" TextMode="MultiLine" Rows="3"></asp:TextBox>
+                <asp:TextBox ID="txtMembergroupDescription" MaxLength="30" runat="server" TextMode="MultiLine" Rows="3" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>                
                 <asp:Button ID="btnInsertMembergroup" runat="server" Text="Toevoegen" CssClass="button"
@@ -46,13 +46,13 @@
                 <asp:Label ID="lblProjectName" runat="server" Text="Naam van het project"></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtProjectName" MaxLength="30" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtProjectName" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>
                 <asp:Label ID="lblProjectDescription" runat="server" Text="Omschrijving van het project"></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtProjectDescription" MaxLength="30" runat="server" TextMode="MultiLine" Rows="3"></asp:TextBox>
+                <asp:TextBox ID="txtProjectDescription" MaxLength="30" runat="server" TextMode="MultiLine" Rows="3" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>
                 <asp:Button ID="btnInsertProject" runat="server" Text="Toevoegen"  CssClass="button"
@@ -68,25 +68,25 @@
                 <asp:Label ID="lblMemberName" runat="server" Text="Naam van het lid"></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtMemberName" MaxLength="30" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtMemberName" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>
                 <asp:Label ID="lblMemberLoginName" runat="server" Text="Inlognaam"></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtMemberLoginName" MaxLength="30" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtMemberLoginName" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>
                 <asp:Label ID="lblMemberEmail" runat="server" Text="Emailadres"></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtMemberEmail" MaxLength="30" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtMemberEmail" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>
                 <asp:Label ID="lblPassword" runat="server" Text="Wachtwoord"></asp:Label>
             </p>
             <p>
-                <asp:TextBox ID="txtMemberPassword" MaxLength="30" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtMemberPassword" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
             </p>
             <p>
                 <asp:Button ID="btnInsertMember" runat="server" Text="Toevoegen"  CssClass="button"

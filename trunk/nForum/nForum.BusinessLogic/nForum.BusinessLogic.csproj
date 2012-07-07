@@ -87,6 +87,7 @@
     </Compile>
     <Compile Include="CacheHelper.cs" />
     <Compile Include="Data\ForumFactory.cs" />
+    <Compile Include="Models\AgendaItem.cs" />
     <Compile Include="Models\Forum.cs" />
     <Compile Include="Models\ForumBase.cs" />
     <Compile Include="Models\ForumCategory.cs" />
