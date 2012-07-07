@@ -18,7 +18,10 @@ namespace nForum.usercontrols.CLC
     {        
         protected void Page_Load(object sender, EventArgs e)
         {
-            ((Calendar)this.lvEditItem.FindControl("cldDate")).SelectedDate = DateTime.Now;
+            if (!IsPostBack)
+            {
+                this.DataBind();
+            }            
         }
 
         protected void createAgendaItem_Click(object sender, EventArgs e)
@@ -34,6 +37,9 @@ namespace nForum.usercontrols.CLC
             if (yearFolder == null)
             {
                 Document newYear = Document.MakeNew(DateTime.Now.Year.ToString(), DocumentType.GetByAlias(GlobalConstants.DateFolderAlias), User.GetUser(0), agenda.Id);
+                newYear.Publish(User.GetUser(0));
+                umbraco.library.UpdateDocumentCache(newYear.Id);
+
                 parentId = newYear.Id;
             }
             else

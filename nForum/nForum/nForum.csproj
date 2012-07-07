@@ -90,10 +90,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="global\GlobalConstants.cs" />
+    <Compile Include="helpers\businessobjects\AgendaHelper.cs" />
     <Compile Include="helpers\DocumentHelper.cs" />
     <Compile Include="helpers\FolderHelper.cs" />
     <Compile Include="helpers\HtmlHelper.cs" />
     <Compile Include="helpers\MediaHelper.cs" />
+    <Compile Include="helpers\NodeHelper.cs" />
     <Compile Include="masterpages\ActiveTopics.master.cs">
       <DependentUpon>ActiveTopics.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -18,7 +18,7 @@
             <asp:Repeater ID="rprProjects" runat="server" >                
  			    <ItemTemplate>
                 <li>
-                     <a href='<%# "membergroupmanagement.aspx?projid=" + ((Document)Container.DataItem).Id + "&projsearch=" + txtSearchProject.Text + "&documenttype=" + GlobalConstants.ProjectAlias  %>'
+                     <a href='<%# "MembershipManagement.aspx?projid=" + ((Document)Container.DataItem).Id + "&projsearch=" + txtSearchProject.Text + "&documenttype=" + GlobalConstants.ProjectAlias  %>'
                      class='<%# (IsProjectSelected(((Document)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
                      <%# ((Document)Container.DataItem).Text %>
                      </a>                     
@@ -39,7 +39,7 @@
             <asp:Repeater ID="rprGroups" runat="server" >                
  			    <ItemTemplate>
                 <li>
-                     <a href='<%# "membergroupmanagement.aspx?memid=" + ((ForumCategory)Container.DataItem).Id + "&memgsearch=" + txtSearchMembergroup.Text  + "&documenttype=" + GlobalConstants.MembergroupAlias  %>'
+                     <a href='<%# "MembershipManagement.aspx?memid=" + ((ForumCategory)Container.DataItem).Id + "&memgsearch=" + txtSearchMembergroup.Text  + "&documenttype=" + GlobalConstants.MembergroupAlias  %>'
                      class='<%# (IsMembergroupSelected(((ForumCategory)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
                      <%# ((ForumCategory)Container.DataItem).Name %>
                      </a>                     
@@ -75,8 +75,9 @@
 </div>
 
 
-<asp:Button ID="save" runat="server" Text="Opslaan" CssClass="button" onclick="save_Click" />
-
+<div class="buttonbar">
+ <asp:Button ID="save" runat="server" Text="Opslaan" CssClass="button" onclick="save_Click" />
  <a href="/Control-panel.aspx" class="button">Terug naar het beheerscherm</a> 
- <a href='<%# "membergroupmanagement.aspx?documenttype=" + Request.QueryString["documenttype"].ToString() %>' class="button">Velden leegmaken</a>
+ <a href='<%# "MembershipManagement.aspx?documenttype=" + Request.QueryString["documenttype"].ToString() %>' class="button">Velden leegmaken</a>
+</div>
 

@@ -11,39 +11,27 @@ using umbraco.interfaces;
 using nForum.BusinessLogic;
 using nForum.BusinessLogic.Models;
 using umbraco;
+using nForum.helpers.businessobjects;
 
 namespace nForum.usercontrols.CLC
 {
     public partial class MyAgenda : BaseForumUsercontrol
     {
-        List<Node> agendaItems = new List<Node>();
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            // get all agenda items of current node
+            // get all future agendaitems
+            if (!IsPostBack)
+            {
+                IEnumerable<Node> nodes = AgendaHelper.GetUpcomingEvents(-1);
 
-            this.GetAllNodesByType(-1, GlobalConstants.AgendaItemAlias);
-
-            this.rptAgenda.DataSource = agendaItems;
-            this.rptAgenda.DataBind();
+                this.rptAgenda.DataSource = nodes;
+                this.rptAgenda.DataBind();
+            }
         }
 
-        private void GetAllNodesByType(int nodeId, string typeName)
+        protected int GetProjectID(int agendaItemId)
         {
-            var node = new Node(nodeId);
-            foreach (Node childNode in node.Children)
-            {
-                var child = childNode;
-                if (child.NodeTypeAlias == typeName)
-                {
-                    agendaItems.Add(child);
-                }
-
-                if (child.Children.Count > 0)
-                {
-                    GetAllNodesByType(child.Id, typeName);
-                }                    
-            }
+            return NodeHelper.GetParentNodeByType(agendaItemId, GlobalConstants.ProjectAlias).Id;
         }
 
     }
