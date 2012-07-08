@@ -582,7 +582,7 @@ input[type='text'], input[type='password']
   overflow: hidden;
 }
 
-#newPost .button, .newDiscussionContent .button, #editPostContainer .button
+#newPost .button, .newDiscussionContent .button, #editPostContainer .button, #newNoticeContainer .button
 {
   margin-top: 15px;
 }
@@ -652,7 +652,43 @@ input[type='text'], input[type='password']
   font-size: 18px;
 }
 
+#profileContainer h3.c1
+{
+	margin-top: 15px;
+}
 
+.profileItem .label
+{
+	float: left; 
+	width: 150px;
+}
 
+.profileItem .separator
+{
+	float: left;
+}
+
+.profileItem .value
+{
+	float: left;
+	margin-left: 15px;
+}
+
+#topiclistheadbuttons
+{
+	margin-bottom: 15px;
+}
+
+#newNoticeContainer
+{
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+#newNoticeContainer textarea
+{
+	float: left;
+	width: 100%;
+}
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
