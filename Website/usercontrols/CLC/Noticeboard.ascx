@@ -2,7 +2,7 @@
 <%@ Import Namespace="umbraco.NodeFactory" %>
 <%@ Import Namespace="nForum.BusinessLogic" %>
 
-<h3 class="kaffeeSatz">Notities</h3>
+<h3 class="kaffeeSatz c1">Notities</h3>
 <asp:Repeater ID="rptNoticeBoard" runat="server" EnableViewState="false">
     <ItemTemplate>
         <p>
@@ -15,4 +15,4 @@
     </ItemTemplate>
 </asp:Repeater>
 
-<asp:HyperLink ID="lnkNoticeboard" runat="server" Visible="false">Bekijk alle notities</asp:HyperLink>
+<asp:HyperLink ID="lnkNoticeboard" runat="server" CssClass="c2" Visible="false">Bekijk alle notities</asp:HyperLink>

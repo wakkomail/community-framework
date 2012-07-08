@@ -13,7 +13,7 @@
         <umbraco:Macro ShowAll="0" Alias="CLC-Discussions" runat="server" />
         <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
         <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>
-        <div id="prikbordContainer">
+        <div id="prikbordContainer" class="fatBorder">
           <umbraco:Macro ShowAll="0" Alias="CLC-NoticeBoard" runat="server"></umbraco:Macro>
           <umbraco:Macro Alias="CLC-CreateNotice" runat="server"></umbraco:Macro>
         </div>

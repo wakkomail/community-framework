@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
+ <div id="contentContainer" class="grid_12 full">
+   <div id="profileContainer">
+   <umbraco:Macro Alias="CLC-MemberProfile" runat="server"></umbraco:Macro>
+   </div>
+  </div>
+</asp:Content>

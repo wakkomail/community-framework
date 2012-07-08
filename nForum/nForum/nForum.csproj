@@ -293,6 +293,20 @@
     <Compile Include="usercontrols\CLC\MembershipManagement.ascx.designer.cs">
       <DependentUpon>MembershipManagement.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\membership\MemberProfile.ascx.cs">
+      <DependentUpon>MemberProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\membership\MemberProfile.ascx.designer.cs">
+      <DependentUpon>MemberProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\CLC\membership\MemberProfileEdit.ascx.cs">
+      <DependentUpon>MemberProfileEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\membership\MemberProfileEdit.ascx.designer.cs">
+      <DependentUpon>MemberProfileEdit.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\MyAgenda.ascx.cs">
       <DependentUpon>MyAgenda.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -726,6 +740,8 @@
     <Content Include="usercontrols\CLC\Discussion.ascx" />
     <Content Include="usercontrols\CLC\EditPost.ascx" />
     <Content Include="usercontrols\CLC\MembershipManagement.ascx" />
+    <Content Include="usercontrols\CLC\membership\MemberProfile.ascx" />
+    <Content Include="usercontrols\CLC\membership\MemberProfileEdit.ascx" />
     <Content Include="usercontrols\CLC\MyAgenda.ascx" />
     <Content Include="usercontrols\CLC\MyMembergroups.ascx" />
     <Content Include="usercontrols\CLC\MyProjects.ascx" />
