@@ -34,8 +34,8 @@
         </div>
       </a>
       <div id="searchContainer">
-        <input id="searchText" type="text" />
-        <input id="searchButton" type="submit" value="" />
+        <input id="searchText" type="text" onKeyPress="return event.keyCode != 13" />
+        <div id="searchButton"></div>       
       </div>
     </div>
     <div id="mainMenuContainer" class="grid_12 full">

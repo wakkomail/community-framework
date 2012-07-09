@@ -22,4 +22,20 @@
 	$('.anchorItem').click(function () {
 		window.location = $(this).find('a').attr('href');
 	});
-});
+    
+    // Search Click
+    
+    $("#searchButton").click(function () {         
+		window.location = "/CLCSearchResult.aspx?search=" + $("#searchText").val();   
+        return false;
+	});
+    
+    $('#searchText').keypress(function (e) {
+        var code = (e.keyCode ? e.keyCode : e.which);
+
+        if (code == 13) {
+            $('#searchButton').click();
+        }
+    });
+    
+  });
