@@ -14,4 +14,7 @@
 05 juli : MAMA :
 	- Zie SVN Log voor codewijzigingen. :-)
 	- Nederlandse vertalingen toegevoegd aan dictionary.
+09 juli	: WTH :
+	- Zoeken erin gebakken
+	- Max aantal items op de home
 	

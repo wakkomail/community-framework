@@ -67,12 +67,12 @@
       <div id="kennisGroepenContainer" class="grid_3 fatBorder">
         <h3 class="kaffeeSatz c1">
           Kennisgroepen</h3>
-        <umbraco:Macro Alias="CLC-Membergroups" runat="server"></umbraco:Macro>
+        <umbraco:Macro Alias="CLC-Membergroups" AmountToTake="10" runat="server"></umbraco:Macro>
       </div>
       <div id="projectenContainer" class="grid_3 fatBorder">
         <h3 class="kaffeeSatz c1">
           Projecten</h3>
-        <umbraco:Macro Alias="CLC-Projects" runat="server"></umbraco:Macro>     
+        <umbraco:Macro Alias="CLC-Projects" AmountToTake="10"  runat="server"></umbraco:Macro>     
       </div>
       <div id="crossReferencesContainer" class="grid_3">
         <umbraco:Macro ShowNewest="1" Alias="CLC-MembersList" runat="server"></umbraco:Macro>

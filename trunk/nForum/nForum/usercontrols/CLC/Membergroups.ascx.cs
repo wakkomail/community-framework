@@ -9,7 +9,7 @@ namespace nForum.usercontrols.CLC
 {
     public partial class Membergroups : BaseForumUsercontrol
 	{
-		
+        public int AmountToTake { get; set; }
 
 		protected void Page_Load(object sender, EventArgs e)
         {
@@ -29,6 +29,11 @@ namespace nForum.usercontrols.CLC
                               select f;
 
             // End cache check
+
+            if (AmountToTake > 0)
+            {
+                mainforums = mainforums.Take(AmountToTake);
+            }
 
             if (mainforums.Any())
             {
