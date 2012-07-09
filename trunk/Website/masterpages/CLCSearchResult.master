@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderId="cp_head" runat="server">
+  <script src="/scripts/nforumhoverintent.js" type="text/javascript"></script>
+    <script src="/scripts/nforumajaxpostsnippet.js" type="text/javascript"></script>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">       
+      <div id="contentContainer" class="grid_12 full">
+      <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+         <div id="projectsContainer" class="grid_9 fatBorder">
+            <h2 class="c1 kaffeeSatz">
+                Zoekresultaten
+            </h2>            
+            <umbraco:Macro Alias="CLC-SearchResult" runat="server" />                
+         </div>   
+      </div>
+
+</asp:Content>

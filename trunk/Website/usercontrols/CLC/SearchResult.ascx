@@ -5,9 +5,17 @@
 <ItemTemplate>
     <div class="topicSummary anchorItem thinBorder clearfix">
         <span class="topicHeader c1">
-            <asp:Label ID="lblSearchResultType" runat="server" Text="Label"></asp:Label>  
-            <asp:Label ID="lblNodeText" runat="server" Text="Label"></asp:Label> 
-            <asp:HyperLink ID="lnkResult" runat="server">HyperLink</asp:HyperLink>
+        <asp:HyperLink ID="lnkResult" runat="server">
+            <p>
+                <asp:Label ID="lblSearchResultType" runat="server" Text="Label"></asp:Label>  
+            </p>
+            <p>
+                <asp:Label ID="lblNodeText" runat="server" Text="Label"></asp:Label> 
+            </p>
+            <p>
+                Lees meer...
+            </p>  
+        </asp:HyperLink>          
         </span>
     </div>
 </ItemTemplate>
