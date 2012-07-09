@@ -17,5 +17,8 @@
             <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
             <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>           
         </div>
+        <div id="crossReferencesContainer" class="grid_3">
+          <umbraco:Macro ShowNewest="0" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
+        </div>
   </div>
 </asp:Content>
