@@ -398,6 +398,13 @@
     <Compile Include="usercontrols\CLC\Noticeboard.ascx.designer.cs">
       <DependentUpon>Noticeboard.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\SearchResult.ascx.cs">
+      <DependentUpon>SearchResult.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\SearchResult.ascx.designer.cs">
+      <DependentUpon>SearchResult.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\templates\SmallDiscussionRepeaterItem.ascx.cs">
       <DependentUpon>SmallDiscussionRepeaterItem.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -755,6 +762,7 @@
     <Content Include="usercontrols\CLC\membership\UserAdmin.ascx" />
     <Content Include="usercontrols\CLC\MembersList.ascx" />
     <Content Include="usercontrols\CLC\Noticeboard.ascx" />
+    <Content Include="usercontrols\CLC\SearchResult.ascx" />
     <Content Include="usercontrols\CLC\templates\SmallDiscussionRepeaterItem.ascx" />
     <Content Include="usercontrols\CLC\ControlPanel.ascx" />
     <Content Include="usercontrols\nForum\dashboard\ForumLatestMembers.ascx" />

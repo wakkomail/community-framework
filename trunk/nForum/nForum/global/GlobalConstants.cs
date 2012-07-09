@@ -48,5 +48,6 @@ namespace nForum.global
 
         // nforum
         public const int SummaryMaxLength = 150;
+        public const string PostAlias = "CLC-Post";        
     }
 }

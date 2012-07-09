@@ -17,6 +17,15 @@ namespace nForum.helpers
             return result;
         }
 
+        public static List<Node> GetAllNodesByTypes(int nodeId, string[] typeNames)
+        {
+            List<Node> result = new List<Node>();
+
+            GetNodeList(nodeId, typeNames, ref result);
+
+            return result;            
+        }
+
         private static void GetNodeList(int nodeId, string typeName, ref List<Node> result)
         {
             var node = new Node(nodeId);
@@ -34,6 +43,26 @@ namespace nForum.helpers
                 }
             }   
         }
+
+        private static void GetNodeList(int nodeId, string[] typeNames, ref List<Node> result)
+        {
+            var node = new Node(nodeId);
+            foreach (Node childNode in node.Children)
+            {
+                var child = childNode;
+                if (typeNames.Contains(child.NodeTypeAlias))
+                {
+                    result.Add(child);
+                }
+
+                if (child.Children.Count > 0)
+                {
+                    GetNodeList(child.Id, typeNames, ref result);
+                }
+            }
+        }
+
+        
 
         public static Node GetParentNodeByType(int nodeId, string typeName)
         {
