@@ -15,6 +15,8 @@ namespace nForum.usercontrols.CLC
 {
     public partial class Projects : BaseForumUsercontrol
 	{
+        public int AmountToTake { get; set; }
+
 		protected void Page_Load(object sender, EventArgs e)
         {
             if(!Page.IsPostBack)
@@ -27,7 +29,13 @@ namespace nForum.usercontrols.CLC
         {
 			//Get the projects rootfolder.
 			var projectsRoot = DocumentHelper.GetOrCreateProjectgroupCategory();
-			this.rprProjects.DataSource = projectsRoot.Children;
+            var projects = projectsRoot.Children;
+
+            if (AmountToTake > 0)
+            {
+                projects = projects.Take(AmountToTake).ToArray();
+            }
+            this.rprProjects.DataSource = projects;
 			this.rprProjects.DataBind();
         }
 
