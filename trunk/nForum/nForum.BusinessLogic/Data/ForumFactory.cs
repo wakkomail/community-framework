@@ -5,6 +5,7 @@ using nForum.BusinessLogic.Models;
 using umbraco.BusinessLogic;
 using umbraco.NodeFactory;
 using umbraco.cms.businesslogic.web;
+using System;
 
 namespace nForum.BusinessLogic.Data
 {
@@ -57,7 +58,7 @@ namespace nForum.BusinessLogic.Data
                 var results = ExamineManager.Instance.SearchProviderCollection[ExamineSearcher].Search(query.Compile());
                 return results.FirstOrDefault().Id;
             }
-            catch
+            catch (Exception ex)
             {
                 // This is shite, but its to stop the package installer from dying
                 return -1;

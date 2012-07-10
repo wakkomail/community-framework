@@ -328,6 +328,13 @@
     <Compile Include="usercontrols\CLC\MyProjects.ascx.designer.cs">
       <DependentUpon>MyProjects.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\Project.ascx.cs">
+      <DependentUpon>Project.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\Project.ascx.designer.cs">
+      <DependentUpon>Project.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\Projects.ascx.cs">
       <DependentUpon>Projects.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -752,6 +759,7 @@
     <Content Include="usercontrols\CLC\MyAgenda.ascx" />
     <Content Include="usercontrols\CLC\MyMembergroups.ascx" />
     <Content Include="usercontrols\CLC\MyProjects.ascx" />
+    <Content Include="usercontrols\CLC\Project.ascx" />
     <Content Include="usercontrols\CLC\Projects.ascx" />
     <Content Include="usercontrols\CLC\CreateAgendaItem.ascx" />
     <Content Include="usercontrols\CLC\Discussions.ascx" />

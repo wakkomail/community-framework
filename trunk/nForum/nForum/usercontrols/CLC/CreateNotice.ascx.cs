@@ -26,7 +26,16 @@ namespace nForum.usercontrols.CLC
             string dateTime = DateTime.Now.ToString("MM-dd-yy H:mm:ss");
 
             // get proper noticeboard folder
-            Node noticeBoard = (Node)Node.GetCurrent().ChildrenAsList.First(n => n.NodeTypeAlias == GlobalConstants.NoticeBoardAlias);
+            Node noticeBoard;
+
+            if (Node.GetCurrent().NodeTypeAlias == GlobalConstants.NoticeBoardAlias)
+            {
+                noticeBoard = (Node)Node.GetCurrent();
+            }
+            else
+            {
+                noticeBoard = (Node)Node.GetCurrent().ChildrenAsList.First(n => n.NodeTypeAlias == GlobalConstants.NoticeBoardAlias);
+            }                       
             
             Document newDocument = Document.MakeNew(name + "|" + dateTime, DocumentType.GetByAlias(GlobalConstants.NoticeAlias), User.GetUser(0), noticeBoard.Id);
             newDocument.getProperty("content").Value = ((TextBox)this.lvEditPost.FindControl("txtNotice")).Text;
@@ -34,7 +43,7 @@ namespace nForum.usercontrols.CLC
             // clear document cache
             umbraco.library.UpdateDocumentCache(newDocument.Id);
 
-            //Response.Redirect(Request.RawUrl);
+            Response.Redirect(Request.RawUrl);
         }
     }
 }
