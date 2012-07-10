@@ -565,6 +565,24 @@ input[type='text'], input[type='password']
   width: 100%;
 }
 
+.postContent pre
+{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	padding: 15px;
+	
+	border: 1px solid #000000;
+	background-color: white;
+    background-image: url("clc/background_content.png");
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+.postContent pre em
+{
+	font-weight: bold;
+}
+
 .lastedited
 {
   font-weight: bold;
