@@ -54,7 +54,7 @@ namespace nForum.usercontrols.CLC
 
                 // create membergroup
                 Document newMemberGroup = Document.MakeNew(this.txtMembergroupName.Text, DocumentType.GetByAlias(GlobalConstants.MembergroupAlias), User.GetUser(0), contentCategory.Id);
-                newMemberGroup.Template = Template.GetByAlias(GlobalConstants.MembergroupTemplateName).Id;
+                newMemberGroup.Template = Template.GetByAlias(GlobalConstants.MembergroupTemplateAlias).Id;
                 // set default properties
                 newMemberGroup.getProperty(GlobalConstants.PermissionKarmaAmount).Value = GlobalConstants.PermissionKarmaAmountDefaultValue;
                 newMemberGroup.getProperty(GlobalConstants.PermissionPostKarmaAmount).Value = GlobalConstants.PermissionPostKarmaAmountDefaultValue;
@@ -73,7 +73,7 @@ namespace nForum.usercontrols.CLC
 
                 // create noticeboard
                 Document noticeBoard = Document.MakeNew(GlobalConstants.NoticeBoardFolder, DocumentType.GetByAlias(GlobalConstants.NoticeBoardAlias), User.GetUser(0), newMemberGroup.Id);
-                noticeBoard.Template = Template.GetByAlias(GlobalConstants.NoticeBoardAlias).Id;
+                noticeBoard.Template = Template.GetByAlias(GlobalConstants.NoticeBoardTemplateAlias).Id;
                 noticeBoard.Publish(User.GetUser(0));
 
                 SetOption(enuOption.None);

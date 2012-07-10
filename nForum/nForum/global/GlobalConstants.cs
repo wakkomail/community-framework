@@ -16,7 +16,7 @@ namespace nForum.global
         // membergroup
         public const string MembergroupAlias = "CLC-Membergroup";
         public const string MembergroupFolderName = "Kennisgroepen"; 
-        public const string MembergroupTemplateName = "CLCMembergroup";       
+        public const string MembergroupTemplateAlias = "CLCMembergroup";       
 
         // project
         public const string ProjectFolderName = "Projecten"; 
@@ -38,7 +38,9 @@ namespace nForum.global
         // notices
         public const string NoticeAlias = "CLC-Notice"; 
         public const string NoticeBoardFolder = "Noticeboard"; 
-        public const string NoticeBoardAlias = "CLC-Noticeboard"; 
+        public const string NoticeBoardAlias = "CLC-Noticeboard";
+        public const string NoticeBoardTemplateAlias = "CLCNoticeboard"; 
+
 
         // agenda
         public const string AgendaItemAlias = "CLC-AgendaItem"; 

@@ -24,7 +24,7 @@ namespace nForum.usercontrols.CLC
 
             // Get the main categories
             var useNodeFactory = Request.QueryString["nf"] != null;
-            var mainforums = from f in Factory.ReturnAllCategories(useNodeFactory)
+            var mainforums = from f in Factory.ReturnAllCategories(useNodeFactory).OrderByDescending(c => c.CreatedOn)
                               where f.IsMainCategory
                               select f;
 
