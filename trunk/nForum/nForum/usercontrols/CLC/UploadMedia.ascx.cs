@@ -97,8 +97,9 @@ namespace nForum.usercontrols.CLC
                     // Create a new folder in the /media folder with the name /media/propertyid
                     // string mediaRootPath = HttpContext.GetGlobalResourceObject("appSettings", "MediaFilePath") as string;
                     // string mediaRootPath = ConfigurationSettings.AppSettings["MediaFilePath"];
-                    string mediaRootPath = System.Configuration.ConfigurationManager.AppSettings["MediaFilePath"];
-                    
+                    //string mediaRootPath = System.Configuration.ConfigurationManager.AppSettings["MediaFilePath"];
+					string mediaRootPath = Server.MapPath("~/media/");
+
                     string storagePath = mediaRootPath + mediaFile.Id.ToString();
                     System.IO.Directory.CreateDirectory(storagePath);
                     fullFilePath = storagePath + "\\" + filename;
