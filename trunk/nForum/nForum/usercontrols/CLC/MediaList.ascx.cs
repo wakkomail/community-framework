@@ -19,7 +19,10 @@ namespace nForum.usercontrols.CLC
         protected void Page_Load(object sender, EventArgs e)
         {
             this.Initialize();
-            this.SetMediaList();
+            if (!IsPostBack)
+            {
+                this.SetMediaList();
+            }            
         }
 
         private void SetMediaList()
@@ -60,6 +63,17 @@ namespace nForum.usercontrols.CLC
             result = filepath.Replace(".", "_thumb.").Replace(ext, "jpg");
 
             return result;
+        }
+
+        protected void rptMedia_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            int id = Convert.ToInt32(e.CommandArgument);
+            if (e.CommandName == "delete")
+            {
+                Media deleteFile = new Media(id);
+                deleteFile.delete();
+                Response.Redirect(Request.RawUrl);
+            }
         }
     }
 }

@@ -29,11 +29,12 @@ namespace nForum.usercontrols.CLC
         {
 			//Get the projects rootfolder.
 			var projectsRoot = DocumentHelper.GetOrCreateProjectgroupCategory();
-            var projects = projectsRoot.Children;
+            var projects = from p in projectsRoot.Children.OrderByDescending(p => p.CreateDateTime)
+                           select p;
 
             if (AmountToTake > 0)
             {
-                projects = projects.Take(AmountToTake).ToArray();
+                projects = projects.Take(AmountToTake);
             }
             this.rprProjects.DataSource = projects;
 			this.rprProjects.DataBind();
