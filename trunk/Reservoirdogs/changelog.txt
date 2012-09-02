@@ -1,20 +1,3 @@
-28 juni : WTH :
-	- prikbord verversen na aanmaken
-	- prikbord verdieping
-	- omschrijving bij control panel
-02 juli	: WTH : 
-	- Mijn projecten
-	- Mijn kennisgroepen
-	- Renamen naar nederlands t.b.v. kruimelpad
-	- Project template
-	- AGenda
-03 juli	: WTH :
-	- Mijn Agenda
-	- Enige vorm van security ingesteld
-05 juli : MAMA :
-	- Zie SVN Log voor codewijzigingen. :-)
-	- Nederlandse vertalingen toegevoegd aan dictionary.
-09 juli	: WTH :
-	- Zoeken erin gebakken
-	- Max aantal items op de home
+2 sept - WTH:	documenten verwijderen, refreshen na uploaden / verwijderen
+
 	
