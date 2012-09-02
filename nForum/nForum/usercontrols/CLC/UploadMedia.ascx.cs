@@ -208,7 +208,7 @@ namespace nForum.usercontrols.CLC
         {
             int mediaId = SaveFile(uploadMedia).Id;
 
-            // TODO: SET MEMBER PROFILE IMAGE TO THIS ID
+            Response.Redirect(Request.RawUrl);
 
         }
 
