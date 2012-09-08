@@ -8,7 +8,14 @@
 			<ItemTemplate>
 				<li>
 					<a href="<%# ((Media)Container.DataItem).getProperty("umbracoFile").Value.ToString() %>" class="c2"><%# ((Media)Container.DataItem).Text %></a>
-                    <asp:ImageButton ID="deletebutton" ImageUrl="/css/clc/delete.png" runat="server" CommandName="delete" CommandArgument="<%# ((Media)Container.DataItem).Id %>"  />
+
+                    <a href="#" class="deleteMedia deletebutton">
+                         <div class="confirmDeleteMedia" style="display: none;">
+                         <p>Weet u zeker dat u het document "<%# ((Media)Container.DataItem).Text %>" wilt verwijderen?</p>
+                            <asp:Button ID="deletebutton" runat="server" Text="Verwijderen" CommandName="delete" CommandArgument="<%# ((Media)Container.DataItem).Id %>"  CssClass="button" />
+                            <asp:Button ID="cancelbutton" CssClass="cancel button" Text="Annuleren" runat="server"/>
+                        </div>
+                    </a>
 				</li>
 			</ItemTemplate>    
 		</asp:Repeater>

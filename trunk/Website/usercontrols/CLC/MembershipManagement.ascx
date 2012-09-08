@@ -62,7 +62,9 @@
 				        <li>					        
                             <asp:CheckBox ID="chkMember" CssClass="isMember" Text='<%# ((Member)Container.DataItem).LoginName %>' 
                             Checked='<%# IsMember(((Member)Container.DataItem).LoginName) %>'  runat="server" /> 
-                            <b><%# ((Member)Container.DataItem).Email %></b>                                
+                            <b><%# ((Member)Container.DataItem).Email %></b>
+                            <asp:CheckBox ID="chkManager" Text='beheerder' runat="server" CssClass="isManager"
+                            Checked='<%# IsManager(((Member)Container.DataItem).LoginName) %>' />                                
 				        </li>
 			        </ItemTemplate>
 		        </asp:Repeater> 

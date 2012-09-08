@@ -76,12 +76,30 @@ namespace nForum.usercontrols.CLC
                 noticeBoard.Template = Template.GetByAlias(GlobalConstants.NoticeBoardTemplateAlias).Id;
                 noticeBoard.Publish(User.GetUser(0));
 
+                // create membership group
+                CreateMembershipGroup(this.txtMembergroupName.Text);
+
                 SetOption(enuOption.None);
                 lblResultInfo.Text = "Kennisgroep '" + this.txtMembergroupName.Text + "' aangemaakt!";
             }
             else
             {
                 lblResultInfo.Text = "Kennisgroepnaam is een verplicht veld";
+            }
+        }
+
+        private void CreateMembershipGroup(string groupName)
+        {
+            // check if membershipgroup exists, create it if not
+            if (MemberGroup.GetByName(groupName) == null)
+            {
+                MemberGroup.MakeNew(groupName, User.GetUser(0));
+            }
+
+            // also create managers membershipgroup
+            if (MemberGroup.GetByName(groupName + "|" + GlobalConstants.RoleManager) == null)
+            {
+                MemberGroup.MakeNew(groupName + "|" + GlobalConstants.RoleManager, User.GetUser(0));
             }
         }
 
@@ -116,6 +134,9 @@ namespace nForum.usercontrols.CLC
                 agenda.Template = Template.GetByAlias(GlobalConstants.AgendaTemplateAlias).Id;
                 agenda.Publish(User.GetUser(0));
                 umbraco.library.UpdateDocumentCache(agenda.Id);
+
+                // create membership group
+                CreateMembershipGroup(this.txtProjectName.Text);
 
                 SetOption(enuOption.None);
                 lblResultInfo.Text = "Project '" + this.txtProjectName.Text + "' aangemaakt!";
