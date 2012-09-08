@@ -276,6 +276,12 @@ a
   background-repeat: repeat;
   background-position: left top;
 }
+.deletebutton {
+  background-image: url('/css/clc/delete.png');
+  width:  16px;
+  height:  16px;
+  float: right;
+}
 
 #footerContainer
 {

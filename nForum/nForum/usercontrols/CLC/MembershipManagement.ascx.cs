@@ -204,9 +204,29 @@ namespace nForum.usercontrols.CLC
             return result;
         }
 
+        protected bool IsManager(string loginName)
+        {
+            bool result = false;
+
+            Member member = Member.GetMemberByName(loginName, false)[0];
+
+            Node selectedNode = new Node(this.SelectedNodeID);
+
+            foreach (var group in member.Groups.Values)
+            {
+                if (((umbraco.cms.businesslogic.CMSNode)group).Text == selectedNode.Name + "|" + GlobalConstants.RoleManager)
+                {
+                    result = true;
+                    break;
+                }
+            }
+
+            return result;
+        }
+
         protected void search_Click(object sender, EventArgs e)
         {
-            Response.Redirect("MembershipManagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&memid=" + this.SelectedNodeID + "&documenttype=" + GlobalConstants.MembergroupAlias);
+            Response.Redirect("MembershipManagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&memid=" + this.SelectedNodeID + "&documenttype=" + Request.QueryString["documenttype"].ToString());
         }
 
         protected void searchProjects_Click(object sender, EventArgs e)
@@ -223,17 +243,30 @@ namespace nForum.usercontrols.CLC
         {
             Node selectedNode = new Node(this.SelectedNodeID);
 
-            // check if membergroup exists, create it if not
+            // TODO: obsolete 
+
+            // check if membershipgroup exists, create it if not
             if (MemberGroup.GetByName(selectedNode.Name) == null)
             {
                 MemberGroup.MakeNew(selectedNode.Name, User.GetUser(0));
             }
 
+            // also create managers membershipgroup
+            if (MemberGroup.GetByName(selectedNode.Name + "|" + GlobalConstants.RoleManager) == null)
+            {
+                MemberGroup.MakeNew(selectedNode.Name + "|" + GlobalConstants.RoleManager, User.GetUser(0));
+            }
+
+            // END TODO
+
             MemberGroup group = MemberGroup.GetByName(selectedNode.Name);
+            MemberGroup managerGroup = MemberGroup.GetByName(selectedNode.Name + "|" + GlobalConstants.RoleManager);
+
 
             foreach (RepeaterItem item in rprMembers.Items)
             {
                 CheckBox isMemberControl = (CheckBox)item.Controls[1];
+                CheckBox isManagerControl = (CheckBox)item.Controls[3];
                 Member member = Member.GetMemberByName(isMemberControl.Text, false)[0];
                 if (isMemberControl.Checked == true)
                 {
@@ -249,6 +282,23 @@ namespace nForum.usercontrols.CLC
                     if (IsMember(member.LoginName))
                     {
                         member.RemoveGroup(group.Id);
+                    }
+                }
+
+                if (isManagerControl.Checked == true)
+                {
+                    // ensure that member is attached to the managergroup
+                    if (!IsManager(member.LoginName))
+                    {
+                        member.AddGroup(managerGroup.Id);
+                    }
+                }
+                else
+                {
+                    // ensure that member is not attached to the managergroup
+                    if (IsManager(member.LoginName))
+                    {
+                        member.RemoveGroup(managerGroup.Id);
                     }
                 }
             }

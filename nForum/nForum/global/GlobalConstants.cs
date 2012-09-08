@@ -33,7 +33,9 @@ namespace nForum.global
         public const string DescriptionField = "forumCategoryDescription"; 
      
         // membership
-        public const string MemberTypeAlias = "ForumUser"; 
+        public const string MemberTypeAlias = "ForumUser";
+        public const string RoleManager = "Beheer"; 
+
 
         // notices
         public const string NoticeAlias = "CLC-Notice"; 

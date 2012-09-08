@@ -9,11 +9,11 @@
         <div class="agendaDate">
             <%# Convert.ToDateTime(((Node)Container.DataItem).GetProperty("date").Value).ToString("m")  %>         
         </div>        
-        <b>
-            <%# ((Node)Container.DataItem).GetProperty("title").Value %>
-        </b>
         <p>
-            <%# ((Node)Container.DataItem).GetProperty("description").Value %>
+            <b>Afspraak: </b><%# ((Node)Container.DataItem).GetProperty("title").Value %>
+        </p>
+        <p>
+            <b>Omschrijving: </b><%# ((Node)Container.DataItem).GetProperty("description").Value %>
         </p>
     </ItemTemplate>
 </asp:Repeater>
