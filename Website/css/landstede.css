@@ -1,0 +1,217 @@
+html
+{
+	font-family: Arial;
+	font-size: 13px;
+	
+	background-color: #eaab00;
+	background-image: url('landstede/landstede_bg.png');
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+
+.kaffeeSatz
+{
+  font-family: 'TheSansSemiBoldPlain';
+}
+
+.c1
+{
+	color: #005c87;
+}
+
+a.c1
+{
+	color: #000000;
+}
+
+.c2
+{
+  color: #000000;
+}
+
+.fatBorder
+{
+  padding-top: 5px;
+  
+  border-top: 5px solid #005c87;
+}
+
+h2
+{
+	font-size: 43px;
+}
+
+h3
+{
+	font-size: 20px;
+}
+
+#headerContainer
+{
+	margin-top: 0px;
+}
+
+#header
+{
+  background-image: url('landstede/landstede_logo.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#header .headerTitle
+{
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-left: 160px;
+    margin-top: 45px;
+}
+
+#header .headerTitle b
+{
+	font-weight: normal;
+}
+
+#header .headerSubTitle 
+{
+	display: none;
+}
+
+#mainContainer
+{
+	margin-top: 0px;
+	background-image: none;
+	background-color: #FEFAF0;
+}
+
+#mainMenuContainer
+{
+	height: 28px;
+
+	background-color: transparent;
+	background-image: url('landstede/main_menu_background.png');
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+
+.mainMenu a, .mainMenu span, .loginContainer span, .loginContainer a
+{
+	line-height: 22px;
+}
+
+.mainMenu a, .mainMenu span, .loginContainer span, .loginContainer a, #copyrightContainer
+{
+	color: #a6cadb;
+}
+
+.mainMenu span 
+{
+	color: transparent;
+	font-size: 0px;
+}
+
+#brandboxContainer
+{
+	height: 188px;
+}
+
+.brandboxItemTitle h2
+{
+	font-size: 43px;
+	line-height: 48px;
+	color: #005c87;
+}
+
+.brandboxItem, .brandboxItemTitle, .brandboxItemText
+{
+  height: 149px;
+}
+
+.brandboxItemText span
+{
+	color: #005c87;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: normal;
+}
+
+.brandboxPagerItem
+{
+  background-color: #005c87;
+}
+
+.brandboxPagerItem.activeSlide
+{
+  background-color: #929292;
+}
+
+#searchContainer
+{
+	margin-top: 15px;
+	position: relative;
+}
+
+#searchText
+{
+	margin-left: 20px;
+	height: 20px;
+  background-color: #ffffff;
+  color: #005c87;
+  border: 1px solid #0a608b;
+}
+
+#searchButton
+{
+  width: 20px;
+  height: 20px;
+	position: absolute;
+ 
+  border-left: 1px solid #0a608b;
+  border-top: 1px solid #0a608b;
+  border-bottom: 1px solid #0a608b;
+  background-image: url('landstede/vergrootglas.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+#footerContainer
+{
+  height: 168px;
+  margin-top: 15px;
+
+ background-image: url('landstede/footer_background.png');
+  background-repeat: repeat-x;
+  background-position: left-top;
+}
+
+#footerMenu {
+    border-top: 0px none;
+	margin-top: 0px;
+}
+
+.postContent pre
+{
+	background-image: none;
+}
+
+input[type='text'], input[type='password'], textarea
+{
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 35px;
+  
+  border: 1px solid #0a608b;
+  background-color: #ffffff;
+}
+
+input[type='text'], input[type='password']
+{
+  height: 35px;
+}
+
+.button, #inlogFormContainer input[type="submit"] 
+{
+	background-color: #005c87;
+	border: 0px none;
+}
