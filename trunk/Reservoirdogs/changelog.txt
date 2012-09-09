@@ -1,3 +1,5 @@
+9 sept	- WTH: 	rechtenstructuur er verder in bouwen
+
 8 sept	- WTH:	fancybox, rechtenstructuur inbouwen beheerder + subbeheerder
 
 2 sept 	- WTH:	documenten verwijderen, refreshen na uploaden / verwijderen
