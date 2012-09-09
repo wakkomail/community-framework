@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'TheSansSemiBoldPlain';
+    src: url('thesansbold-webfont.eot');
+    src: url('thesansbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thesansbold-webfont.woff') format('woff'),
+         url('thesansbold-webfont.ttf') format('truetype'),
+         url('thesansbold-webfont.svg#TheSansSemiBoldPlain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
