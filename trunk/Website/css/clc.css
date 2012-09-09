@@ -9,7 +9,7 @@ html
 {
   font-family: Calibri, Arial, Sans-Serif;
   font-size: 14px;  
-  
+  overflow: hidden;
   background-color: #000000;
   background-image: url('clc/background_website.png');
   background-position: center top;

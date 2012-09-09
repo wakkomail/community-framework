@@ -1,8 +1,7 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
 <%@ Register src="~/usercontrols/nForum/includes/MainMessage.ascx" tagname="MessageBox" tagprefix="msg" %>
-  
-<asp:content id="Content1" contentplaceholderid="ContentPlaceHolderDefault" runat="server">
 
+<asp:content id="Content1" contentplaceholderid="ContentPlaceHolderDefault" runat="server">
 <!DOCTYPE html>
 <html>
 <head id="head" runat="server">
@@ -11,7 +10,7 @@
   <link href="/css/cssreset-min.css" type="text/css" rel="stylesheet" />
   <link href="/css/960grid.css" type="text/css" rel="stylesheet" />
   <link href="/css/clc/Font/stylesheet.css" type="text/css" rel="stylesheet" />
-  <link media="screen" rel="stylesheet" type="text/css" href="/css/clc-controlpanel.css" />  
+  <link rel="stylesheet" type="text/css" href="/css/clc-controlpanel.css" />  
   <link href="/css/clc.css" type="text/css" rel="stylesheet" />  
   <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=2.1.0" media="screen" />
   <!--LANDSTEDE STYLE-->
@@ -86,7 +85,7 @@
           <div id="copyrightContainer">
             ©2012 Creative Learning Community - CLC
             <br />
-            FlowWithTheGo Solutions
+            Zolderkamer solutions
           </div>
         </div>
       </div>

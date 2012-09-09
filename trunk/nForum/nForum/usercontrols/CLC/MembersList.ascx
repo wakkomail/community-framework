@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MembersList.ascx.cs" Inherits="nForum.usercontrols.CLC.MembersList" %>
 <%@ Import Namespace="umbraco.cms.businesslogic.member" %>
 <%@ Import Namespace="nForum.BusinessLogic" %>
+<%@ Import Namespace="umbraco.NodeFactory" %>
 
 <div id="ledenContainer" class="fatBorder">
 	<h3 id="header" class="kaffeeSatz c2" runat="server"></h3>
@@ -13,4 +14,5 @@
 			</ItemTemplate>
 		</asp:Repeater> 
 	</ul>
+    <a id="setMemberButton" href="" class="button setMembers" clientidmode="Static" name="<%# Node.getCurrentNodeId() %>" runat="server">Leden koppelen</a>
 </div>

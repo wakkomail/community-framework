@@ -24,6 +24,7 @@ namespace nForum.usercontrols.CLC
         private int SelectedNodeID { get; set; }
         private string MembergroupSearchText { get; set; }
         private string ProjectSearchText { get; set; }
+        private string MemberSearchText { get; set; }
 
         private const int SEARCHITEMSCOUNT = 20;
 
@@ -100,10 +101,18 @@ namespace nForum.usercontrols.CLC
             IEnumerable<Member> members;
             if (this.SelectedNodeID > 0) 
             {
-                if (Request.QueryString["memsearch"] != null)
+                if (Request.QueryString["memsearch"] != null || !string.IsNullOrEmpty(this.txtSearchMember.Text))
                 {
-                    this.txtSearchMember.Text = Request.QueryString["memsearch"].ToString();
-                    members = Member.GetAllAsList().Where(m => m.LoginName.Contains(this.txtSearchMember.Text) || m.Email.Contains(Request.QueryString["memsearch"].ToString().ToLower()));
+                    if (!string.IsNullOrEmpty(this.txtSearchMember.Text))
+                    {
+                        this.MemberSearchText = this.txtSearchMember.Text;
+                    }
+                    else
+                    {
+                        this.MemberSearchText = Request.QueryString["memsearch"].ToString();
+                        this.txtSearchMember.Text = this.MemberSearchText;
+                    }
+                    members = Member.GetAllAsList().Where(m => m.LoginName.ToLower().Contains(this.MemberSearchText.ToLower()) || m.Email.Contains(this.MemberSearchText.ToLower()));
                 }
                 else
                 {
@@ -231,7 +240,7 @@ namespace nForum.usercontrols.CLC
 
         protected void searchProjects_Click(object sender, EventArgs e)
         {
-            Response.Redirect("MembershipManagement.aspx?projsearch=" + this.txtSearchMembergroup.Text + "&documenttype=" + GlobalConstants.ProjectAlias);
+            Response.Redirect("MembershipManagement.aspx?projsearch=" + this.txtSearchProject.Text + "&documenttype=" + GlobalConstants.ProjectAlias);
         }
 
         protected void searchMembergroups_Click(object sender, EventArgs e)
@@ -242,7 +251,7 @@ namespace nForum.usercontrols.CLC
         protected void save_Click(object sender, EventArgs e)
         {
             Node selectedNode = new Node(this.SelectedNodeID);
-
+            
             // TODO: obsolete 
 
             // check if membershipgroup exists, create it if not
