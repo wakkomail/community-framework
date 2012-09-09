@@ -45,5 +45,18 @@
     $('.cancel').click(function () {
         $.fancybox.close();
     });
+    // Fancybox hides and calls
+    $('#setMemberButton').click(function () {
+        var groupId = $(this).attr('name');
+
+        $.fancybox.open({
+            href: 'CLCSetMembers.aspx?groupid=' + groupId,
+            type: 'iframe',
+            width: 600,
+            height: '90%',
+            scrolling: 'no',
+            padding: 5
+        });
+    });
 
 });

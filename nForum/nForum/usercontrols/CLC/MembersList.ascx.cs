@@ -4,6 +4,7 @@ using nForum.BusinessLogic;
 using nForum.BusinessLogic.Models;
 using umbraco.cms.businesslogic.member;
 using umbraco.NodeFactory;
+using nForum.global;
 
 namespace nForum.usercontrols.CLC
 {
@@ -20,6 +21,8 @@ namespace nForum.usercontrols.CLC
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			GetMembers();
+            this.setMemberButton.Visible = IsGroupAdmin;
+            this.DataBind();
 		}
 
 		private void GetMembers()
@@ -73,5 +76,17 @@ namespace nForum.usercontrols.CLC
 		}
 
 		#endregion
-	}
+
+        #region Properties
+
+        private bool IsGroupAdmin
+        {
+            get
+            {
+                return MembershipHelper.IsMember(CurrentNode.Name + "|" + GlobalConstants.RoleManager);
+            }
+        }
+
+        #endregion
+    }
 }
