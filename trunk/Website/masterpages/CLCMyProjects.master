@@ -8,11 +8,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">    
       <div id="contentContainer" class="grid_12 full">
         <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
-        <div id="projectsContainer" class="grid_9 fatBorder">
+         <div id="myProjects" class="grid_9 fatBorder threeColumns">
             <h2 class="c1 kaffeeSatz">
-                Projecten
+                Mijn projecten
             </h2>            
             <umbraco:Macro Alias="CLC-MyProjects" runat="server" />           
-        </div>        
+        </div>
+        <div id="allProjects" class="grid_9 fatBorder threeColumns">
+            <h2 class="c1 kaffeeSatz">
+                Alle projecten
+            </h2>            
+          <umbraco:Macro AmountToTake="0" Alias="CLC-Projects" runat="server" />       
+        </div>     
       </div>
 </asp:Content>

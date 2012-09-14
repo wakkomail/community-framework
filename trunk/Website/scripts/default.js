@@ -58,5 +58,9 @@
             padding: 5
         });
     });
+	
+	//Add alpha to every first and omega to every third column.
+	$('.threeColumns .grid_3:nth-child(3n-2)').addClass('alpha');
+	$('.threeColumns .grid_3:nth-child(3n)').addClass('omega');
 
 });

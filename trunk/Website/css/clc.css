@@ -9,7 +9,6 @@ html
 {
   font-family: Calibri, Arial, Sans-Serif;
   font-size: 14px;  
-  overflow: hidden;
   background-color: #000000;
   background-image: url('clc/background_website.png');
   background-position: center top;
@@ -713,6 +712,16 @@ input[type='text'], input[type='password']
 {
 	float: left;
 	width: 100%;
+}
+
+#myMemberGroups, #myProjects
+{
+	margin-bottom: 15px;
+}
+
+#myProjects .topicText, #allProjects .topicText
+{
+	height: 50px;
 }
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
