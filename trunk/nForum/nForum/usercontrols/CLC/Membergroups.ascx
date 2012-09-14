@@ -4,7 +4,7 @@
 <div id="mainforumlist" class="mainforumlist" runat="server">
     <asp:Repeater ID="rptMainForumList" runat="server" onitemdatabound="HidePrivateCategories" EnableViewState="false">       
         <ItemTemplate>
-			<div class="topicSummary anchorItem thinBorder clearfix grid_3">
+			<div class='topicSummary anchorItem thinBorder clearfix <%# (UseGridClass ? "grid_3" : "")  %>'>
 				<span class="topicHeader c1"><%# ((ForumCategory)Container.DataItem).Name%></span> 
 				<b class="topicCount c2"><%# ((ForumCategory)Container.DataItem).SubTopicsCount() %> topics</b>
 				<span class="topicText c2"><%# GetLastPostInCategory((ForumCategory)Container.DataItem)%></span>

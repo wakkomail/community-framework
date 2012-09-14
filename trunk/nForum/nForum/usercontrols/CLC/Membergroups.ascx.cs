@@ -11,6 +11,14 @@ namespace nForum.usercontrols.CLC
 	{
         public int AmountToTake { get; set; }
 
+		protected bool UseGridClass
+		{
+			get
+			{
+				return AmountToTake <= 0;
+			}
+		}
+
 		protected void Page_Load(object sender, EventArgs e)
         {
             if(!Page.IsPostBack)
