@@ -5,7 +5,7 @@
 <div>
 	<asp:Repeater ID="rprProjects" runat="server" EnableViewState="false">
 		<ItemTemplate>
-			<div class="topicSummary anchorItem thinBorder clearfix grid_3">
+			<div class='topicSummary anchorItem thinBorder clearfix <%# (UseGridClass ? "grid_3" : "")%>'>
 				<span class="topicHeader c1">
 					<%# ((Document)Container.DataItem).Text %></span> <span class="topicText c2">
 						<%# umbraco.library.TruncateString(((string)((Document)Container.DataItem).getProperty("forumCategoryDescription").Value), 90, "...")%></span>
