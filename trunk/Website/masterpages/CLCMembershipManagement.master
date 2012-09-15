@@ -1,7 +1,9 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
 
 <asp:content ID="Content1" ContentPlaceHolderId="cp_content" runat="server">
-  <h2>LEDEN BEHEER</h2>
+  <div id="contentContainer" class="grid_12 full">
+  <h2 class="kaffeeSatz c1 grid_12">Ledenbeheer</h2>
    <umbraco:DisableRequestValidation runat="server"/>
-   <umbraco:Macro Alias="CLC-MembershipManagement" runat="server"></umbraco:Macro>  
+   <umbraco:Macro Alias="CLC-MembershipManagement" runat="server"></umbraco:Macro> 
+   </div> 
 </asp:content>

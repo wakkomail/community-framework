@@ -275,11 +275,30 @@ a
   background-repeat: repeat;
   background-position: left top;
 }
+
+.confirmDeleteMedia
+{
+	padding: 10px;
+}
+
+.confirmDeleteMedia .button
+{
+	float: left;
+	margin-top: 30px;
+}
+
+.confirmDeleteMedia .cancel
+{
+	margin-left: 15px;
+}
+
 .deletebutton {
   background-image: url('/css/clc/delete.png');
   width:  16px;
   height:  16px;
   float: right;
+  margin-right: 5px;
+  cursor: pointer;
 }
 
 #footerContainer
@@ -462,6 +481,11 @@ input[type='text'], input[type='password']
   margin-top: 15px;
 }
 
+#alleDocumenten #documentenContainer
+{
+	margin-top: 0px;
+}
+
 .anchorList
 {
   margin-top: 15px;
@@ -496,6 +520,12 @@ input[type='text'], input[type='password']
 {
   margin-top: 15px;
 }
+
+#agendaContainer
+{
+	margin-bottom: 15px;
+}
+
 .agendaDate
 {
   float: left;

@@ -5,7 +5,7 @@
 <div id="agendaContainer" class="fatBorder">
 <asp:Repeater ID="rptAgenda" runat="server" EnableViewState="false">
     <ItemTemplate>
-            <a href="<%# umbraco.library.NiceUrl(GetProjectID(((Node)Container.DataItem).Id)) %>" style="color:blue">
+            <a href="<%# umbraco.library.NiceUrl(GetProjectID(((Node)Container.DataItem).Id)) %>" class="c2">
                 <div class="agendaDate">
                     <%# Convert.ToDateTime(((Node)Container.DataItem).GetProperty("date").Value).ToString("m")  %>         
                 </div>        

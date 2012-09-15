@@ -274,8 +274,8 @@ namespace nForum.usercontrols.CLC
 
             foreach (RepeaterItem item in rprMembers.Items)
             {
-                CheckBox isMemberControl = (CheckBox)item.Controls[1];
-                CheckBox isManagerControl = (CheckBox)item.Controls[3];
+				CheckBox isMemberControl = (CheckBox)item.FindControl("chkMember");
+				CheckBox isManagerControl = (CheckBox)item.FindControl("chkManager");
                 Member member = Member.GetMemberByName(isMemberControl.Text, false)[0];
                 if (isMemberControl.Checked == true)
                 {
