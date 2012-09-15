@@ -9,11 +9,15 @@ using nForum.BusinessLogic.Models;
 using nForum.BusinessLogic;
 using nForum.helpers;
 using umbraco.NodeFactory;
+using umbraco;
 
 namespace nForum.usercontrols.CLC
 {
     public partial class MediaList : BaseForumUsercontrol
     {
+		public bool ShowDelete { get; set; }
+		public bool ShowAll { get; set; }
+
         ForumCategory currentCategory = new ForumCategory();
 
         protected void Page_Load(object sender, EventArgs e)
@@ -28,14 +32,19 @@ namespace nForum.usercontrols.CLC
         private void SetMediaList()
         {
             Media folder = MediaHelper.GetMediaFolderByName(currentCategory.Name, Node.GetCurrent().Parent.Name);
-
-            this.rptMedia.DataSource = folder.GetDescendants();
+			
+            this.rptMedia.DataSource = ShowAll ? folder.GetDescendants() : folder.GetDescendants().Cast<Media>().Take(10);
             this.rptMedia.DataBind();                     
         }
 
         private void Initialize()
         {
             currentCategory = Mapper.MapForumCategory(CurrentNode);
+
+			btnShowAll.Visible = !ShowAll;
+
+			var url = library.NiceUrl(CurrentNode.Id);
+			btnShowAll.NavigateUrl = Helpers.AlternateTemplateUrlFix("/Documenten", url);
         }
 
         protected bool IsImage(string filename)

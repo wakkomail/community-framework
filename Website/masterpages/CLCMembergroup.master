@@ -11,8 +11,7 @@
       <div id="kennisgroepContainer" class="grid_9 fatBorder">
         <umbraco:Macro Alias="CLC-Membergroup" runat="server" />
         <umbraco:Macro ShowAll="0" Alias="CLC-Discussions" runat="server" />
-        <umbraco:Macro Alias="CLC-MediaList" runat="server"></umbraco:Macro>
-        <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>
+        <umbraco:Macro Alias="CLC-MediaList" ShowDelete="0" runat="server" />
         <div id="prikbordContainer" class="fatBorder">
           <umbraco:Macro ShowAll="0" Alias="CLC-NoticeBoard" runat="server"></umbraco:Macro>
           <umbraco:Macro Alias="CLC-CreateNotice" runat="server"></umbraco:Macro>

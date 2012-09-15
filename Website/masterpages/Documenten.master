@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
+  <div id="contentContainer" class="grid_12 full">
+        <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+    <div id="alleDocumenten" class="grid_9">
+            <umbraco:Macro Alias="CLC-MediaList" ShowDelete="1" ShowAll="1" runat="server"></umbraco:Macro>
+            <umbraco:Macro Alias="CLC-UploadMedia" runat="server"></umbraco:Macro>           
+        </div>
+  </div>
+</asp:Content>

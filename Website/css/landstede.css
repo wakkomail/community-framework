@@ -152,6 +152,7 @@ h3
 
 #searchText
 {
+	line-height: 20px;
 	margin-left: 20px;
 	height: 20px;
   background-color: #ffffff;
@@ -197,8 +198,8 @@ h3
 input[type='text'], input[type='password'], textarea
 {
   color: #000000;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
   line-height: 35px;
   
   border: 1px solid #0a608b;
