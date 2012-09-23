@@ -11,6 +11,7 @@ namespace nForum.usercontrols.CLC.membership
 			if(MembershipHelper.IsAuthenticated())
 			{
 				this.lnkInschrijven.Visible = false;
+				litSeparator.Visible = true;
 			}
 		}
 

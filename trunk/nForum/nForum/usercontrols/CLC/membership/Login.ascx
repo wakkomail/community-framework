@@ -23,28 +23,6 @@
 	<div id="inlogInfoContainer" class="grid_6 alpha">
 		<h3 class="kaffeeSatz c1">
 			Waarom inloggen</h3>
-		<p>
-			Via de ledenadministratie kan je als lid van Balans een inlogaccount voor het Creative
-			Learning Community aanvragen als je nog geen inloggegevens heeft, of als het inloggen
-			met je bestaande inloggegevens niet (meer) lukt.
-		</p>
-		<p>
-			Heb je als lid van je organisatie nog geen inloggegevens voor CLC, of lukt het niet
-			om met je bestaande inloggegevens op Mijn Balans in te loggen? Klik dan op wachtwoord
-			vergeten en vul de gegevens in die je wel weet.
-		</p>
-		<p>
-			Aan de hand van de ingevulde gegevens zoekt de ledenadministratie jou op in het
-			systeem en kijkt of jouw e-mailadres al in het systeem staat, of dat jouw geregistreerde
-			e-mailadres nog klopt met het huidge.
-		</p>
-		<p>
-			Na invoering of wijziging van je e-mailadres ontvang je automatisch een e-mail met
-			een link om een wachtwoord in te stellen. Hierna kun je direct op het Creative Learning
-			Community inloggen.
-		</p>
-		<p>
-			Nog geen inloggegevens? <a href="#" class="c1">Schrijf je dan nu in</a>
-		</p>
+        <asp:Literal ID="litLoginDescription" runat="server" />
 	</div>
 </div>

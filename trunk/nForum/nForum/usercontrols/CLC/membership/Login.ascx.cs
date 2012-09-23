@@ -1,12 +1,19 @@
 ﻿using System;
 using nForum.BusinessLogic;
+using nForum.BusinessLogic.Data;
 using umbraco;
+using umbraco.NodeFactory;
 using umbraco.cms.businesslogic.member;
 
 namespace nForum.usercontrols.CLC.membership
 {
     public partial class Login : BaseForumUsercontrol
     {
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			var mainForumNode = new Node(new ForumFactory().ReturnRootForumId());
+			litLoginDescription.Text = mainForumNode.GetProperty("loginDescription").Value;
+		}
 
         protected void OnLoginError(object sender, EventArgs e)
         {
@@ -39,7 +46,5 @@ namespace nForum.usercontrols.CLC.membership
             Response.Redirect(Settings.Url);
 
         }
-
-
     }
 }
