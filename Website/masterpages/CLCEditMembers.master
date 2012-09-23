@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="CLCMasterContentPlaceHolder" runat="server">
+<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="cp_title" runat="server">
+	
+</asp:content>
+
+<asp:content ContentPlaceHolderId="cp_head" runat="server">
+	
+</asp:content>
+
+<asp:content ContentPlaceHolderId="cp_top" runat="server">
+	
+</asp:content>
+
+<asp:content ContentPlaceHolderId="cp_content" runat="server">
+	
+</asp:content>
+
+<asp:content ContentPlaceHolderId="cp_footer" runat="server">
+	
+</asp:content>
+
+
+</asp:Content>

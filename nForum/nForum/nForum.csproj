@@ -21,6 +21,10 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -264,6 +268,13 @@
     </Compile>
     <Compile Include="usercontrols\CLC\Agenda.ascx.designer.cs">
       <DependentUpon>Agenda.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\CLC\PopularDiscussions.ascx.cs">
+      <DependentUpon>PopularDiscussions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\CLC\PopularDiscussions.ascx.designer.cs">
+      <DependentUpon>PopularDiscussions.ascx</DependentUpon>
     </Compile>
     <Compile Include="usercontrols\CLC\CreateDiscussion.ascx.cs">
       <DependentUpon>CreateDiscussion.ascx</DependentUpon>
@@ -757,6 +768,7 @@
     <Content Include="scripts\nforumie6.js" />
     <Content Include="usercontrols\CLC\ActiveDiscussions.ascx" />
     <Content Include="usercontrols\CLC\Agenda.ascx" />
+    <Content Include="usercontrols\CLC\PopularDiscussions.ascx" />
     <Content Include="usercontrols\CLC\CreateDiscussion.ascx" />
     <Content Include="usercontrols\CLC\Discussion.ascx" />
     <Content Include="usercontrols\CLC\EditPost.ascx" />
