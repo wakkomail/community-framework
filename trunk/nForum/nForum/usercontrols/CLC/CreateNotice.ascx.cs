@@ -22,7 +22,7 @@ namespace nForum.usercontrols.CLC
 
         protected void createNotice_Click(object sender, EventArgs e)
         {
-            string name = User.GetUser(0).Name;
+			string name = CurrentMember.MemberName;
             string dateTime = DateTime.Now.ToString("MM-dd-yy H:mm:ss");
 
             // get proper noticeboard folder
@@ -38,6 +38,7 @@ namespace nForum.usercontrols.CLC
             }                       
             
             Document newDocument = Document.MakeNew(name + "|" + dateTime, DocumentType.GetByAlias(GlobalConstants.NoticeAlias), User.GetUser(0), noticeBoard.Id);
+			newDocument.getProperty("createdBy").Value = name;
             newDocument.getProperty("content").Value = ((TextBox)this.lvEditPost.FindControl("txtNotice")).Text;
             newDocument.Publish(User.GetUser(0));
             // clear document cache

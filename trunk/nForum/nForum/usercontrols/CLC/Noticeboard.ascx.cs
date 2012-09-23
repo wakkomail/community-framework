@@ -47,7 +47,7 @@ namespace nForum.usercontrols.CLC
 			{
                List<INode> notices = noticeBoard.ChildrenAsList.OrderByDescending(n => n.CreateDate).ToList();
 
-                if (ShowAll == false)
+                if (!ShowAll)
                 {
                     notices = notices.Take(3).ToList();
                     lnkNoticeboard.Visible = true;
@@ -64,5 +64,10 @@ namespace nForum.usercontrols.CLC
                 this.lnkNoticeboard.NavigateUrl = noticeboard.Url;
             }
         }
+
+		protected string GetCreatedBy(Node notice)
+		{
+			return notice.GetProperty("createdBy") != null ? notice.GetProperty("createdBy").Value : "-"; 
+		}
     }
 }
