@@ -6,62 +6,7 @@
   <script src="/scripts/nforumhoverintent.js" type="text/javascript"></script>
   <script src="/scripts/nforumajaxpostsnippet.js" type="text/javascript"></script>
   <div id="contentContainer" class="grid_12 full home">
-      <div id="brandboxContainer" class="grid_12 full">
-        <div id="brandboxItems">
-          <div class="brandboxItem grid_12 full">
-            <div class="brandboxItemTitle grid_6">
-              <h2 class="kaffeeSatz c2">
-                Team developers ontwikkelt evolutionair community platform...
-              </h2>
-            </div>
-            <div class="brandboxItemText grid_6">
-              <span class="kaffeeSatz c2">Hulde! Zie hier de nieuwe Creative Learning Community waarmee
-                we eindelijk een medium hebben waarmee we op een laagdrempelige manier elkaars kennis
-                kunnen verbreden. Geen paniek, het is een eenvoudig systeem wat zichzelf wijst.
-                Probeer het maar... </span>
-            </div>
-          </div>
-          <div class="brandboxItem grid_12 full">
-            <div class="brandboxItemTitle grid_6">
-              <h2 class="kaffeeSatz c2">
-                Het systeem is gebouwd door vakkundige ontwikkelaars...
-              </h2>
-            </div>
-            <div class="brandboxItemText grid_6">
-              <span class="kaffeeSatz c2">Waarvoor hulde! We zijn allemaal erg benieuwd naar het uiteindelijke
-                resultaat... </span>
-            </div>
-          </div>
-          <div class="brandboxItem grid_12 full">
-            <div class="brandboxItemTitle grid_6">
-              <h2 class="kaffeeSatz c2">
-                Actie OBS De Meerkoet tegen discriminatie
-              </h2>
-            </div>
-            <div class="brandboxItemText grid_6">
-              <span class="kaffeeSatz c2">Openbare basisschool De Meerkoet in Dirkshorn kreeg donderdag
-                24 mei 2012 bezoek van Myrthe Scheltema de Heere. </span>
-            </div>
-          </div>
-          <div class="brandboxItem grid_12 full">
-            <div class="brandboxItemTitle grid_6">
-              <h2 class="kaffeeSatz c2">
-                Finale Mission Olympic in Olympisch Stadion
-              </h2>
-            </div>
-            <div class="brandboxItemText grid_6">
-              <span class="kaffeeSatz c2">Vrijdag 8 juni 2012 ondernemen scholieren van 185 Nederlandse
-                scholen de reis naar het Olympisch Stadion in Amsterdam. Daar staat deze dag Mission
-                Olympic: The School Final op het programma. Mission Olympic, een evenement dat in
-                2012 tien jaar aan de weg timmert, is de grootste schoolsportcompetitie van ons
-                land. Kroonprins Willem-Alexander opent deze bijzondere editie. Dat meldt het Brabants
-                Dagblad </span>
-            </div>
-          </div>
-        </div>
-        <div id="brandboxPager">
-        </div>
-      </div>
+    <umbraco:Macro Alias="CLC-Brandbox" runat="server" />
       <div id="discussiesContainer" class="grid_3 fatBorder">
         <h3 class="kaffeeSatz c1">
           Discussies</h3>
