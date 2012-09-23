@@ -7,7 +7,9 @@
     <ItemTemplate>
             <a href="<%# umbraco.library.NiceUrl(GetProjectID(((Node)Container.DataItem).Id)) %>" class="c2">
                 <div class="agendaDate">
-                    <%# Convert.ToDateTime(((Node)Container.DataItem).GetProperty("date").Value).ToString("m")  %>         
+                    <span>
+                        <%# Convert.ToDateTime(((Node)Container.DataItem).GetProperty("date").Value).ToString("dd MMM")  %>        
+                    </span> 
                 </div>        
                 <p>
                     <b>Afspraak: </b><%# ((Node)Container.DataItem).GetProperty("title").Value %>
