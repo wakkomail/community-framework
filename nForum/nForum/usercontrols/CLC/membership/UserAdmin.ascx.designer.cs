@@ -22,6 +22,15 @@ namespace nForum.usercontrols.CLC.membership {
         protected global::System.Web.UI.WebControls.LoginStatus ctlLogin;
         
         /// <summary>
+        /// litSeparator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litSeparator;
+        
+        /// <summary>
         /// ctlLoginName control.
         /// </summary>
         /// <remarks>
