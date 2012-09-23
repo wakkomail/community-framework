@@ -277,6 +277,7 @@
     </Compile>
     <Compile Include="usercontrols\CLC\EditMembers.ascx.cs">
       <DependentUpon>EditMembers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="usercontrols\CLC\EditMembers.ascx.designer.cs">
       <DependentUpon>EditMembers.ascx</DependentUpon>
@@ -295,11 +296,11 @@
     <Compile Include="usercontrols\CLC\CreateDiscussion.ascx.designer.cs">
       <DependentUpon>CreateDiscussion.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\CLC\Discussion.ascx.cs">
+    <Compile Include="obj\Discussion.ascx.cs">
       <DependentUpon>Discussion.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="usercontrols\CLC\Discussion.ascx.designer.cs">
+    <Compile Include="obj\Discussion.ascx.designer.cs">
       <DependentUpon>Discussion.ascx</DependentUpon>
     </Compile>
     <Compile Include="usercontrols\CLC\EditPost.ascx.cs">
@@ -784,7 +785,7 @@
     <Content Include="usercontrols\CLC\EditMembers.ascx" />
     <Content Include="usercontrols\CLC\PopularDiscussions.ascx" />
     <Content Include="usercontrols\CLC\CreateDiscussion.ascx" />
-    <Content Include="usercontrols\CLC\Discussion.ascx" />
+    <Content Include="obj\Discussion.ascx" />
     <Content Include="usercontrols\CLC\EditPost.ascx" />
     <Content Include="usercontrols\CLC\MembershipManagement.ascx" />
     <Content Include="usercontrols\CLC\membership\MemberProfile.ascx" />

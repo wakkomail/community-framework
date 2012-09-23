@@ -130,13 +130,22 @@ namespace nForum.usercontrols.CLC
 
         protected void rptMember_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            int id = Convert.ToInt32(e.CommandArgument);
-            if (e.CommandName == "delete")
+            if (string.IsNullOrEmpty(e.CommandArgument.ToString()))
             {
-                Member memberToDelete = new Member(id);
-                memberToDelete.delete();
+                int id = Convert.ToInt32(e.CommandArgument);
+                if (e.CommandName == "delete")
+                {
+                    Member memberToDelete = new Member(id);
 
-                this.lblResultInfo.Text = "Lid verwijderd!";
+                    foreach (MemberGroup memberGroup in memberToDelete.Groups)
+                    {
+                        memberToDelete.RemoveGroup(memberGroup.Id);
+                    }
+
+                    memberToDelete.delete();
+
+                    this.lblResultInfo.Text = "Lid verwijderd uit alle groepen!";
+                }
             }
         }        
 

@@ -19,7 +19,7 @@
                             <asp:HyperLink ID="lnkDeleteMember" runat="server" CssClass="deleteMember deletebutton" NavigateUrl="">
 						        <div class="confirmDeleteMember" style="display: none;">
 							        <p>
-								        Weet u zeker dat u het lid "<%# ((Member)Container.DataItem).LoginName %>" wilt verwijderen?</p>
+								        Weet u zeker dat u het lid "<%# ((Member)Container.DataItem).LoginName %>" uit alle kennisgroepen en projecten wilt verwijderen?</p>
 							        <asp:Button ID="deletebutton" runat="server" Text="Verwijderen" CommandName="delete"
 								        CommandArgument="<%# ((Member)Container.DataItem).Id %>" CssClass="button" />
 							        <asp:Button ID="cancelbutton" CssClass="cancel button" Text="Annuleren" runat="server" />
