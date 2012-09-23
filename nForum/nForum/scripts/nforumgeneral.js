@@ -132,7 +132,7 @@ $(document).ready(function () {
         var postcontentid = "#postcontent" + postid;
         var postmemnameid = ".postmember" + postid;
         var postmemname = jQuery.trim($(postmemnameid).text());
-        var postcontent = "<pre><em>" + postmemname + "</em><br>" + jQuery.trim($(postcontentid).text()) + "</pre>";
+        var postcontent = "<pre><em>Quote van: " + postmemname + "</em><br>" + jQuery.trim($(postcontentid).text()) + "</pre>";
         tinyMCE.execCommand('mceInsertContent', false, postcontent);
         return true;
     });
