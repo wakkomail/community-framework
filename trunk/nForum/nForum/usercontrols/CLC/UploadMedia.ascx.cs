@@ -26,13 +26,11 @@ namespace nForum.usercontrols.CLC
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Initialize();
+
             // set permissions
 
-            if (CurrentMember != null && (MembershipHelper.IsMember(currentCategory.Name) || CurrentMember.MemberIsAdmin))
-            {
-                Initialize();
-            }
-            else
+            if (!(MembershipHelper.IsMember(currentCategory.Name) || (CurrentMember != null && CurrentMember.MemberIsAdmin)))
             {
                 this.pnlUpload.Visible = false;
             }

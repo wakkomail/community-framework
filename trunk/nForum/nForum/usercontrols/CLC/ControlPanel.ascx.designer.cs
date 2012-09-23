@@ -19,7 +19,7 @@ namespace nForum.usercontrols.CLC {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button createMembergroup;
+        protected global::System.Web.UI.WebControls.LinkButton createMembergroup;
         
         /// <summary>
         /// createProject control.
@@ -28,7 +28,7 @@ namespace nForum.usercontrols.CLC {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button createProject;
+        protected global::System.Web.UI.WebControls.LinkButton createProject;
         
         /// <summary>
         /// createMember control.
@@ -37,7 +37,7 @@ namespace nForum.usercontrols.CLC {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button createMember;
+        protected global::System.Web.UI.WebControls.LinkButton createMember;
         
         /// <summary>
         /// publishAll control.
@@ -46,7 +46,7 @@ namespace nForum.usercontrols.CLC {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button publishAll;
+        protected global::System.Web.UI.WebControls.LinkButton publishAll;
         
         /// <summary>
         /// pnlMembergroup control.

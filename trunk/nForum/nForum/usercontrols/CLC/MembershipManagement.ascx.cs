@@ -25,6 +25,7 @@ namespace nForum.usercontrols.CLC
         private string MembergroupSearchText { get; set; }
         private string ProjectSearchText { get; set; }
         private string MemberSearchText { get; set; }
+        Document selectedGroup = null;
 
         private const int SEARCHITEMSCOUNT = 20;
 
@@ -60,6 +61,8 @@ namespace nForum.usercontrols.CLC
             {
                 this.SelectedNodeID = (Request.QueryString["memid"] != null) ? Convert.ToInt32(Request.QueryString["memid"]) : Convert.ToInt32(Request.QueryString["projid"]);
                 this.selectMembers.Visible = true;
+                this.pnlEditGroup.Visible = true;
+                SetEditForm();
             }
 
             SetMemberList();
@@ -94,6 +97,30 @@ namespace nForum.usercontrols.CLC
             }
 
             return result;
+        }
+
+        private void SetEditForm()
+        {
+
+                switch (Request.QueryString["documenttype"].ToString())
+                {
+                    case GlobalConstants.MembergroupAlias:
+                        {
+                            selectedGroup = new Document(Convert.ToInt32(Request.QueryString["memid"]));
+                        } break;
+                    case GlobalConstants.ProjectAlias:
+                        {
+                            selectedGroup = new Document(Convert.ToInt32(Request.QueryString["projid"]));
+                        } break;
+                }
+                if (!IsPostBack)
+                {
+                    if (selectedGroup != null)
+                    {
+                        this.txtGroupName.Text = selectedGroup.Text;
+                        this.txtGroupDescription.Text = selectedGroup.getProperty(GlobalConstants.DescriptionField).Value.ToString();
+                    }
+                }
         }
 
         private void SetMemberList()
@@ -311,6 +338,12 @@ namespace nForum.usercontrols.CLC
                     }
                 }
             }
+
+            // save document
+            selectedGroup.Text = this.txtGroupName.Text;
+            selectedGroup.getProperty(GlobalConstants.DescriptionField).Value = this.txtGroupDescription.Text;
+            selectedGroup.Publish(User.GetUser(0));
+            umbraco.library.UpdateDocumentCache(selectedGroup.Id);
 
             this.lblResultInfo.Text = "Wijzigingen opgeslagen!";
 
