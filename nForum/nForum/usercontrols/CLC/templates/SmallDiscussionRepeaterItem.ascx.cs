@@ -17,7 +17,7 @@ namespace nForum.usercontrols.CLC.templates
 
 		public string GetFirstPost(ForumTopic topic)
 		{
-            string result = topic.GetFirstPost().Content.StripHTML();
+            string result = topic.GetLatestPost().Content.StripHTML();
 
             if (result.Length > GlobalConstants.SummaryMaxLength)
             {
