@@ -269,6 +269,12 @@
     <Compile Include="usercontrols\CLC\Agenda.ascx.designer.cs">
       <DependentUpon>Agenda.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\CLC\EditMembers.ascx.cs">
+      <DependentUpon>EditMembers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\CLC\EditMembers.ascx.designer.cs">
+      <DependentUpon>EditMembers.ascx</DependentUpon>
+    </Compile>
     <Compile Include="usercontrols\CLC\PopularDiscussions.ascx.cs">
       <DependentUpon>PopularDiscussions.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -768,6 +774,7 @@
     <Content Include="scripts\nforumie6.js" />
     <Content Include="usercontrols\CLC\ActiveDiscussions.ascx" />
     <Content Include="usercontrols\CLC\Agenda.ascx" />
+    <Content Include="usercontrols\CLC\EditMembers.ascx" />
     <Content Include="usercontrols\CLC\PopularDiscussions.ascx" />
     <Content Include="usercontrols\CLC\CreateDiscussion.ascx" />
     <Content Include="usercontrols\CLC\Discussion.ascx" />
