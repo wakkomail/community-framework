@@ -75,8 +75,23 @@
         <asp:Label ID="lblResultInfo" runat="server" Text="" CssClass="kaffeeSatz"></asp:Label>
     </div>
 </div>
-
-
+<asp:Panel ID="pnlEditGroup" runat="server" Visible="false">
+        <fieldset id="membergroup">
+        <legend>Gegevens wijzigen</legend>
+            <p>
+                <asp:Label ID="lblGroupName" runat="server" Text="Naam van de kennisgroep" ></asp:Label>
+            </p>
+            <p>
+                <asp:TextBox ID="txtGroupName" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
+            </p>
+            <p>
+                <asp:Label ID="lblGroupDescription" runat="server" Text="Omschrijving van de kennisgroep"></asp:Label>
+            </p>
+            <p>
+                <asp:TextBox ID="txtGroupDescription" MaxLength="30" runat="server" TextMode="MultiLine" Rows="3" CssClass="maxWidthInput"></asp:TextBox>
+            </p>     
+        </fieldset>    
+</asp:Panel>
 <div class="buttonbar">
  <asp:Button ID="save" runat="server" Text="Opslaan" CssClass="button" onclick="save_Click" />
  <a href="/Control-panel.aspx" class="button">Terug naar het beheerscherm</a> 

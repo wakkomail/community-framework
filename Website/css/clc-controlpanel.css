@@ -31,6 +31,15 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.editmember
+{
+    position: relative;
+}
+.editmember a.deletebutton
+{
+    position: absolute;
+    right: 0px;
+}
 #controlforms .button
 {
     padding-left: 10px;
