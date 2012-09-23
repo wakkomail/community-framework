@@ -534,8 +534,17 @@ input[type='text'], input[type='password']
   background-image: url('clc/background_agenda_date.png');
   background-position: top left;
   color: #FFFFFF;
-  font-size: 11px;
-  text-align: center;
+}
+
+.agendaDate span
+{
+	font-size: 11px;
+	text-align: center;
+	line-height: 11px;
+	width: 24px;
+	padding-top: 1px;
+	height: 24px;
+	display: block;
 }
 
 #newDiscussionContainer

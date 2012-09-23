@@ -7,7 +7,9 @@
 <asp:Repeater ID="rptAgenda" runat="server" EnableViewState="false">
     <ItemTemplate>
         <div class="agendaDate">
-            <%# Convert.ToDateTime(((Node)Container.DataItem).GetProperty("date").Value).ToString("m")  %>         
+            <span>
+                <%# Convert.ToDateTime(((Node)Container.DataItem).GetProperty("date").Value).ToString("dd MMM")  %>     
+            </span>    
         </div>        
         <p>
             <b>Afspraak: </b><%# ((Node)Container.DataItem).GetProperty("title").Value %>
