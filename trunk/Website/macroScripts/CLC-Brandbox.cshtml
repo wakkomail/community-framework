@@ -1,0 +1,19 @@
+﻿<div id="brandboxContainer" class="grid_12 full">
+  <div id="brandboxItems">
+      @foreach (var item in @Model.NodeById(1905).CLCHeaderItems)
+      {
+       <div class="brandboxItem grid_12 full">
+          <div class="brandboxItemTitle grid_6">
+            <h2 class="kaffeeSatz c2">
+              @item.Name
+            </h2>
+          </div>
+          <div class="brandboxItemText grid_6">
+            <span class="kaffeeSatz c2">@item.Description</span>
+          </div>
+        </div>
+      }
+  </div>
+  <div id="brandboxPager">
+  </div>
+</div>
