@@ -24,21 +24,7 @@
       </div>
       <div id="crossReferencesContainer" class="grid_3">
         <umbraco:Macro ShowNewest="1" Alias="CLC-MembersList" runat="server"></umbraco:Macro>
-        <div id="relevanteDiscussiesContainer" class="fatBorder">
-          <h3 class="kaffeeSatz c2">
-            Relevante discussies</h3>
-          <ul>
-            <li class="relevantTopic"><a class="c2" href="#">27-05-2012
-              <br />
-              Relevante discussie 1 </a></li>
-            <li class="relevantTopic"><a class="c2" href="#">20-05-2012
-              <br />
-              Relevante discussie 2 </a></li>
-            <li class="relevantTopic"><a class="c2" href="#">17-05-2012
-              <br />
-              Relevante discussie 3 </a></li>
-          </ul>
-        </div>
+        <umbraco:Macro AmountToTake="5" Alias="CLC-PopularDiscussions" runat="server" />
         <div id="relevanteKennisgroepenContainer" class="fatBorder">
           <h3 class="kaffeeSatz c2">
             Relevante kennisgroepen</h3>
