@@ -744,7 +744,6 @@ input[type='text'], input[type='password']
 #newNoticeContainer
 {
 	margin-top: 15px;
-	overflow: hidden;
 }
 
 #newNoticeContainer textarea

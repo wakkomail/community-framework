@@ -65,15 +65,15 @@ namespace nForum.usercontrols.CLC
 		{
 			string result = String.Empty;
             IEnumerable<Node> agendaItems = AgendaHelper.GetUpcomingEvents(nodeId);
-			Node nextEvent = null;
 
-			if(agendaItems.Count() > 0)
+			if (agendaItems.Any())
 			{
-				nextEvent = agendaItems.FirstOrDefault(n => Convert.ToDateTime(n.GetProperty("date").Value).Date >= DateTime.Now.Date);
-				if(nextEvent != null)
-				{
-					result = String.Format("Volgende event op: {0}", Convert.ToDateTime(nextEvent.GetProperty("date").Value).ToString("dd MMMM yyyy"));
-				}
+				Node nextEvent = agendaItems.FirstOrDefault(n => Convert.ToDateTime(n.GetProperty("date").Value).Date >= DateTime.Now.Date);
+				result = String.Format("Volgende event op: {0}", nextEvent != null ? Convert.ToDateTime(nextEvent.GetProperty("date").Value).ToString("dd-MM-yyyy") : "Geen komende events");
+			}
+			else
+			{
+				result = "Volgende event op: -";
 			}
 
 			return result;

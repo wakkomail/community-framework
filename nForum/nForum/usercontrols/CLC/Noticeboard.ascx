@@ -10,7 +10,7 @@
         </p>
 	    <b class="topicDate c2">
 		    <%# Helpers.GetPrettyDate(((Node)Container.DataItem).CreateDate.ToString())%> |
-            <%# ((Node)Container.DataItem).CreatorName  %> |            
+            <%# GetCreatedBy((Node)Container.DataItem) %> |
 	    </b> 
     </ItemTemplate>
 </asp:Repeater>
