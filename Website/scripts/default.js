@@ -42,6 +42,10 @@
         $.fancybox.open($(this).find('.confirmDeleteMedia'));
     });
 
+    $('.deleteMember').click(function () {
+        $.fancybox.open($(this).find('.confirmDeleteMember'));
+    });    
+
     $('.cancel').click(function () {
         $.fancybox.close();
     });

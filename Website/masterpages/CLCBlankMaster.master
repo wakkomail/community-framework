@@ -12,6 +12,7 @@
   <link href="/css/clc/Font/stylesheet.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="/css/clc-controlpanel.css" />  
   <link href="/css/clc.css" type="text/css" rel="stylesheet" />  
+    <link href="/css/blank.css" type="text/css" rel="stylesheet" />  
   <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=2.1.0" media="screen" />
   <!--LANDSTEDE STYLE-->
   <link href="/css/landstede/Font/fonts.css" type="text/css" rel="stylesheet" />

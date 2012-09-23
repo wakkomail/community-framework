@@ -4,12 +4,13 @@
 <div id="options" class="grid_3">
     <asp:LinkButton ID="createMembergroup" ClientIDMode="Static" runat="server" CssClass="button"
         Text="Kennisgroep aanmaken" onclick="createMembergroup_Click" />
-    <asp:LinkButton ID="createProject" runat="server" Text="Project aanmaken" CssClass="button"
-        onclick="createProject_Click" />    
-    <asp:LinkButton ID="createMember" runat="server" Text="Lid aanmaken" 
-        CssClass="button" onclick="createMember_Click" />
     <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.MembergroupAlias %>'  class="button">Kennisgroepen beheren</a> 
-    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.ProjectAlias %>'  class="button">Projecten beheren</a> 
+    <asp:LinkButton ID="createProject" runat="server" Text="Project aanmaken" CssClass="button"
+        onclick="createProject_Click" />   
+    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.ProjectAlias %>'  class="button">Projecten beheren</a>  
+    <asp:LinkButton ID="createMember" runat="server" Text="Lid aanmaken" 
+        CssClass="button" onclick="createMember_Click" />       
+    <a href="/CLCEditMembers.aspx"  class="button">Leden beheren</a> 
 
     <asp:LinkButton ID="publishAll" runat="server" Text="Alles publiseren" 
         CssClass="button" onclick="publishAll_Click" />
