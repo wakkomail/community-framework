@@ -2,16 +2,16 @@
 <%@ Import Namespace="nForum.global" %>
 
 <div id="options" class="grid_3">
-    <asp:Button ID="createMembergroup" ClientIDMode="Static" runat="server" CssClass="button"
+    <asp:LinkButton ID="createMembergroup" ClientIDMode="Static" runat="server" CssClass="button"
         Text="Kennisgroep aanmaken" onclick="createMembergroup_Click" />
-    <asp:Button ID="createProject" runat="server" Text="Project aanmaken" CssClass="button"
+    <asp:LinkButton ID="createProject" runat="server" Text="Project aanmaken" CssClass="button"
         onclick="createProject_Click" />    
-    <asp:Button ID="createMember" runat="server" Text="Lid aanmaken" 
+    <asp:LinkButton ID="createMember" runat="server" Text="Lid aanmaken" 
         CssClass="button" onclick="createMember_Click" />
-    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.MembergroupAlias %>'  class="button">Kennisgroep leden koppelen</a> 
-    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.ProjectAlias %>'  class="button">Project leden koppelen</a> 
+    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.MembergroupAlias %>'  class="button">Kennisgroepen beheren</a> 
+    <a href='<%# "/control-panel/membershipmanagement.aspx?documenttype=" + GlobalConstants.ProjectAlias %>'  class="button">Projecten beheren</a> 
 
-    <asp:Button ID="publishAll" runat="server" Text="Alles publiseren" 
+    <asp:LinkButton ID="publishAll" runat="server" Text="Alles publiseren" 
         CssClass="button" onclick="publishAll_Click" />
     
 </div>

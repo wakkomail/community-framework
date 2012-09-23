@@ -21,7 +21,7 @@ namespace nForum.usercontrols.CLC
             var useNodeFactory = Request.QueryString["nf"] != null;
             var latestTopics = Factory.ReturnActiveTopics(50, useNodeFactory);
 
-			var popularTopics = latestTopics.Where(t => t.Posts().Count(p => p.CreatedOn > DateTime.Now.AddDays(-7)) > 5).Take(AmountToTake);
+			var popularTopics = latestTopics.Where(t => t.Posts().Count(p => p.CreatedOn > DateTime.Now.AddDays(-14)) > 5).Take(AmountToTake);
 
 			rptTopicList.DataSource = popularTopics;
             rptTopicList.DataBind();
