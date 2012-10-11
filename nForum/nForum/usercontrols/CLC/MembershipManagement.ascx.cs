@@ -57,9 +57,9 @@ namespace nForum.usercontrols.CLC
                 }
             }
 
-            if (Request.QueryString["memid"] != null || Request.QueryString["projid"] != null)
+            if (Request.QueryString["groupid"] != null)
             {
-                this.SelectedNodeID = (Request.QueryString["memid"] != null) ? Convert.ToInt32(Request.QueryString["memid"]) : Convert.ToInt32(Request.QueryString["projid"]);
+                this.SelectedNodeID = Convert.ToInt32(Request.QueryString["groupid"]);
                 this.selectMembers.Visible = true;
                 this.pnlEditGroup.Visible = true;
                 SetEditForm();
@@ -69,28 +69,13 @@ namespace nForum.usercontrols.CLC
             this.DataBind();
         }
 
-        public bool IsMembergroupSelected(int memberGroupID)
+        public bool IsGroupSelected(int memberGroupID)
         {
             bool result = false;
 
-            if (Request.QueryString["memid"] != null)
+            if (Request.QueryString["groupid"] != null)
             {
-                if (Convert.ToInt32(Request.QueryString["memid"]) == memberGroupID)
-                {
-                    result = true;
-                }
-            }
-
-            return result;
-        }
-
-        public bool IsProjectSelected(int projectID)
-        {
-            bool result = false;
-
-            if (Request.QueryString["projid"] != null)
-            {
-                if (Convert.ToInt32(Request.QueryString["projid"]) == projectID)
+                if (Convert.ToInt32(Request.QueryString["groupid"]) == memberGroupID)
                 {
                     result = true;
                 }
@@ -101,18 +86,7 @@ namespace nForum.usercontrols.CLC
 
         private void SetEditForm()
         {
-
-                switch (Request.QueryString["documenttype"].ToString())
-                {
-                    case GlobalConstants.MembergroupAlias:
-                        {
-                            selectedGroup = new Document(Convert.ToInt32(Request.QueryString["memid"]));
-                        } break;
-                    case GlobalConstants.ProjectAlias:
-                        {
-                            selectedGroup = new Document(Convert.ToInt32(Request.QueryString["projid"]));
-                        } break;
-                }
+                selectedGroup =  new Document(Convert.ToInt32(Request.QueryString["groupid"]));
                 if (!IsPostBack)
                 {
                     if (selectedGroup != null)
@@ -262,7 +236,17 @@ namespace nForum.usercontrols.CLC
 
         protected void search_Click(object sender, EventArgs e)
         {
-            Response.Redirect("MembershipManagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&memid=" + this.SelectedNodeID + "&documenttype=" + Request.QueryString["documenttype"].ToString());
+            Response.Redirect("MembershipManagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&groupid=" + this.SelectedNodeID + "&documenttype=" + Request.QueryString["documenttype"].ToString());
+        }
+
+        protected void delete_Click(object sender, EventArgs e)
+        {
+            // delete group
+           Document group = new Document(this.SelectedNodeID);
+           group.delete(true);
+            
+
+            //Response.Redirect("MembershipManagement.aspx?memgsearch=" + this.txtSearchMembergroup.Text + "&memsearch=" + this.txtSearchMember.Text + "&groupid=" + this.SelectedNodeID + "&documenttype=" + Request.QueryString["documenttype"].ToString());
         }
 
         protected void searchProjects_Click(object sender, EventArgs e)

@@ -69,7 +69,8 @@ namespace nForum.usercontrols.CLC
                 
                 if (SelectedMember != null)
                 {
-                    txtMemberName.Text = SelectedMember.LoginName;                    
+                    txtMemberName.Text = SelectedMember.Text;
+                    txtLoginName.Text = SelectedMember.LoginName;
                     txtMemberEmail.Text = SelectedMember.Email;                    
                 }
             }
@@ -108,8 +109,9 @@ namespace nForum.usercontrols.CLC
                 {
                     SelectedMember.Password = txtMemberPassword.Text;
                 }
+                SelectedMember.Text = txtMemberName.Text;
+                SelectedMember.LoginName = txtLoginName.Text;
                 
-                SelectedMember.LoginName = txtMemberName.Text;
                 SelectedMember.getProperty("forumUserLastPrivateMessage").Value = System.DateTime.Now;
                 SelectedMember.getProperty("forumUserAllowPrivateMessages").Value = true;
                 SelectedMember.Save();
@@ -130,7 +132,7 @@ namespace nForum.usercontrols.CLC
 
         protected void rptMember_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            if (string.IsNullOrEmpty(e.CommandArgument.ToString()))
+            if (!string.IsNullOrEmpty(e.CommandArgument.ToString()))
             {
                 int id = Convert.ToInt32(e.CommandArgument);
                 if (e.CommandName == "delete")

@@ -31,6 +31,10 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.deleteGroup
+{
+    float: right;   
+}
 .editmember
 {
     position: relative;

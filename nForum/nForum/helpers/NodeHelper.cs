@@ -23,7 +23,7 @@ namespace nForum.helpers
 
             GetNodeList(nodeId, typeNames, ref result);
 
-            return result;            
+            return result;
         }
 
         private static void GetNodeList(int nodeId, string typeName, ref List<Node> result)

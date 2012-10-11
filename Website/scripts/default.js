@@ -11,7 +11,7 @@
     $('#brandboxItems').cycle({
         pager: '#brandboxPager',
         pagerEvent: 'mouseover',
-        timeout: 6000,
+        timeout: 8000,
         speed: 600,
         pauseOnPagerHover: true,
         pagerAnchorBuilder: function (idx, slide) {
@@ -45,6 +45,10 @@
     $('.deleteMember').click(function () {
         $.fancybox.open($(this).find('.confirmDeleteMember'));
     });    
+
+    $('.deleteGroup').click(function () {
+        $.fancybox.open($(this).find('.confirmDeleteGroup'));
+    });  
 
     $('.cancel').click(function () {
         $.fancybox.close();

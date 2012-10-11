@@ -30,7 +30,7 @@ namespace nForum.global
         public const int PermissionPostKarmaAmountDefaultValue = 0; 
         public const string IsMainCategory = "forumCategoryIsMainCategory"; 
         public const string DateFolderAlias = "ForumDateFolder";
-        public const string DescriptionField = "forumCategoryDescription"; 
+        public const string DescriptionField = "forumCategoryDescription";
      
         // membership
         public const string MemberTypeAlias = "ForumUser";
