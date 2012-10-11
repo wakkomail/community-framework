@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/CLCMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderId="cp_content" runat="server">
+    <div id="contentContainer" class="grid_12 full">
+        <umbraco:Macro Alias="nForumBreadcrumb" runat="server"></umbraco:Macro>
+
+        <center>
+	<umbraco:Item field="body" runat="server"></umbraco:Item>
+        </center>
+    </div>
+</asp:Content>
