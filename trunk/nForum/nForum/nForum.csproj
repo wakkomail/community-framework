@@ -271,6 +271,7 @@
     </Compile>
     <Compile Include="usercontrols\CLC\PopularMembergroups.ascx.cs">
       <DependentUpon>PopularMembergroups.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="usercontrols\CLC\PopularMembergroups.ascx.designer.cs">
       <DependentUpon>PopularMembergroups.ascx</DependentUpon>

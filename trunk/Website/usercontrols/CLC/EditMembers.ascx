@@ -36,6 +36,12 @@
                 <fieldset id="member">
                 <legend>Lid wijzigen</legend>
                     <p>
+                        <asp:Label ID="lblMemberLoginname" runat="server" Text="Loginnaam"></asp:Label>
+                    </p>
+                    <p>
+                        <asp:TextBox ID="txtLoginName" MaxLength="30" runat="server" CssClass="maxWidthInput"></asp:TextBox>
+                    </p>
+                    <p>
                         <asp:Label ID="lblMemberName" runat="server" Text="Naam van het lid"></asp:Label>
                     </p>
                     <p>

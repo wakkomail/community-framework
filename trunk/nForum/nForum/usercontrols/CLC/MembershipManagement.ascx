@@ -18,8 +18,8 @@
             <asp:Repeater ID="rprProjects" runat="server" >                
  			    <ItemTemplate>
                 <li>
-                     <a href='<%# "MembershipManagement.aspx?projid=" + ((Document)Container.DataItem).Id + "&projsearch=" + txtSearchProject.Text + "&documenttype=" + GlobalConstants.ProjectAlias  %>'
-                     class='<%# (IsProjectSelected(((Document)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
+                     <a href='<%# "MembershipManagement.aspx?groupid=" + ((Document)Container.DataItem).Id + "&projsearch=" + txtSearchProject.Text + "&documenttype=" + GlobalConstants.ProjectAlias  %>'
+                     class='<%# (IsGroupSelected(((Document)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
                      <%# ((Document)Container.DataItem).Text %>
                      </a>                     
                 </li>
@@ -39,8 +39,8 @@
             <asp:Repeater ID="rprGroups" runat="server" >                
  			    <ItemTemplate>
                 <li>
-                     <a href='<%# "MembershipManagement.aspx?memid=" + ((ForumCategory)Container.DataItem).Id + "&memgsearch=" + txtSearchMembergroup.Text  + "&documenttype=" + GlobalConstants.MembergroupAlias  %>'
-                     class='<%# (IsMembergroupSelected(((ForumCategory)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
+                     <a href='<%# "MembershipManagement.aspx?groupid=" + ((ForumCategory)Container.DataItem).Id + "&memgsearch=" + txtSearchMembergroup.Text  + "&documenttype=" + GlobalConstants.MembergroupAlias  %>'
+                     class='<%# (IsGroupSelected(((ForumCategory)Container.DataItem).Id)) ? "selectedsearchresult" : "normalsearchresult"   %>'>
                      <%# ((ForumCategory)Container.DataItem).Name %>
                      </a>                     
                 </li>
@@ -93,8 +93,17 @@
         </fieldset>    
 </asp:Panel>
 <div class="buttonbar">
- <asp:Button ID="save" runat="server" Text="Opslaan" CssClass="button" onclick="save_Click" />
+ <asp:Button ID="save" runat="server" Text="Opslaan" CssClass="button" onclick="save_Click" /> 
  <a href="/Control-panel.aspx" class="button">Terug naar het beheerscherm</a> 
  <a href='<%# "MembershipManagement.aspx?documenttype=" + Request.QueryString["documenttype"].ToString() %>' class="button">Velden leegmaken</a>
+
+ <asp:HyperLink ID="lnkDeleteGroup" runat="server" CssClass="deleteGroup button" NavigateUrl="">
+    Groep verwijderen
+	<div class="confirmDeleteGroup" style="display: none;">
+		<p>Weet u zeker dat u de geselecteerde groep wilt verwijderen?</p>		
+		<asp:Button ID="delete" runat="server" Text="Verwijderen" CssClass="button" onclick="delete_Click" />
+        <asp:Button ID="cancelbutton" CssClass="cancel button" Text="Annuleren" runat="server" />
+	</div>
+</asp:HyperLink>
 </div>
 

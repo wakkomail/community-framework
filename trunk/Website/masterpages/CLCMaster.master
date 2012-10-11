@@ -58,7 +58,7 @@
           <li><span>/</span> </li>
           <li><a href="/projecten.aspx">Mijn projecten</a> </li>
           <li><span>/</span> </li>
-          <li><a href="#">Leden</a> </li>
+          <li><a href="/wat-is-clc.aspx">Wat is CLC</a> </li>
         </ul>
         <div class="loginContainer">
            <umbraco:Macro Alias="clc-useradmin" runat="server"></umbraco:Macro>
@@ -81,7 +81,7 @@
           <li><span>/</span> </li>
           <li><a href="/projecten.aspx">Mijn projecten</a> </li>
           <li><span>/</span> </li>
-          <li><a href="#">Leden</a> </li>
+          <li><a href="/wat-is-clc.aspx">Wat is CLC</a> </li>
           </ul>
           <div class="loginContainer">
             <umbraco:Macro Alias="clc-useradmin" runat="server"></umbraco:Macro>

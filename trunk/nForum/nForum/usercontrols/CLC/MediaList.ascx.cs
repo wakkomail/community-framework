@@ -76,13 +76,17 @@ namespace nForum.usercontrols.CLC
 
         protected void rptMedia_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            int id = Convert.ToInt32(e.CommandArgument);
-            if (e.CommandName == "delete")
+            if (!string.IsNullOrEmpty(e.CommandArgument.ToString()))
             {
-                Media deleteFile = new Media(id);
-                deleteFile.delete();
-                Response.Redirect(Request.RawUrl);
+                int id = Convert.ToInt32(e.CommandArgument);
+                if (e.CommandName == "delete")
+                {
+                    Media deleteFile = new Media(id);
+                    deleteFile.delete();
+                    Response.Redirect(Request.RawUrl);
+                }
             }
+
         }
     }
 }
