@@ -4,12 +4,12 @@
 <script type="text/javascript">
     tinyMCE.init({
         // General options
-        mode: "exact",
+    	mode: "textareas",
         elements: "txtPost",
         theme: "advanced",
-        plugins: "insertcode",
+        plugins: "insertcode,media",
         // Theme options
-        theme_advanced_buttons1: "bold,italic,underline,strikethrough,|,formatselect,|,bullist,numlist,|,link,unlink,image,insertcode",
+        theme_advanced_buttons1: "bold,italic,underline,strikethrough,|,formatselect,|,bullist,numlist,|,link,unlink,image,media,insertcode",
         theme_advanced_buttons2 : "",
         theme_advanced_buttons3 : "",
         theme_advanced_toolbar_location: "top",

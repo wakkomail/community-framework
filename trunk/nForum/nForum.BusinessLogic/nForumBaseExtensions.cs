@@ -230,7 +230,8 @@ namespace nForum.BusinessLogic
                     var d = Document.MakeNew(title, DocumentType.GetByAlias("CLC-Post"), u, parentTopicId);
 
                     // Add the document properties
-                    d.getProperty("forumPostContent").Value = Helpers.HtmlEncode(Helpers.GetSafeHtml(tbPost));
+                    //d.getProperty("forumPostContent").Value = Helpers.HtmlEncode(Helpers.GetSafeHtml(tbPost));
+					d.getProperty("forumPostContent").Value = Helpers.HtmlEncode(tbPost);
                     d.getProperty("forumPostOwnedBy").Value = loggedInMember.Id;
                     d.getProperty("forumPostKarma").Value = 0;
                     d.getProperty("forumPostParentID").Value = parentTopicId;
