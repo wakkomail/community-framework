@@ -13,6 +13,15 @@ namespace nForum.usercontrols.CLC {
     public partial class MediaList {
         
         /// <summary>
+        /// pnlDocumentlist control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlDocumentlist;
+        
+        /// <summary>
         /// rptMedia control.
         /// </summary>
         /// <remarks>
@@ -29,5 +38,14 @@ namespace nForum.usercontrols.CLC {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink btnShowAll;
+        
+        /// <summary>
+        /// lblNoAccess control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblNoAccess;
     }
 }
