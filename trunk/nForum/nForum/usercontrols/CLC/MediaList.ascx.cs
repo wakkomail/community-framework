@@ -22,6 +22,17 @@ namespace nForum.usercontrols.CLC
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            // security rule, no documents can be seen if the user is not a member of the group
+            if (!MembershipHelper.IsMember(CurrentNode.Name) || IsBanned)
+            {
+                this.pnlDocumentlist.Visible = false;
+                this.lblNoAccess.Visible = true;
+            }
+            else
+            {
+                this.lblNoAccess.Visible = false;
+            }
+
             this.Initialize();
             if (!IsPostBack)
             {
